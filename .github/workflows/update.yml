@@ -1,0 +1,84 @@
+name: Daily data update
+
+# Finds new sets, applies release-day and 12-month rules, links Wikipedia images,
+# and opens ONE pull request for a person to review. Nothing merges on its own.
+on:
+  schedule:
+    - cron: "17 14 * * *"   # every day at 14:17 UTC (7:17 am Pacific in winter)
+  workflow_dispatch:         # lets you run it by hand from the Actions tab
+
+permissions:
+  contents: write
+  pull-requests: write
+  issues: write
+
+concurrency:
+  group: data-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Find new sets and apply date rules
+        env:
+          POKEMONTCG_API_KEY: ${{ secrets.POKEMONTCG_API_KEY }}   # optional, raises the rate limit
+        run: npm run update
+
+      - name: Check the result
+        run: npm run validate
+
+      - name: Read the PR summary
+        id: summary
+        run: |
+          if [ -s .changes.md ]; then echo "has_changes=true" >> "$GITHUB_OUTPUT"; else echo "has_changes=false" >> "$GITHUB_OUTPUT"; fi
+
+      - name: Open or update the pull request
+        if: steps.summary.outputs.has_changes == 'true'
+        uses: peter-evans/create-pull-request@v7
+        with:
+          branch: bot/data-update
+          delete-branch: true
+          add-paths: data/sets.json
+          commit-message: "Data update: new sets and date rules"
+          title: "Data update"
+          body-path: .changes.md
+          labels: data-update
+
+  news:
+    runs-on: ubuntu-latest
+    needs: update
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Check official news pages for print news
+        run: npm run watch-news
+
+      - name: Open an issue for new posts
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if [ -s .news.md ]; then
+            gh issue create --title "Official print news to review ($(date -u +%Y-%m-%d))" --body-file .news.md --label print-news || \
+            gh issue create --title "Official print news to review ($(date -u +%Y-%m-%d))" --body-file .news.md
+          fi
+
+      - name: Remember which posts were reported
+        run: |
+          if [ -n "$(git status --porcelain data/seen-news.json)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add data/seen-news.json
+            git commit -m "Record reported news posts"
+            git push
+          fi

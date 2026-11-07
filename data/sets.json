@@ -1,0 +1,2181 @@
+[
+  {
+    "id": "lorcana-the-first-chapter",
+    "game": "Disney Lorcana",
+    "name": "The First Chapter",
+    "code": "Set 1",
+    "aliases": [
+      "TFC",
+      "Lorcana set 1"
+    ],
+    "release": "2023-08-18",
+    "status": "unknown",
+    "basis": "none",
+    "source": "https://articles.starcitygames.com/lorcana/reprint-run-for-disney-lorcana-the-first-chapter-fast-tracked-to-holiday-2023/",
+    "sourceName": "Ravensburger announcement, via Star City Games",
+    "lastPrint": "2023-12",
+    "lastPrintNote": "Official reprint run for Holiday 2023 in North America, January 2024 in Europe",
+    "notes": "Ravensburger announced a reprint of The First Chapter and Rise of the Floodborn for Holiday 2023. Nothing official since, either a new reprint or an end-of-print notice.",
+    "ref": "https://articles.starcitygames.com/lorcana/reprint-run-for-disney-lorcana-the-first-chapter-fast-tracked-to-holiday-2023/",
+    "refName": "Star City Games, Sep 2023",
+    "checked": "2026-10"
+  },
+  {
+    "id": "lorcana-rise-of-the-floodborn",
+    "game": "Disney Lorcana",
+    "name": "Rise of the Floodborn",
+    "code": "Set 2",
+    "aliases": [
+      "ROTF",
+      "Lorcana set 2"
+    ],
+    "release": "2023-11-17",
+    "status": "unknown",
+    "basis": "none",
+    "source": "https://articles.starcitygames.com/lorcana/reprint-run-for-disney-lorcana-the-first-chapter-fast-tracked-to-holiday-2023/",
+    "sourceName": "Ravensburger announcement, via Star City Games",
+    "lastPrint": "2023-12",
+    "lastPrintNote": "Official reprint run for Holiday 2023 in North America, January 2024 in Europe",
+    "notes": "Ravensburger announced a reprint of The First Chapter and Rise of the Floodborn for Holiday 2023. Nothing official since, either a new reprint or an end-of-print notice.",
+    "ref": "https://articles.starcitygames.com/lorcana/reprint-run-for-disney-lorcana-the-first-chapter-fast-tracked-to-holiday-2023/",
+    "refName": "Star City Games, Sep 2023",
+    "checked": "2026-10"
+  },
+  {
+    "id": "lorcana-into-the-inklands",
+    "game": "Disney Lorcana",
+    "name": "Into the Inklands",
+    "code": "Set 3",
+    "aliases": [
+      "ITI"
+    ],
+    "release": "2024-02-23",
+    "status": "unknown",
+    "basis": "none",
+    "notes": "The publisher hasn't posted a reprint or an end-of-print notice for this set. Retailer and hobby reports don't count here.",
+    "ref": "https://www.shonentcg.com/blog/disney-lorcana-2026-release-schedule",
+    "refName": "ShonenTCG, Oct 2026",
+    "checked": "2026-10"
+  },
+  {
+    "id": "lorcana-deep-trouble",
+    "game": "Disney Lorcana",
+    "name": "Deep Trouble",
+    "code": "Illumineer's Quest",
+    "release": "2024-05-17",
+    "status": "unknown",
+    "basis": "none",
+    "notes": "The publisher hasn't posted a reprint or an end-of-print notice for this set. Retailer and hobby reports don't count here.",
+    "ref": "https://www.wargamer.com/disney-lorcana/sets",
+    "refName": "Wargamer, Oct 2026",
+    "checked": "2026-10"
+  },
+  {
+    "id": "lorcana-ursula-s-return",
+    "game": "Disney Lorcana",
+    "name": "Ursula's Return",
+    "code": "Set 4",
+    "aliases": [
+      "URR",
+      "Ursulas Return"
+    ],
+    "release": "2024-05-17",
+    "status": "unknown",
+    "basis": "none",
+    "notes": "The publisher hasn't posted a reprint or an end-of-print notice for this set. Retailer and hobby reports don't count here.",
+    "ref": "https://www.shonentcg.com/blog/disney-lorcana-2026-release-schedule",
+    "refName": "ShonenTCG, Oct 2026",
+    "checked": "2026-10"
+  },
+  {
+    "id": "lorcana-shimmering-skies",
+    "game": "Disney Lorcana",
+    "name": "Shimmering Skies",
+    "code": "Set 5",
+    "aliases": [
+      "SSK"
+    ],
+    "release": "2024-08-09",
+    "status": "unknown",
+    "basis": "none",
+    "notes": "The publisher hasn't posted a reprint or an end-of-print notice for this set. Retailer and hobby reports don't count here.",
+    "ref": "https://www.shonentcg.com/blog/disney-lorcana-2026-release-schedule",
+    "refName": "ShonenTCG, Oct 2026",
+    "checked": "2026-10"
+  },
+  {
+    "id": "lorcana-azurite-sea",
+    "game": "Disney Lorcana",
+    "name": "Azurite Sea",
+    "code": "Set 6",
+    "aliases": [
+      "Azurite Sea"
+    ],
+    "release": "2024-11-14",
+    "status": "unknown",
+    "basis": "none",
+    "notes": "The publisher hasn't posted a reprint or an end-of-print notice for this set. Retailer and hobby reports don't count here.",
+    "ref": "https://www.shonentcg.com/blog/disney-lorcana-2026-release-schedule",
+    "refName": "ShonenTCG, Oct 2026",
+    "checked": "2026-10"
+  },
+  {
+    "id": "lorcana-archazia-s-island",
+    "game": "Disney Lorcana",
+    "name": "Archazia's Island",
+    "code": "Set 7",
+    "aliases": [
+      "Archazias Island"
+    ],
+    "release": "2025-03-07",
+    "status": "unknown",
+    "basis": "none",
+    "notes": "The publisher hasn't posted a reprint or an end-of-print notice for this set. Retailer and hobby reports don't count here.",
+    "ref": "https://www.shonentcg.com/blog/disney-lorcana-2026-release-schedule",
+    "refName": "ShonenTCG, Oct 2026",
+    "checked": "2026-10"
+  },
+  {
+    "id": "lorcana-palace-heist",
+    "game": "Disney Lorcana",
+    "name": "Palace Heist",
+    "code": "Illumineer's Quest",
+    "release": "2025-05-30",
+    "status": "unknown",
+    "basis": "none",
+    "notes": "The publisher hasn't posted a reprint or an end-of-print notice for this set. Retailer and hobby reports don't count here.",
+    "ref": "https://www.wargamer.com/disney-lorcana/sets",
+    "refName": "Wargamer, Oct 2026",
+    "checked": "2026-10"
+  },
+  {
+    "id": "lorcana-reign-of-jafar",
+    "game": "Disney Lorcana",
+    "name": "Reign of Jafar",
+    "code": "Set 8",
+    "aliases": [
+      "Reign of Jafar"
+    ],
+    "release": "2025-05-30",
+    "status": "unknown",
+    "basis": "none",
+    "notes": "The publisher hasn't posted a reprint or an end-of-print notice for this set. Retailer and hobby reports don't count here.",
+    "ref": "https://www.shonentcg.com/blog/disney-lorcana-2026-release-schedule",
+    "refName": "ShonenTCG, Oct 2026",
+    "checked": "2026-10"
+  },
+  {
+    "id": "lorcana-fabled",
+    "game": "Disney Lorcana",
+    "name": "Fabled",
+    "code": "Set 9",
+    "aliases": [
+      "Fabled"
+    ],
+    "release": "2025-08-29",
+    "status": "unknown",
+    "basis": "none",
+    "notes": "The publisher hasn't posted a reprint or an end-of-print notice for this set. Retailer and hobby reports don't count here.",
+    "ref": "https://www.wargamer.com/disney-lorcana/sets",
+    "refName": "Wargamer, Oct 2026",
+    "checked": "2026-10"
+  },
+  {
+    "id": "lorcana-whispers-in-the-well",
+    "game": "Disney Lorcana",
+    "name": "Whispers in the Well",
+    "code": "Set 10",
+    "aliases": [
+      "Whispers in the Well"
+    ],
+    "release": "2025-11-07",
+    "status": "in_print",
+    "basis": "current",
+    "notes": "The publisher's current release, out within the last 12 months, with no end-of-print notice.",
+    "ref": "https://www.wargamer.com/disney-lorcana/sets",
+    "refName": "Wargamer, Oct 2026",
+    "checked": "2026-10"
+  },
+  {
+    "id": "lorcana-winterspell",
+    "game": "Disney Lorcana",
+    "name": "Winterspell",
+    "code": "Set 11",
+    "aliases": [
+      "Winterspell"
+    ],
+    "release": "2026-02-20",
+    "status": "in_print",
+    "basis": "current",
+    "notes": "The publisher's current release, out within the last 12 months, with no end-of-print notice.",
+    "ref": "https://www.shonentcg.com/blog/disney-lorcana-2026-release-schedule",
+    "refName": "ShonenTCG, Oct 2026",
+    "checked": "2026-10"
+  },
+  {
+    "id": "lorcana-wilds-unknown",
+    "game": "Disney Lorcana",
+    "name": "Wilds Unknown",
+    "code": "Set 12",
+    "aliases": [
+      "Wilds Unknown"
+    ],
+    "release": "2026-05-15",
+    "status": "in_print",
+    "basis": "current",
+    "notes": "The publisher's current release, out within the last 12 months, with no end-of-print notice.",
+    "ref": "https://www.shonentcg.com/blog/disney-lorcana-2026-release-schedule",
+    "refName": "ShonenTCG, Oct 2026",
+    "checked": "2026-10"
+  },
+  {
+    "id": "lorcana-attack-of-the-vine",
+    "game": "Disney Lorcana",
+    "name": "Attack of the Vine!",
+    "code": "Set 13",
+    "aliases": [
+      "Attack of the Vine"
+    ],
+    "release": "2026-07-24",
+    "status": "in_print",
+    "basis": "current",
+    "notes": "The publisher's current release, out within the last 12 months, with no end-of-print notice.",
+    "ref": "https://www.shonentcg.com/blog/disney-lorcana-2026-release-schedule",
+    "refName": "ShonenTCG, Oct 2026",
+    "checked": "2026-10"
+  },
+  {
+    "id": "lorcana-the-great-hunny-rescue",
+    "game": "Disney Lorcana",
+    "name": "The Great Hunny Rescue",
+    "code": "Illumineer's Quest",
+    "aliases": [
+      "Great Hunny Rescue"
+    ],
+    "release": "2026-10-03",
+    "status": "in_print",
+    "basis": "current",
+    "notes": "The publisher's current release, out within the last 12 months, with no end-of-print notice.",
+    "ref": "https://www.wargamer.com/disney-lorcana/sets",
+    "refName": "Wargamer, Oct 2026",
+    "checked": "2026-10"
+  },
+  {
+    "id": "lorcana-hyperia-city",
+    "game": "Disney Lorcana",
+    "name": "Hyperia City",
+    "code": "Set 14",
+    "release": "2026-10-23",
+    "status": "in_print",
+    "basis": "current",
+    "source": "https://www.shonentcg.com/blog/disney-lorcana-2026-release-schedule",
+    "sourceName": "ShonenTCG, Oct 2026",
+    "notes": "Released October 23, 2026 (prerelease October 16). The publisher's current release, with no end-of-print notice.",
+    "ref": "https://www.shonentcg.com/blog/disney-lorcana-2026-release-schedule",
+    "refName": "ShonenTCG, Oct 2026",
+    "checked": "2026-11"
+  },
+  {
+    "id": "lorcana-into-the-inkdark",
+    "game": "Disney Lorcana",
+    "name": "Into the Inkdark",
+    "code": "Set 15",
+    "release": "2027-02-12",
+    "status": "upcoming",
+    "basis": "announced",
+    "source": "https://www.wargamer.com/disney-lorcana/sets",
+    "sourceName": "Wargamer, Oct 2026",
+    "notes": "Announced for February 2027. Status changes to In print on release day.",
+    "ref": "https://www.wargamer.com/disney-lorcana/sets",
+    "refName": "Wargamer, Oct 2026",
+    "checked": "2026-10"
+  },
+  {
+    "id": "lorcana-cosmic-quest",
+    "game": "Disney Lorcana",
+    "name": "Cosmic Quest",
+    "status": "upcoming",
+    "basis": "announced",
+    "source": "https://www.wargamer.com/disney-lorcana/sets",
+    "sourceName": "Wargamer, Oct 2026",
+    "notes": "Announced for Q2 2027 with no exact date yet. Status changes to In print on release day.",
+    "ref": "https://www.wargamer.com/disney-lorcana/sets",
+    "refName": "Wargamer, Oct 2026",
+    "checked": "2026-10"
+  },
+  {
+    "id": "mtg-lea",
+    "game": "Magic: The Gathering",
+    "name": "Limited Edition Alpha",
+    "code": "LEA",
+    "aliases": [
+      "Alpha"
+    ],
+    "release": "1993-08-05",
+    "status": "out_of_print",
+    "basis": "official",
+    "source": "https://magic.wizards.com/en/news/announcements/official-reprint-policy",
+    "sourceName": "Wizards of the Coast, Official Reprint Policy",
+    "lastPrint": "1993",
+    "lastPrintNote": "Printed once, in 1993",
+    "notes": "Contains Reserved List cards. Wizards' official reprint policy says these \"will never be printed again in a functionally identical form,\" so the set can't come back as it was.",
+    "ref": "https://en.wikipedia.org/wiki/Limited_Edition_(Magic:_The_Gathering)",
+    "refName": "Wikipedia: Limited Edition",
+    "checked": "2026-10"
+  },
+  {
+    "id": "mtg-leb",
+    "game": "Magic: The Gathering",
+    "name": "Limited Edition Beta",
+    "code": "LEB",
+    "aliases": [
+      "Beta"
+    ],
+    "release": "1993-10",
+    "status": "out_of_print",
+    "basis": "official",
+    "source": "https://magic.wizards.com/en/news/announcements/official-reprint-policy",
+    "sourceName": "Wizards of the Coast, Official Reprint Policy",
+    "lastPrint": "1993",
+    "lastPrintNote": "Printed once, in 1993",
+    "notes": "Contains Reserved List cards. Wizards' official reprint policy says these \"will never be printed again in a functionally identical form,\" so the set can't come back as it was. Wizards of the Coast put the print run at 7.3 million cards.",
+    "ref": "https://en.wikipedia.org/wiki/Limited_Edition_(Magic:_The_Gathering)",
+    "refName": "Wikipedia: Limited Edition",
+    "checked": "2026-10"
+  },
+  {
+    "id": "mtg-arn",
+    "game": "Magic: The Gathering",
+    "name": "Arabian Nights",
+    "code": "ARN",
+    "release": "1993-12",
+    "status": "out_of_print",
+    "basis": "official",
+    "source": "https://magic.wizards.com/en/news/announcements/official-reprint-policy",
+    "sourceName": "Wizards of the Coast, Official Reprint Policy",
+    "lastPrint": "1993",
+    "lastPrintNote": "Printed in 1993",
+    "notes": "Contains Reserved List cards. Wizards' official reprint policy says these \"will never be printed again in a functionally identical form,\" so the set can't come back as it was.",
+    "ref": "https://en.wikipedia.org/wiki/Magic:_The_Gathering_expansion_sets,_1993%E2%80%931995",
+    "refName": "Wikipedia: Magic expansion sets 1993–1995",
+    "checked": "2026-10"
+  },
+  {
+    "id": "mtg-2ed",
+    "game": "Magic: The Gathering",
+    "name": "Unlimited Edition",
+    "code": "2ED",
+    "aliases": [
+      "Unlimited"
+    ],
+    "release": "1993-12-01",
+    "status": "out_of_print",
+    "basis": "official",
+    "source": "https://magic.wizards.com/en/news/announcements/official-reprint-policy",
+    "sourceName": "Wizards of the Coast, Official Reprint Policy",
+    "lastPrint": "1993",
+    "lastPrintNote": "Printed in 1993",
+    "notes": "Contains Reserved List cards. Wizards' official reprint policy says these \"will never be printed again in a functionally identical form,\" so the set can't come back as it was.",
+    "ref": "https://en.wikipedia.org/wiki/Magic:_The_Gathering_core_sets,_1993%E2%80%932007",
+    "refName": "Wikipedia: Magic core sets 1993–2007",
+    "checked": "2026-10"
+  },
+  {
+    "id": "mtg-atq",
+    "game": "Magic: The Gathering",
+    "name": "Antiquities",
+    "code": "ATQ",
+    "release": "1994-03",
+    "status": "out_of_print",
+    "basis": "official",
+    "source": "https://magic.wizards.com/en/news/announcements/official-reprint-policy",
+    "sourceName": "Wizards of the Coast, Official Reprint Policy",
+    "lastPrint": "1994",
+    "lastPrintNote": "Printed in 1994",
+    "notes": "Contains Reserved List cards. Wizards' official reprint policy says these \"will never be printed again in a functionally identical form,\" so the set can't come back as it was.",
+    "ref": "https://en.wikipedia.org/wiki/Magic:_The_Gathering_expansion_sets,_1993%E2%80%931995",
+    "refName": "Wikipedia: Magic expansion sets 1993–1995",
+    "checked": "2026-10"
+  },
+  {
+    "id": "mtg-3ed",
+    "game": "Magic: The Gathering",
+    "name": "Revised Edition",
+    "code": "3ED",
+    "aliases": [
+      "Revised"
+    ],
+    "release": "1994-04",
+    "status": "out_of_print",
+    "basis": "official",
+    "source": "https://magic.wizards.com/en/news/announcements/official-reprint-policy",
+    "sourceName": "Wizards of the Coast, Official Reprint Policy",
+    "lastPrint": "1994",
+    "lastPrintNote": "Printed in 1994",
+    "notes": "Contains Reserved List cards. Wizards' official reprint policy says these \"will never be printed again in a functionally identical form,\" so the set can't come back as it was.",
+    "ref": "https://en.wikipedia.org/wiki/Magic:_The_Gathering_core_sets,_1993%E2%80%932007",
+    "refName": "Wikipedia: Magic core sets 1993–2007",
+    "checked": "2026-10"
+  },
+  {
+    "id": "mtg-leg",
+    "game": "Magic: The Gathering",
+    "name": "Legends",
+    "code": "LEG",
+    "release": "1994-06",
+    "status": "out_of_print",
+    "basis": "official",
+    "source": "https://magic.wizards.com/en/news/announcements/official-reprint-policy",
+    "sourceName": "Wizards of the Coast, Official Reprint Policy",
+    "lastPrint": "1994",
+    "lastPrintNote": "Printed in 1994",
+    "notes": "Contains Reserved List cards. Wizards' official reprint policy says these \"will never be printed again in a functionally identical form,\" so the set can't come back as it was.",
+    "ref": "https://en.wikipedia.org/wiki/Magic:_The_Gathering_expansion_sets,_1993%E2%80%931995",
+    "refName": "Wikipedia: Magic expansion sets 1993–1995",
+    "checked": "2026-10"
+  },
+  {
+    "id": "mtg-drk",
+    "game": "Magic: The Gathering",
+    "name": "The Dark",
+    "code": "DRK",
+    "aliases": [
+      "Dark"
+    ],
+    "release": "1994-08",
+    "status": "out_of_print",
+    "basis": "official",
+    "source": "https://magic.wizards.com/en/news/announcements/official-reprint-policy",
+    "sourceName": "Wizards of the Coast, Official Reprint Policy",
+    "lastPrint": "1994",
+    "lastPrintNote": "Printed in 1994",
+    "notes": "Contains Reserved List cards. Wizards' official reprint policy says these \"will never be printed again in a functionally identical form,\" so the set can't come back as it was.",
+    "ref": "https://en.wikipedia.org/wiki/Magic:_The_Gathering_expansion_sets,_1993%E2%80%931995",
+    "refName": "Wikipedia: Magic expansion sets 1993–1995",
+    "checked": "2026-10"
+  },
+  {
+    "id": "mtg-phyrexia-all-will-be-one",
+    "game": "Magic: The Gathering",
+    "name": "Phyrexia: All Will Be One",
+    "code": "ONE",
+    "aliases": [
+      "Phyrexia"
+    ],
+    "release": "2023-02-10",
+    "status": "unknown",
+    "basis": "none",
+    "notes": "The publisher hasn't posted a reprint or an end-of-print notice for this set. Retailer and hobby reports don't count here.",
+    "ref": "https://www.wargamer.com/magic-the-gathering/mtg-sets-in-order",
+    "refName": "Wargamer, Oct 2026",
+    "checked": "2026-10"
+  },
+  {
+    "id": "mtg-march-of-the-machine",
+    "game": "Magic: The Gathering",
+    "name": "March of the Machine",
+    "code": "MOM",
+    "aliases": [
+      "March of the Machine"
+    ],
+    "release": "2023-04-21",
+    "status": "unknown",
+    "basis": "none",
+    "notes": "The publisher hasn't posted a reprint or an end-of-print notice for this set. Retailer and hobby reports don't count here.",
+    "ref": "https://www.wargamer.com/magic-the-gathering/mtg-sets-in-order",
+    "refName": "Wargamer, Oct 2026",
+    "checked": "2026-10"
+  },
+  {
+    "id": "mtg-the-lord-of-the-rings-tales-of-middle-earth",
+    "game": "Magic: The Gathering",
+    "name": "The Lord of the Rings: Tales of Middle-earth",
+    "code": "LTR",
+    "aliases": [
+      "The Lord of the Rings"
+    ],
+    "release": "2023-06-23",
+    "status": "unknown",
+    "basis": "none",
+    "notes": "The publisher hasn't posted a reprint or an end-of-print notice for this set. Retailer and hobby reports don't count here.",
+    "ref": "https://www.wargamer.com/magic-the-gathering/mtg-sets-in-order",
+    "refName": "Wargamer, Oct 2026",
+    "checked": "2026-10"
+  },
+  {
+    "id": "mtg-wilds-of-eldraine",
+    "game": "Magic: The Gathering",
+    "name": "Wilds of Eldraine",
+    "code": "WOE",
+    "aliases": [
+      "Wilds of Eldraine"
+    ],
+    "release": "2023-09-08",
+    "status": "unknown",
+    "basis": "none",
+    "notes": "The publisher hasn't posted a reprint or an end-of-print notice for this set. Retailer and hobby reports don't count here.",
+    "ref": "https://www.wargamer.com/magic-the-gathering/mtg-sets-in-order",
+    "refName": "Wargamer, Oct 2026",
+    "checked": "2026-10"
+  },
+  {
+    "id": "mtg-the-lost-caverns-of-ixalan",
+    "game": "Magic: The Gathering",
+    "name": "The Lost Caverns of Ixalan",
+    "code": "LCI",
+    "aliases": [
+      "The Lost Caverns of Ixalan"
+    ],
+    "release": "2023-11-17",
+    "status": "unknown",
+    "basis": "none",
+    "notes": "The publisher hasn't posted a reprint or an end-of-print notice for this set. Retailer and hobby reports don't count here.",
+    "ref": "https://www.wargamer.com/magic-the-gathering/mtg-sets-in-order",
+    "refName": "Wargamer, Oct 2026",
+    "checked": "2026-10"
+  },
+  {
+    "id": "mtg-murders-at-karlov-manor",
+    "game": "Magic: The Gathering",
+    "name": "Murders at Karlov Manor",
+    "code": "MKM",
+    "aliases": [
+      "Murders at Karlov Manor"
+    ],
+    "release": "2024-02-09",
+    "status": "unknown",
+    "basis": "none",
+    "notes": "The publisher hasn't posted a reprint or an end-of-print notice for this set. Retailer and hobby reports don't count here.",
+    "ref": "https://www.wargamer.com/magic-the-gathering/mtg-sets-in-order",
+    "refName": "Wargamer, Oct 2026",
+    "checked": "2026-10"
+  },
+  {
+    "id": "mtg-outlaws-of-thunder-junction",
+    "game": "Magic: The Gathering",
+    "name": "Outlaws of Thunder Junction",
+    "code": "OTJ",
+    "aliases": [
+      "Outlaws of Thunder Junction"
+    ],
+    "release": "2024-04-19",
+    "status": "unknown",
+    "basis": "none",
+    "notes": "The publisher hasn't posted a reprint or an end-of-print notice for this set. Retailer and hobby reports don't count here.",
+    "ref": "https://www.wargamer.com/magic-the-gathering/mtg-sets-in-order",
+    "refName": "Wargamer, Oct 2026",
+    "checked": "2026-10"
+  },
+  {
+    "id": "mtg-assassin-s-creed",
+    "game": "Magic: The Gathering",
+    "name": "Assassin's Creed",
+    "code": "ACR",
+    "aliases": [
+      "Assassin's Creed"
+    ],
+    "release": "2024-07-05",
+    "status": "unknown",
+    "basis": "none",
+    "notes": "The publisher hasn't posted a reprint or an end-of-print notice for this set. Retailer and hobby reports don't count here.",
+    "ref": "https://www.wargamer.com/magic-the-gathering/mtg-sets-in-order",
+    "refName": "Wargamer, Oct 2026",
+    "checked": "2026-10"
+  },
+  {
+    "id": "mtg-bloomburrow",
+    "game": "Magic: The Gathering",
+    "name": "Bloomburrow",
+    "code": "BLB",
+    "aliases": [
+      "Bloomburrow"
+    ],
+    "release": "2024-08-02",
+    "status": "unknown",
+    "basis": "none",
+    "notes": "The publisher hasn't posted a reprint or an end-of-print notice for this set. Retailer and hobby reports don't count here.",
+    "ref": "https://www.wargamer.com/magic-the-gathering/mtg-sets-in-order",
+    "refName": "Wargamer, Oct 2026",
+    "checked": "2026-10"
+  },
+  {
+    "id": "mtg-duskmourn-house-of-horror",
+    "game": "Magic: The Gathering",
+    "name": "Duskmourn: House of Horror",
+    "code": "DSK",
+    "aliases": [
+      "Duskmourn"
+    ],
+    "release": "2024-09-27",
+    "status": "unknown",
+    "basis": "none",
+    "notes": "The publisher hasn't posted a reprint or an end-of-print notice for this set. Retailer and hobby reports don't count here.",
+    "ref": "https://www.wargamer.com/magic-the-gathering/mtg-sets-in-order",
+    "refName": "Wargamer, Oct 2026",
+    "checked": "2026-10"
+  },
+  {
+    "id": "mtg-aetherdrift",
+    "game": "Magic: The Gathering",
+    "name": "Aetherdrift",
+    "code": "DFT",
+    "aliases": [
+      "Aetherdrift"
+    ],
+    "release": "2025-02-14",
+    "status": "unknown",
+    "basis": "none",
+    "notes": "The publisher hasn't posted a reprint or an end-of-print notice for this set. Retailer and hobby reports don't count here.",
+    "ref": "https://www.wargamer.com/magic-the-gathering/mtg-sets-in-order",
+    "refName": "Wargamer, Oct 2026",
+    "checked": "2026-10"
+  },
+  {
+    "id": "mtg-tarkir-dragonstorm",
+    "game": "Magic: The Gathering",
+    "name": "Tarkir: Dragonstorm",
+    "code": "TDM",
+    "aliases": [
+      "Tarkir"
+    ],
+    "release": "2025-04-11",
+    "status": "unknown",
+    "basis": "none",
+    "notes": "The publisher hasn't posted a reprint or an end-of-print notice for this set. Retailer and hobby reports don't count here.",
+    "ref": "https://www.wargamer.com/magic-the-gathering/mtg-sets-in-order",
+    "refName": "Wargamer, Oct 2026",
+    "checked": "2026-10"
+  },
+  {
+    "id": "mtg-final-fantasy",
+    "game": "Magic: The Gathering",
+    "name": "Final Fantasy",
+    "code": "FIN",
+    "aliases": [
+      "Final Fantasy"
+    ],
+    "release": "2025-06-13",
+    "status": "unknown",
+    "basis": "none",
+    "notes": "The publisher hasn't posted a reprint or an end-of-print notice for this set. Retailer and hobby reports don't count here.",
+    "ref": "https://www.wargamer.com/magic-the-gathering/mtg-sets-in-order",
+    "refName": "Wargamer, Oct 2026",
+    "checked": "2026-10"
+  },
+  {
+    "id": "mtg-edge-of-eternities",
+    "game": "Magic: The Gathering",
+    "name": "Edge of Eternities",
+    "code": "EOE",
+    "aliases": [
+      "Edge of Eternities"
+    ],
+    "release": "2025-08-01",
+    "status": "unknown",
+    "basis": "none",
+    "notes": "The publisher hasn't posted a reprint or an end-of-print notice for this set. Retailer and hobby reports don't count here.",
+    "ref": "https://www.wargamer.com/magic-the-gathering/mtg-sets-in-order",
+    "refName": "Wargamer, Oct 2026",
+    "checked": "2026-10"
+  },
+  {
+    "id": "mtg-marvel-s-spider-man",
+    "game": "Magic: The Gathering",
+    "name": "Marvel's Spider-Man",
+    "code": "SPM",
+    "aliases": [
+      "Marvel's Spider-Man"
+    ],
+    "release": "2025-09-26",
+    "status": "unknown",
+    "basis": "none",
+    "notes": "The publisher hasn't posted a reprint or an end-of-print notice for this set. Retailer and hobby reports don't count here.",
+    "ref": "https://www.wargamer.com/magic-the-gathering/mtg-sets-in-order",
+    "refName": "Wargamer, Oct 2026",
+    "checked": "2026-10"
+  },
+  {
+    "id": "mtg-avatar-the-last-airbender",
+    "game": "Magic: The Gathering",
+    "name": "Avatar: The Last Airbender",
+    "code": "TLA",
+    "aliases": [
+      "Avatar"
+    ],
+    "release": "2025-11-21",
+    "status": "in_print",
+    "basis": "current",
+    "notes": "The publisher's current release, out within the last 12 months, with no end-of-print notice.",
+    "ref": "https://www.wargamer.com/magic-the-gathering/mtg-sets-in-order",
+    "refName": "Wargamer, Oct 2026",
+    "checked": "2026-10"
+  },
+  {
+    "id": "mtg-lorwyn-eclipsed",
+    "game": "Magic: The Gathering",
+    "name": "Lorwyn Eclipsed",
+    "code": "ECL",
+    "aliases": [
+      "Lorwyn Eclipsed"
+    ],
+    "release": "2026-01-23",
+    "status": "in_print",
+    "basis": "current",
+    "notes": "The publisher's current release, out within the last 12 months, with no end-of-print notice.",
+    "ref": "https://www.wargamer.com/magic-the-gathering/mtg-sets-in-order",
+    "refName": "Wargamer, Oct 2026",
+    "checked": "2026-10"
+  },
+  {
+    "id": "mtg-teenage-mutant-ninja-turtles",
+    "game": "Magic: The Gathering",
+    "name": "Teenage Mutant Ninja Turtles",
+    "aliases": [
+      "Teenage Mutant Ninja Turtles",
+      "TMNT"
+    ],
+    "release": "2026-03-06",
+    "status": "in_print",
+    "basis": "current",
+    "notes": "The publisher's current release, out within the last 12 months, with no end-of-print notice.",
+    "ref": "https://www.wargamer.com/magic-the-gathering/mtg-sets-in-order",
+    "refName": "Wargamer, Oct 2026",
+    "checked": "2026-10"
+  },
+  {
+    "id": "mtg-secrets-of-strixhaven",
+    "game": "Magic: The Gathering",
+    "name": "Secrets of Strixhaven",
+    "aliases": [
+      "Secrets of Strixhaven"
+    ],
+    "release": "2026-04-24",
+    "status": "in_print",
+    "basis": "current",
+    "notes": "The publisher's current release, out within the last 12 months, with no end-of-print notice.",
+    "ref": "https://www.wargamer.com/magic-the-gathering/mtg-sets-in-order",
+    "refName": "Wargamer, Oct 2026",
+    "checked": "2026-10"
+  },
+  {
+    "id": "mtg-marvel-super-heroes",
+    "game": "Magic: The Gathering",
+    "name": "Marvel Super Heroes",
+    "aliases": [
+      "Marvel Super Heroes"
+    ],
+    "release": "2026-06-26",
+    "status": "in_print",
+    "basis": "current",
+    "notes": "The publisher's current release, out within the last 12 months, with no end-of-print notice.",
+    "ref": "https://www.wargamer.com/magic-the-gathering/mtg-sets-in-order",
+    "refName": "Wargamer, Oct 2026",
+    "checked": "2026-10"
+  },
+  {
+    "id": "mtg-the-hobbit",
+    "game": "Magic: The Gathering",
+    "name": "The Hobbit",
+    "aliases": [
+      "The Hobbit"
+    ],
+    "release": "2026-08-14",
+    "status": "in_print",
+    "basis": "current",
+    "notes": "The publisher's current release, out within the last 12 months, with no end-of-print notice.",
+    "ref": "https://www.wargamer.com/magic-the-gathering/mtg-sets-in-order",
+    "refName": "Wargamer, Oct 2026",
+    "checked": "2026-10"
+  },
+  {
+    "id": "mtg-reality-fracture",
+    "game": "Magic: The Gathering",
+    "name": "Reality Fracture",
+    "aliases": [
+      "Reality Fracture"
+    ],
+    "release": "2026-10-02",
+    "status": "in_print",
+    "basis": "current",
+    "notes": "The publisher's current release, out within the last 12 months, with no end-of-print notice.",
+    "ref": "https://www.wargamer.com/magic-the-gathering/mtg-sets-in-order",
+    "refName": "Wargamer, Oct 2026",
+    "checked": "2026-10"
+  },
+  {
+    "id": "mtg-star-trek",
+    "game": "Magic: The Gathering",
+    "name": "Star Trek",
+    "release": "2026-11-11",
+    "status": "upcoming",
+    "basis": "announced",
+    "source": "https://www.wargamer.com/magic-the-gathering/mtg-sets-in-order",
+    "sourceName": "Wargamer, Oct 2026",
+    "notes": "Universes Beyond set scheduled for November 2026. Status changes to In print on release day.",
+    "ref": "https://www.wargamer.com/magic-the-gathering/mtg-sets-in-order",
+    "refName": "Wargamer, Oct 2026",
+    "checked": "2026-10"
+  },
+  {
+    "id": "onepiece-op-01",
+    "game": "One Piece Card Game",
+    "name": "Romance Dawn",
+    "code": "OP-01",
+    "aliases": [
+      "OP01",
+      "One Piece OP-01"
+    ],
+    "release": "2022-12-02",
+    "status": "unknown",
+    "basis": "none",
+    "notes": "The publisher hasn't posted a reprint or an end-of-print notice for this set. Retailer and hobby reports don't count here.",
+    "ref": "https://www.misprint.com/posts/one-piece-tcg-release-calendar",
+    "refName": "Misprint, Jul 2026",
+    "checked": "2026-10"
+  },
+  {
+    "id": "onepiece-op-02",
+    "game": "One Piece Card Game",
+    "name": "Paramount War",
+    "code": "OP-02",
+    "aliases": [
+      "OP02",
+      "One Piece OP-02"
+    ],
+    "release": "2023-03-10",
+    "status": "unknown",
+    "basis": "none",
+    "notes": "The publisher hasn't posted a reprint or an end-of-print notice for this set. Retailer and hobby reports don't count here.",
+    "ref": "https://opboxindex.com/articles/one-piece-set-list-release-dates.html",
+    "refName": "OP Box Index, Oct 2026",
+    "checked": "2026-10"
+  },
+  {
+    "id": "onepiece-op-03",
+    "game": "One Piece Card Game",
+    "name": "Pillars of Strength",
+    "code": "OP-03",
+    "aliases": [
+      "OP03",
+      "One Piece OP-03"
+    ],
+    "release": "2023-06-30",
+    "status": "unknown",
+    "basis": "none",
+    "notes": "The publisher hasn't posted a reprint or an end-of-print notice for this set. Retailer and hobby reports don't count here.",
+    "ref": "https://opboxindex.com/articles/one-piece-set-list-release-dates.html",
+    "refName": "OP Box Index, Oct 2026",
+    "checked": "2026-10"
+  },
+  {
+    "id": "onepiece-op-04",
+    "game": "One Piece Card Game",
+    "name": "Kingdoms of Intrigue",
+    "code": "OP-04",
+    "aliases": [
+      "OP04",
+      "One Piece OP-04"
+    ],
+    "release": "2023-09-22",
+    "status": "unknown",
+    "basis": "none",
+    "notes": "The publisher hasn't posted a reprint or an end-of-print notice for this set. Retailer and hobby reports don't count here.",
+    "ref": "https://opboxindex.com/articles/one-piece-set-list-release-dates.html",
+    "refName": "OP Box Index, Oct 2026",
+    "checked": "2026-10"
+  },
+  {
+    "id": "onepiece-op-05",
+    "game": "One Piece Card Game",
+    "name": "Awakening of the New Era",
+    "code": "OP-05",
+    "aliases": [
+      "OP05",
+      "One Piece OP-05"
+    ],
+    "release": "2023-12-08",
+    "status": "unknown",
+    "basis": "none",
+    "notes": "The publisher hasn't posted a reprint or an end-of-print notice for this set. Retailer and hobby reports don't count here.",
+    "ref": "https://opboxindex.com/articles/one-piece-set-list-release-dates.html",
+    "refName": "OP Box Index, Oct 2026",
+    "checked": "2026-10"
+  },
+  {
+    "id": "onepiece-op-06",
+    "game": "One Piece Card Game",
+    "name": "Wings of the Captain",
+    "code": "OP-06",
+    "aliases": [
+      "OP06",
+      "One Piece OP-06"
+    ],
+    "release": "2024-03-15",
+    "status": "unknown",
+    "basis": "none",
+    "notes": "The publisher hasn't posted a reprint or an end-of-print notice for this set. Retailer and hobby reports don't count here.",
+    "ref": "https://opboxindex.com/articles/one-piece-set-list-release-dates.html",
+    "refName": "OP Box Index, Oct 2026",
+    "checked": "2026-10"
+  },
+  {
+    "id": "onepiece-eb-01",
+    "game": "One Piece Card Game",
+    "name": "Memorial Collection",
+    "code": "EB-01",
+    "aliases": [
+      "EB01"
+    ],
+    "release": "2024-05-03",
+    "status": "unknown",
+    "basis": "none",
+    "notes": "The publisher hasn't posted a reprint or an end-of-print notice for this set. Retailer and hobby reports don't count here.",
+    "ref": "https://opboxindex.com/articles/one-piece-set-list-release-dates.html",
+    "refName": "OP Box Index, Oct 2026",
+    "checked": "2026-10"
+  },
+  {
+    "id": "onepiece-op-07",
+    "game": "One Piece Card Game",
+    "name": "500 Years in the Future",
+    "code": "OP-07",
+    "aliases": [
+      "OP07",
+      "One Piece OP-07"
+    ],
+    "release": "2024-06-28",
+    "status": "unknown",
+    "basis": "none",
+    "notes": "The publisher hasn't posted a reprint or an end-of-print notice for this set. Retailer and hobby reports don't count here.",
+    "ref": "https://opboxindex.com/articles/one-piece-set-list-release-dates.html",
+    "refName": "OP Box Index, Oct 2026",
+    "checked": "2026-10"
+  },
+  {
+    "id": "onepiece-op-08",
+    "game": "One Piece Card Game",
+    "name": "Two Legends",
+    "code": "OP-08",
+    "aliases": [
+      "OP08",
+      "One Piece OP-08"
+    ],
+    "release": "2024-09-13",
+    "status": "unknown",
+    "basis": "none",
+    "notes": "The publisher hasn't posted a reprint or an end-of-print notice for this set. Retailer and hobby reports don't count here.",
+    "ref": "https://opboxindex.com/articles/one-piece-set-list-release-dates.html",
+    "refName": "OP Box Index, Oct 2026",
+    "checked": "2026-10"
+  },
+  {
+    "id": "onepiece-prb-01",
+    "game": "One Piece Card Game",
+    "name": "Premium Booster: The Best",
+    "code": "PRB-01",
+    "aliases": [
+      "PRB01",
+      "The Best"
+    ],
+    "release": "2024-11-08",
+    "status": "unknown",
+    "basis": "none",
+    "notes": "The publisher hasn't posted a reprint or an end-of-print notice for this set. Retailer and hobby reports don't count here.",
+    "ref": "https://opboxindex.com/articles/one-piece-set-list-release-dates.html",
+    "refName": "OP Box Index, Oct 2026",
+    "checked": "2026-10"
+  },
+  {
+    "id": "onepiece-op-09",
+    "game": "One Piece Card Game",
+    "name": "Emperors in the New World",
+    "code": "OP-09",
+    "aliases": [
+      "OP09",
+      "One Piece OP-09"
+    ],
+    "release": "2024-12-13",
+    "status": "unknown",
+    "basis": "none",
+    "notes": "The publisher hasn't posted a reprint or an end-of-print notice for this set. Retailer and hobby reports don't count here.",
+    "ref": "https://opboxindex.com/articles/one-piece-set-list-release-dates.html",
+    "refName": "OP Box Index, Oct 2026",
+    "checked": "2026-10"
+  },
+  {
+    "id": "onepiece-op-10",
+    "game": "One Piece Card Game",
+    "name": "Royal Blood",
+    "code": "OP-10",
+    "aliases": [
+      "OP10",
+      "One Piece OP-10"
+    ],
+    "release": "2025-03-21",
+    "status": "unknown",
+    "basis": "none",
+    "notes": "The publisher hasn't posted a reprint or an end-of-print notice for this set. Retailer and hobby reports don't count here.",
+    "ref": "https://opboxindex.com/articles/one-piece-set-list-release-dates.html",
+    "refName": "OP Box Index, Oct 2026",
+    "checked": "2026-10"
+  },
+  {
+    "id": "onepiece-eb-02",
+    "game": "One Piece Card Game",
+    "name": "Anime 25th Collection",
+    "code": "EB-02",
+    "aliases": [
+      "EB02"
+    ],
+    "release": "2025-05-09",
+    "status": "unknown",
+    "basis": "none",
+    "notes": "The publisher hasn't posted a reprint or an end-of-print notice for this set. Retailer and hobby reports don't count here.",
+    "ref": "https://opboxindex.com/articles/one-piece-set-list-release-dates.html",
+    "refName": "OP Box Index, Oct 2026",
+    "checked": "2026-10"
+  },
+  {
+    "id": "onepiece-op-11",
+    "game": "One Piece Card Game",
+    "name": "A Fist of Divine Speed",
+    "code": "OP-11",
+    "aliases": [
+      "OP11",
+      "One Piece OP-11"
+    ],
+    "release": "2025-06-06",
+    "status": "unknown",
+    "basis": "none",
+    "notes": "The publisher hasn't posted a reprint or an end-of-print notice for this set. Retailer and hobby reports don't count here.",
+    "ref": "https://opboxindex.com/articles/one-piece-set-list-release-dates.html",
+    "refName": "OP Box Index, Oct 2026",
+    "checked": "2026-10"
+  },
+  {
+    "id": "onepiece-op-12",
+    "game": "One Piece Card Game",
+    "name": "Legacy of the Master",
+    "code": "OP-12",
+    "aliases": [
+      "OP12",
+      "One Piece OP-12"
+    ],
+    "release": "2025-08-22",
+    "status": "unknown",
+    "basis": "none",
+    "notes": "The publisher hasn't posted a reprint or an end-of-print notice for this set. Retailer and hobby reports don't count here.",
+    "ref": "https://opboxindex.com/articles/one-piece-set-list-release-dates.html",
+    "refName": "OP Box Index, Oct 2026",
+    "checked": "2026-10"
+  },
+  {
+    "id": "onepiece-prb-02",
+    "game": "One Piece Card Game",
+    "name": "Premium Booster: The Best Vol.2",
+    "code": "PRB-02",
+    "aliases": [
+      "PRB02",
+      "The Best vol 2"
+    ],
+    "release": "2025-10-03",
+    "status": "unknown",
+    "basis": "none",
+    "notes": "The publisher hasn't posted a reprint or an end-of-print notice for this set. Retailer and hobby reports don't count here.",
+    "ref": "https://opboxindex.com/articles/one-piece-set-list-release-dates.html",
+    "refName": "OP Box Index, Oct 2026",
+    "checked": "2026-10"
+  },
+  {
+    "id": "onepiece-op-13",
+    "game": "One Piece Card Game",
+    "name": "Carrying on His Will",
+    "code": "OP-13",
+    "aliases": [
+      "OP13",
+      "One Piece OP-13"
+    ],
+    "release": "2025-11-07",
+    "status": "in_print",
+    "basis": "current",
+    "notes": "The publisher's current release, out within the last 12 months, with no end-of-print notice.",
+    "ref": "https://opboxindex.com/articles/one-piece-set-list-release-dates.html",
+    "refName": "OP Box Index, Oct 2026",
+    "checked": "2026-10"
+  },
+  {
+    "id": "onepiece-op-14",
+    "game": "One Piece Card Game",
+    "name": "The Azure Sea's Seven",
+    "code": "OP-14",
+    "aliases": [
+      "OP14",
+      "One Piece OP-14"
+    ],
+    "release": "2026-01-16",
+    "status": "in_print",
+    "basis": "current",
+    "notes": "The publisher's current release, out within the last 12 months, with no end-of-print notice.",
+    "ref": "https://opboxindex.com/articles/one-piece-set-list-release-dates.html",
+    "refName": "OP Box Index, Oct 2026",
+    "checked": "2026-10"
+  },
+  {
+    "id": "onepiece-eb-03",
+    "game": "One Piece Card Game",
+    "name": "Heroines Edition",
+    "code": "EB-03",
+    "aliases": [
+      "EB03",
+      "Heroine's Edition"
+    ],
+    "release": "2026-02-20",
+    "status": "in_print",
+    "basis": "current",
+    "notes": "The publisher's current release, out within the last 12 months, with no end-of-print notice.",
+    "ref": "https://opboxindex.com/articles/one-piece-set-list-release-dates.html",
+    "refName": "OP Box Index, Oct 2026",
+    "checked": "2026-10"
+  },
+  {
+    "id": "onepiece-op-15",
+    "game": "One Piece Card Game",
+    "name": "Adventure on Kami's Island",
+    "code": "OP-15",
+    "aliases": [
+      "OP15",
+      "One Piece OP-15"
+    ],
+    "release": "2026-04-03",
+    "status": "in_print",
+    "basis": "current",
+    "notes": "The publisher's current release, out within the last 12 months, with no end-of-print notice.",
+    "ref": "https://opboxindex.com/articles/one-piece-set-list-release-dates.html",
+    "refName": "OP Box Index, Oct 2026",
+    "checked": "2026-10"
+  },
+  {
+    "id": "onepiece-op-16",
+    "game": "One Piece Card Game",
+    "name": "The Time of Battle",
+    "code": "OP-16",
+    "aliases": [
+      "OP16",
+      "One Piece OP-16"
+    ],
+    "release": "2026-06-12",
+    "status": "in_print",
+    "basis": "current",
+    "notes": "The publisher's current release, out within the last 12 months, with no end-of-print notice.",
+    "ref": "https://opboxindex.com/articles/one-piece-set-list-release-dates.html",
+    "refName": "OP Box Index, Oct 2026",
+    "checked": "2026-10"
+  },
+  {
+    "id": "onepiece-op-17",
+    "game": "One Piece Card Game",
+    "name": "The World's Strongest Warriors",
+    "code": "OP-17",
+    "aliases": [
+      "OP17",
+      "One Piece OP-17"
+    ],
+    "release": "2026-08-28",
+    "status": "in_print",
+    "basis": "current",
+    "notes": "The publisher's current release, out within the last 12 months, with no end-of-print notice.",
+    "ref": "https://opboxindex.com/articles/one-piece-set-list-release-dates.html",
+    "refName": "OP Box Index, Oct 2026",
+    "checked": "2026-10"
+  },
+  {
+    "id": "onepiece-eb-05",
+    "game": "One Piece Card Game",
+    "name": "Heroines Edition vol.2",
+    "code": "EB-05",
+    "aliases": [
+      "EB05",
+      "Heroines vol 2"
+    ],
+    "release": "2026-10-30",
+    "status": "in_print",
+    "basis": "current",
+    "source": "https://opboxindex.com/articles/one-piece-set-list-release-dates.html",
+    "sourceName": "OP Box Index, Oct 2026",
+    "notes": "Released October 30, 2026. The publisher's current release, with no end-of-print notice.",
+    "ref": "https://opboxindex.com/articles/one-piece-set-list-release-dates.html",
+    "refName": "OP Box Index, Oct 2026",
+    "checked": "2026-11"
+  },
+  {
+    "id": "onepiece-op-18",
+    "game": "One Piece Card Game",
+    "name": "The Dominance of God",
+    "code": "OP-18",
+    "aliases": [
+      "OP18"
+    ],
+    "release": "2026-11-20",
+    "status": "upcoming",
+    "basis": "announced",
+    "source": "https://opboxindex.com/articles/one-piece-set-list-release-dates.html",
+    "sourceName": "OP Box Index, Oct 2026",
+    "notes": "Scheduled English release. Status changes to In print on release day.",
+    "ref": "https://opboxindex.com/articles/one-piece-set-list-release-dates.html",
+    "refName": "OP Box Index, Oct 2026",
+    "checked": "2026-10"
+  },
+  {
+    "id": "onepiece-one-piece-heroines-special-set",
+    "game": "One Piece Card Game",
+    "name": "ONE PIECE Heroines Special Set",
+    "aliases": [
+      "Heroines Special Set"
+    ],
+    "status": "in_print",
+    "basis": "official",
+    "source": "https://x.com/ONEPIECE_tcg_EN/status/2054743502320230438",
+    "sourceName": "Bandai (official, X)",
+    "lastPrint": "2026-05",
+    "lastPrintNote": "Special reprint announced by Bandai",
+    "notes": "Bandai announced a special reprint \"due to overwhelming fan support,\" available while supplies last, alongside Premium Card Collection Live Action Edition vol.2.",
+    "ref": "https://x.com/ONEPIECE_tcg_EN/status/2054743502320230438",
+    "refName": "One Piece Card Game (official, X)",
+    "checked": "2026-10"
+  },
+  {
+    "id": "pokemon-wotc-bs",
+    "game": "Pokémon",
+    "name": "Base Set",
+    "code": "BS",
+    "aliases": [
+      "Base",
+      "Pokemon Base Set",
+      "1st Edition Base Set",
+      "Shadowless",
+      "WOTC Base Set"
+    ],
+    "release": "1999-01-09",
+    "status": "out_of_print",
+    "basis": "historical",
+    "source": "https://en.wikipedia.org/wiki/List_of_Pok%C3%A9mon_Trading_Card_Game_sets",
+    "sourceName": "Wikipedia: List of Pokémon TCG sets",
+    "lastPrint": "2003",
+    "lastPrintNote": "No later than mid-2003, when Wizards of the Coast's run ended",
+    "notes": "Printed by Wizards of the Coast, whose run as the English publisher ended in 2003 when The Pokémon Company took over. It has never been reprinted as a set.",
+    "ref": "https://en.wikipedia.org/wiki/List_of_Pok%C3%A9mon_Trading_Card_Game_sets",
+    "refName": "Wikipedia: List of Pokémon TCG sets",
+    "checked": "2026-10"
+  },
+  {
+    "id": "pokemon-wotc-ju",
+    "game": "Pokémon",
+    "name": "Jungle",
+    "code": "JU",
+    "aliases": [
+      "WOTC Jungle"
+    ],
+    "release": "1999-06-16",
+    "status": "out_of_print",
+    "basis": "historical",
+    "source": "https://en.wikipedia.org/wiki/List_of_Pok%C3%A9mon_Trading_Card_Game_sets",
+    "sourceName": "Wikipedia: List of Pokémon TCG sets",
+    "lastPrint": "2003",
+    "lastPrintNote": "No later than mid-2003, when Wizards of the Coast's run ended",
+    "notes": "Printed by Wizards of the Coast, whose run as the English publisher ended in 2003 when The Pokémon Company took over. It has never been reprinted as a set.",
+    "ref": "https://en.wikipedia.org/wiki/List_of_Pok%C3%A9mon_Trading_Card_Game_sets",
+    "refName": "Wikipedia: List of Pokémon TCG sets",
+    "checked": "2026-10"
+  },
+  {
+    "id": "pokemon-wotc-fo",
+    "game": "Pokémon",
+    "name": "Fossil",
+    "code": "FO",
+    "aliases": [
+      "WOTC Fossil"
+    ],
+    "release": "1999-10-10",
+    "status": "out_of_print",
+    "basis": "historical",
+    "source": "https://en.wikipedia.org/wiki/List_of_Pok%C3%A9mon_Trading_Card_Game_sets",
+    "sourceName": "Wikipedia: List of Pokémon TCG sets",
+    "lastPrint": "2003",
+    "lastPrintNote": "No later than mid-2003, when Wizards of the Coast's run ended",
+    "notes": "Printed by Wizards of the Coast, whose run as the English publisher ended in 2003 when The Pokémon Company took over. It has never been reprinted as a set.",
+    "ref": "https://en.wikipedia.org/wiki/List_of_Pok%C3%A9mon_Trading_Card_Game_sets",
+    "refName": "Wikipedia: List of Pokémon TCG sets",
+    "checked": "2026-10"
+  },
+  {
+    "id": "pokemon-wotc-b2",
+    "game": "Pokémon",
+    "name": "Base Set 2",
+    "code": "B2",
+    "aliases": [
+      "WOTC Base Set 2"
+    ],
+    "release": "2000-02-24",
+    "status": "out_of_print",
+    "basis": "historical",
+    "source": "https://en.wikipedia.org/wiki/List_of_Pok%C3%A9mon_Trading_Card_Game_sets",
+    "sourceName": "Wikipedia: List of Pokémon TCG sets",
+    "lastPrint": "2003",
+    "lastPrintNote": "No later than mid-2003, when Wizards of the Coast's run ended",
+    "notes": "Printed by Wizards of the Coast, whose run as the English publisher ended in 2003 when The Pokémon Company took over. It has never been reprinted as a set.",
+    "ref": "https://en.wikipedia.org/wiki/List_of_Pok%C3%A9mon_Trading_Card_Game_sets",
+    "refName": "Wikipedia: List of Pokémon TCG sets",
+    "checked": "2026-10"
+  },
+  {
+    "id": "pokemon-wotc-tr",
+    "game": "Pokémon",
+    "name": "Team Rocket",
+    "code": "TR",
+    "aliases": [
+      "WOTC Team Rocket"
+    ],
+    "release": "2000-04-24",
+    "status": "out_of_print",
+    "basis": "historical",
+    "source": "https://en.wikipedia.org/wiki/List_of_Pok%C3%A9mon_Trading_Card_Game_sets",
+    "sourceName": "Wikipedia: List of Pokémon TCG sets",
+    "lastPrint": "2003",
+    "lastPrintNote": "No later than mid-2003, when Wizards of the Coast's run ended",
+    "notes": "Printed by Wizards of the Coast, whose run as the English publisher ended in 2003 when The Pokémon Company took over. It has never been reprinted as a set.",
+    "ref": "https://en.wikipedia.org/wiki/List_of_Pok%C3%A9mon_Trading_Card_Game_sets",
+    "refName": "Wikipedia: List of Pokémon TCG sets",
+    "checked": "2026-10"
+  },
+  {
+    "id": "pokemon-wotc-g1",
+    "game": "Pokémon",
+    "name": "Gym Heroes",
+    "code": "G1",
+    "aliases": [
+      "WOTC Gym Heroes"
+    ],
+    "release": "2000-08-14",
+    "status": "out_of_print",
+    "basis": "historical",
+    "source": "https://en.wikipedia.org/wiki/List_of_Pok%C3%A9mon_Trading_Card_Game_sets",
+    "sourceName": "Wikipedia: List of Pokémon TCG sets",
+    "lastPrint": "2003",
+    "lastPrintNote": "No later than mid-2003, when Wizards of the Coast's run ended",
+    "notes": "Printed by Wizards of the Coast, whose run as the English publisher ended in 2003 when The Pokémon Company took over. It has never been reprinted as a set.",
+    "ref": "https://en.wikipedia.org/wiki/List_of_Pok%C3%A9mon_Trading_Card_Game_sets",
+    "refName": "Wikipedia: List of Pokémon TCG sets",
+    "checked": "2026-10"
+  },
+  {
+    "id": "pokemon-wotc-g2",
+    "game": "Pokémon",
+    "name": "Gym Challenge",
+    "code": "G2",
+    "aliases": [
+      "WOTC Gym Challenge"
+    ],
+    "release": "2000-10-16",
+    "status": "out_of_print",
+    "basis": "historical",
+    "source": "https://en.wikipedia.org/wiki/List_of_Pok%C3%A9mon_Trading_Card_Game_sets",
+    "sourceName": "Wikipedia: List of Pokémon TCG sets",
+    "lastPrint": "2003",
+    "lastPrintNote": "No later than mid-2003, when Wizards of the Coast's run ended",
+    "notes": "Printed by Wizards of the Coast, whose run as the English publisher ended in 2003 when The Pokémon Company took over. It has never been reprinted as a set.",
+    "ref": "https://en.wikipedia.org/wiki/List_of_Pok%C3%A9mon_Trading_Card_Game_sets",
+    "refName": "Wikipedia: List of Pokémon TCG sets",
+    "checked": "2026-10"
+  },
+  {
+    "id": "pokemon-wotc-n1",
+    "game": "Pokémon",
+    "name": "Neo Genesis",
+    "code": "N1",
+    "aliases": [
+      "WOTC Neo Genesis"
+    ],
+    "release": "2000-12",
+    "status": "out_of_print",
+    "basis": "historical",
+    "source": "https://en.wikipedia.org/wiki/List_of_Pok%C3%A9mon_Trading_Card_Game_sets",
+    "sourceName": "Wikipedia: List of Pokémon TCG sets",
+    "lastPrint": "2003",
+    "lastPrintNote": "No later than mid-2003, when Wizards of the Coast's run ended",
+    "notes": "Printed by Wizards of the Coast, whose run as the English publisher ended in 2003 when The Pokémon Company took over. It has never been reprinted as a set.",
+    "ref": "https://en.wikipedia.org/wiki/List_of_Pok%C3%A9mon_Trading_Card_Game_sets",
+    "refName": "Wikipedia: List of Pokémon TCG sets",
+    "checked": "2026-10"
+  },
+  {
+    "id": "pokemon-wotc-n2",
+    "game": "Pokémon",
+    "name": "Neo Discovery",
+    "code": "N2",
+    "aliases": [
+      "WOTC Neo Discovery"
+    ],
+    "release": "2001-06",
+    "status": "out_of_print",
+    "basis": "historical",
+    "source": "https://en.wikipedia.org/wiki/List_of_Pok%C3%A9mon_Trading_Card_Game_sets",
+    "sourceName": "Wikipedia: List of Pokémon TCG sets",
+    "lastPrint": "2003",
+    "lastPrintNote": "No later than mid-2003, when Wizards of the Coast's run ended",
+    "notes": "Printed by Wizards of the Coast, whose run as the English publisher ended in 2003 when The Pokémon Company took over. It has never been reprinted as a set.",
+    "ref": "https://en.wikipedia.org/wiki/List_of_Pok%C3%A9mon_Trading_Card_Game_sets",
+    "refName": "Wikipedia: List of Pokémon TCG sets",
+    "checked": "2026-10"
+  },
+  {
+    "id": "pokemon-wotc-n3",
+    "game": "Pokémon",
+    "name": "Neo Revelation",
+    "code": "N3",
+    "aliases": [
+      "WOTC Neo Revelation"
+    ],
+    "release": "2001-10",
+    "status": "out_of_print",
+    "basis": "historical",
+    "source": "https://en.wikipedia.org/wiki/List_of_Pok%C3%A9mon_Trading_Card_Game_sets",
+    "sourceName": "Wikipedia: List of Pokémon TCG sets",
+    "lastPrint": "2003",
+    "lastPrintNote": "No later than mid-2003, when Wizards of the Coast's run ended",
+    "notes": "Printed by Wizards of the Coast, whose run as the English publisher ended in 2003 when The Pokémon Company took over. It has never been reprinted as a set.",
+    "ref": "https://en.wikipedia.org/wiki/List_of_Pok%C3%A9mon_Trading_Card_Game_sets",
+    "refName": "Wikipedia: List of Pokémon TCG sets",
+    "checked": "2026-10"
+  },
+  {
+    "id": "pokemon-wotc-n4",
+    "game": "Pokémon",
+    "name": "Neo Destiny",
+    "code": "N4",
+    "aliases": [
+      "WOTC Neo Destiny"
+    ],
+    "release": "2002-02",
+    "status": "out_of_print",
+    "basis": "historical",
+    "source": "https://en.wikipedia.org/wiki/List_of_Pok%C3%A9mon_Trading_Card_Game_sets",
+    "sourceName": "Wikipedia: List of Pokémon TCG sets",
+    "lastPrint": "2003",
+    "lastPrintNote": "No later than mid-2003, when Wizards of the Coast's run ended",
+    "notes": "Printed by Wizards of the Coast, whose run as the English publisher ended in 2003 when The Pokémon Company took over. It has never been reprinted as a set.",
+    "ref": "https://en.wikipedia.org/wiki/List_of_Pok%C3%A9mon_Trading_Card_Game_sets",
+    "refName": "Wikipedia: List of Pokémon TCG sets",
+    "checked": "2026-10"
+  },
+  {
+    "id": "pokemon-wotc-lc",
+    "game": "Pokémon",
+    "name": "Legendary Collection",
+    "code": "LC",
+    "aliases": [
+      "WOTC Legendary Collection"
+    ],
+    "release": "2002-05",
+    "status": "out_of_print",
+    "basis": "historical",
+    "source": "https://en.wikipedia.org/wiki/List_of_Pok%C3%A9mon_Trading_Card_Game_sets",
+    "sourceName": "Wikipedia: List of Pokémon TCG sets",
+    "lastPrint": "2003",
+    "lastPrintNote": "No later than mid-2003, when Wizards of the Coast's run ended",
+    "notes": "Printed by Wizards of the Coast, whose run as the English publisher ended in 2003 when The Pokémon Company took over. It has never been reprinted as a set.",
+    "ref": "https://en.wikipedia.org/wiki/List_of_Pok%C3%A9mon_Trading_Card_Game_sets",
+    "refName": "Wikipedia: List of Pokémon TCG sets",
+    "checked": "2026-10"
+  },
+  {
+    "id": "pokemon-wotc-ex",
+    "game": "Pokémon",
+    "name": "Expedition Base Set",
+    "code": "EX",
+    "aliases": [
+      "Expedition",
+      "WOTC Expedition Base Set"
+    ],
+    "release": "2002-09",
+    "status": "out_of_print",
+    "basis": "historical",
+    "source": "https://en.wikipedia.org/wiki/List_of_Pok%C3%A9mon_Trading_Card_Game_sets",
+    "sourceName": "Wikipedia: List of Pokémon TCG sets",
+    "lastPrint": "2003",
+    "lastPrintNote": "No later than mid-2003, when Wizards of the Coast's run ended",
+    "notes": "Printed by Wizards of the Coast, whose run as the English publisher ended in 2003 when The Pokémon Company took over. It has never been reprinted as a set.",
+    "ref": "https://en.wikipedia.org/wiki/List_of_Pok%C3%A9mon_Trading_Card_Game_sets",
+    "refName": "Wikipedia: List of Pokémon TCG sets",
+    "checked": "2026-10"
+  },
+  {
+    "id": "pokemon-wotc-aq",
+    "game": "Pokémon",
+    "name": "Aquapolis",
+    "code": "AQ",
+    "aliases": [
+      "WOTC Aquapolis"
+    ],
+    "release": "2003-01",
+    "status": "out_of_print",
+    "basis": "historical",
+    "source": "https://en.wikipedia.org/wiki/List_of_Pok%C3%A9mon_Trading_Card_Game_sets",
+    "sourceName": "Wikipedia: List of Pokémon TCG sets",
+    "lastPrint": "2003",
+    "lastPrintNote": "No later than mid-2003, when Wizards of the Coast's run ended",
+    "notes": "Printed by Wizards of the Coast, whose run as the English publisher ended in 2003 when The Pokémon Company took over. It has never been reprinted as a set.",
+    "ref": "https://en.wikipedia.org/wiki/List_of_Pok%C3%A9mon_Trading_Card_Game_sets",
+    "refName": "Wikipedia: List of Pokémon TCG sets",
+    "checked": "2026-10"
+  },
+  {
+    "id": "pokemon-wotc-sk",
+    "game": "Pokémon",
+    "name": "Skyridge",
+    "code": "SK",
+    "aliases": [
+      "WOTC Skyridge"
+    ],
+    "release": "2003-05-12",
+    "status": "out_of_print",
+    "basis": "historical",
+    "source": "https://en.wikipedia.org/wiki/List_of_Pok%C3%A9mon_Trading_Card_Game_sets",
+    "sourceName": "Wikipedia: List of Pokémon TCG sets",
+    "lastPrint": "2003",
+    "lastPrintNote": "No later than mid-2003, when Wizards of the Coast's run ended",
+    "notes": "Printed by Wizards of the Coast, whose run as the English publisher ended in 2003 when The Pokémon Company took over. It has never been reprinted as a set. Skyridge was the final Wizards of the Coast set.",
+    "ref": "https://en.wikipedia.org/wiki/List_of_Pok%C3%A9mon_Trading_Card_Game_sets",
+    "refName": "Wikipedia: List of Pokémon TCG sets",
+    "checked": "2026-10"
+  },
+  {
+    "id": "pokemon-vivid-voltage",
+    "game": "Pokémon",
+    "name": "Vivid Voltage",
+    "code": "VIV",
+    "aliases": [
+      "Sword & Shield Vivid Voltage"
+    ],
+    "release": "2020-11-13",
+    "status": "unknown",
+    "basis": "none",
+    "notes": "The publisher hasn't posted a reprint or an end-of-print notice for this set. Retailer and hobby reports don't count here.",
+    "ref": "https://playvault.ae/blogs/guides/pokemon-sets-going-out-of-print-2026-uae",
+    "refName": "PlayVault, Aug 2026",
+    "checked": "2026-10"
+  },
+  {
+    "id": "pokemon-shining-fates",
+    "game": "Pokémon",
+    "name": "Shining Fates",
+    "code": "SHF",
+    "aliases": [
+      "Sword & Shield Shining Fates"
+    ],
+    "release": "2021-02-19",
+    "status": "unknown",
+    "basis": "none",
+    "notes": "The publisher hasn't posted a reprint or an end-of-print notice for this set. Retailer and hobby reports don't count here.",
+    "ref": "https://tcginvest.io/blog/pokemon-reprints-2026",
+    "refName": "TCGinvest, Sep 2026",
+    "checked": "2026-10"
+  },
+  {
+    "id": "pokemon-battle-styles",
+    "game": "Pokémon",
+    "name": "Battle Styles",
+    "code": "BST",
+    "aliases": [
+      "Sword & Shield Battle Styles"
+    ],
+    "release": "2021-03-19",
+    "status": "unknown",
+    "basis": "none",
+    "notes": "The publisher hasn't posted a reprint or an end-of-print notice for this set. Retailer and hobby reports don't count here.",
+    "ref": "https://playvault.ae/blogs/guides/pokemon-sets-going-out-of-print-2026-uae",
+    "refName": "PlayVault, Aug 2026",
+    "checked": "2026-10"
+  },
+  {
+    "id": "pokemon-evolving-skies",
+    "game": "Pokémon",
+    "name": "Evolving Skies",
+    "code": "EVS",
+    "aliases": [
+      "Sword & Shield Evolving Skies",
+      "Eeveelution set"
+    ],
+    "release": "2021-08-27",
+    "status": "unknown",
+    "basis": "none",
+    "notes": "The publisher hasn't posted a reprint or an end-of-print notice for this set. Retailer and hobby reports don't count here.",
+    "ref": "https://tcginvest.io/blog/pokemon-reprints-2026",
+    "refName": "TCGinvest, Sep 2026",
+    "checked": "2026-10"
+  },
+  {
+    "id": "pokemon-celebrations",
+    "game": "Pokémon",
+    "name": "Celebrations",
+    "code": "CEL",
+    "aliases": [
+      "25th Anniversary",
+      "Pokemon Celebrations"
+    ],
+    "release": "2021-10-08",
+    "status": "unknown",
+    "basis": "none",
+    "notes": "The publisher hasn't posted a reprint or an end-of-print notice for this set. Retailer and hobby reports don't count here.",
+    "ref": "https://tcginvest.io/blog/pokemon-reprints-2026",
+    "refName": "TCGinvest, Sep 2026",
+    "checked": "2026-10"
+  },
+  {
+    "id": "pokemon-brilliant-stars",
+    "game": "Pokémon",
+    "name": "Brilliant Stars",
+    "code": "BRS",
+    "aliases": [
+      "Sword & Shield Brilliant Stars"
+    ],
+    "release": "2022-02-25",
+    "status": "unknown",
+    "basis": "none",
+    "notes": "The publisher hasn't posted a reprint or an end-of-print notice for this set. Retailer and hobby reports don't count here.",
+    "ref": "https://tcginvest.io/blog/pokemon-reprints-2026",
+    "refName": "TCGinvest, Sep 2026",
+    "checked": "2026-10"
+  },
+  {
+    "id": "pokemon-lost-origin",
+    "game": "Pokémon",
+    "name": "Lost Origin",
+    "code": "LOR",
+    "aliases": [
+      "Sword & Shield Lost Origin"
+    ],
+    "release": "2022-09-09",
+    "status": "unknown",
+    "basis": "none",
+    "notes": "The publisher hasn't posted a reprint or an end-of-print notice for this set. Retailer and hobby reports don't count here.",
+    "ref": "https://tcginvest.io/blog/pokemon-reprints-2026",
+    "refName": "TCGinvest, Sep 2026",
+    "checked": "2026-10"
+  },
+  {
+    "id": "pokemon-silver-tempest",
+    "game": "Pokémon",
+    "name": "Silver Tempest",
+    "code": "SIT",
+    "aliases": [
+      "Sword & Shield Silver Tempest"
+    ],
+    "release": "2022-11-11",
+    "status": "unknown",
+    "basis": "none",
+    "notes": "The publisher hasn't posted a reprint or an end-of-print notice for this set. Retailer and hobby reports don't count here.",
+    "ref": "https://tcginvest.io/blog/pokemon-reprints-2026",
+    "refName": "TCGinvest, Sep 2026",
+    "checked": "2026-10"
+  },
+  {
+    "id": "pokemon-crown-zenith",
+    "game": "Pokémon",
+    "name": "Crown Zenith",
+    "code": "CRZ",
+    "aliases": [
+      "Sword & Shield Crown Zenith"
+    ],
+    "release": "2023-01-20",
+    "status": "unknown",
+    "basis": "none",
+    "notes": "The publisher hasn't posted a reprint or an end-of-print notice for this set. Retailer and hobby reports don't count here.",
+    "ref": "https://tcginvest.io/blog/pokemon-reprints-2026",
+    "refName": "TCGinvest, Sep 2026",
+    "checked": "2026-10"
+  },
+  {
+    "id": "pokemon-scarlet-violet-base-set",
+    "game": "Pokémon",
+    "name": "Scarlet & Violet Base Set",
+    "code": "SVI",
+    "aliases": [
+      "SV Base",
+      "Scarlet and Violet"
+    ],
+    "release": "2023-03-31",
+    "status": "unknown",
+    "basis": "none",
+    "notes": "The publisher hasn't posted a reprint or an end-of-print notice for this set. Retailer and hobby reports don't count here.",
+    "ref": "https://playvault.ae/blogs/guides/pokemon-sets-going-out-of-print-2026-uae",
+    "refName": "PlayVault, Aug 2026",
+    "checked": "2026-10"
+  },
+  {
+    "id": "pokemon-paldea-evolved",
+    "game": "Pokémon",
+    "name": "Paldea Evolved",
+    "code": "PAL",
+    "aliases": [
+      "Scarlet & Violet Paldea Evolved"
+    ],
+    "release": "2023-06-09",
+    "status": "unknown",
+    "basis": "none",
+    "notes": "The publisher hasn't posted a reprint or an end-of-print notice for this set. Retailer and hobby reports don't count here.",
+    "ref": "https://playvault.ae/blogs/guides/pokemon-sets-going-out-of-print-2026-uae",
+    "refName": "PlayVault, Aug 2026",
+    "checked": "2026-10"
+  },
+  {
+    "id": "pokemon-obsidian-flames",
+    "game": "Pokémon",
+    "name": "Obsidian Flames",
+    "code": "OBF",
+    "aliases": [
+      "Scarlet & Violet Obsidian Flames"
+    ],
+    "release": "2023-08-11",
+    "status": "unknown",
+    "basis": "none",
+    "notes": "The publisher hasn't posted a reprint or an end-of-print notice for this set. Retailer and hobby reports don't count here.",
+    "ref": "https://playvault.ae/blogs/guides/pokemon-sets-going-out-of-print-2026-uae",
+    "refName": "PlayVault, Aug 2026",
+    "checked": "2026-10"
+  },
+  {
+    "id": "pokemon-151",
+    "game": "Pokémon",
+    "name": "151",
+    "code": "MEW",
+    "aliases": [
+      "Scarlet & Violet 151",
+      "Pokemon 151",
+      "SV 151"
+    ],
+    "release": "2023-09-22",
+    "status": "unknown",
+    "basis": "none",
+    "notes": "The publisher hasn't posted a reprint or an end-of-print notice for this set. Retailer and hobby reports don't count here.",
+    "ref": "https://tcginvest.io/blog/pokemon-reprints-2026",
+    "refName": "TCGinvest, Sep 2026",
+    "checked": "2026-10"
+  },
+  {
+    "id": "pokemon-paradox-rift",
+    "game": "Pokémon",
+    "name": "Paradox Rift",
+    "code": "PAR",
+    "aliases": [
+      "Scarlet & Violet Paradox Rift"
+    ],
+    "release": "2023-11-03",
+    "status": "unknown",
+    "basis": "none",
+    "notes": "The publisher hasn't posted a reprint or an end-of-print notice for this set. Retailer and hobby reports don't count here.",
+    "ref": "https://playvault.ae/blogs/guides/pokemon-sets-going-out-of-print-2026-uae",
+    "refName": "PlayVault, Aug 2026",
+    "checked": "2026-10"
+  },
+  {
+    "id": "pokemon-paldean-fates",
+    "game": "Pokémon",
+    "name": "Paldean Fates",
+    "code": "PAF",
+    "aliases": [
+      "Scarlet & Violet Paldean Fates",
+      "Shiny set"
+    ],
+    "release": "2024-01-26",
+    "status": "unknown",
+    "basis": "none",
+    "notes": "The publisher hasn't posted a reprint or an end-of-print notice for this set. Retailer and hobby reports don't count here.",
+    "ref": "https://playvault.ae/blogs/guides/pokemon-sets-going-out-of-print-2026-uae",
+    "refName": "PlayVault, Aug 2026",
+    "checked": "2026-10"
+  },
+  {
+    "id": "pokemon-temporal-forces",
+    "game": "Pokémon",
+    "name": "Temporal Forces",
+    "code": "TEF",
+    "aliases": [
+      "Scarlet & Violet Temporal Forces"
+    ],
+    "release": "2024-03-22",
+    "status": "unknown",
+    "basis": "none",
+    "notes": "The publisher hasn't posted a reprint or an end-of-print notice for this set. Retailer and hobby reports don't count here.",
+    "ref": "https://playvault.ae/blogs/guides/pokemon-sets-going-out-of-print-2026-uae",
+    "refName": "PlayVault, Aug 2026",
+    "checked": "2026-10"
+  },
+  {
+    "id": "pokemon-twilight-masquerade",
+    "game": "Pokémon",
+    "name": "Twilight Masquerade",
+    "code": "TWM",
+    "aliases": [
+      "Scarlet & Violet Twilight Masquerade"
+    ],
+    "release": "2024-05-24",
+    "status": "unknown",
+    "basis": "none",
+    "notes": "The publisher hasn't posted a reprint or an end-of-print notice for this set. Retailer and hobby reports don't count here.",
+    "ref": "https://playvault.ae/blogs/guides/pokemon-sets-going-out-of-print-2026-uae",
+    "refName": "PlayVault, Aug 2026",
+    "checked": "2026-10"
+  },
+  {
+    "id": "pokemon-shrouded-fable",
+    "game": "Pokémon",
+    "name": "Shrouded Fable",
+    "code": "SFA",
+    "aliases": [
+      "Scarlet & Violet Shrouded Fable"
+    ],
+    "release": "2024-08-02",
+    "status": "unknown",
+    "basis": "none",
+    "notes": "The publisher hasn't posted a reprint or an end-of-print notice for this set. Retailer and hobby reports don't count here.",
+    "ref": "https://playvault.ae/blogs/guides/pokemon-sets-going-out-of-print-2026-uae",
+    "refName": "PlayVault, Aug 2026",
+    "checked": "2026-10"
+  },
+  {
+    "id": "pokemon-stellar-crown",
+    "game": "Pokémon",
+    "name": "Stellar Crown",
+    "code": "SCR",
+    "aliases": [
+      "Scarlet & Violet Stellar Crown"
+    ],
+    "release": "2024-09-13",
+    "status": "unknown",
+    "basis": "none",
+    "notes": "The publisher hasn't posted a reprint or an end-of-print notice for this set. Retailer and hobby reports don't count here.",
+    "ref": "https://playvault.ae/blogs/guides/pokemon-sets-going-out-of-print-2026-uae",
+    "refName": "PlayVault, Aug 2026",
+    "checked": "2026-10"
+  },
+  {
+    "id": "pokemon-surging-sparks",
+    "game": "Pokémon",
+    "name": "Surging Sparks",
+    "code": "SSP",
+    "aliases": [
+      "Scarlet & Violet Surging Sparks"
+    ],
+    "release": "2024-11-08",
+    "status": "unknown",
+    "basis": "none",
+    "notes": "The publisher hasn't posted a reprint or an end-of-print notice for this set. Retailer and hobby reports don't count here.",
+    "ref": "https://playvault.ae/blogs/guides/pokemon-sets-going-out-of-print-2026-uae",
+    "refName": "PlayVault, Aug 2026",
+    "checked": "2026-10"
+  },
+  {
+    "id": "pokemon-prismatic-evolutions",
+    "game": "Pokémon",
+    "name": "Prismatic Evolutions",
+    "code": "PRE",
+    "aliases": [
+      "Prismatic Evo",
+      "Scarlet & Violet Prismatic Evolutions",
+      "Eeveelution"
+    ],
+    "release": "2025-01-17",
+    "status": "in_print",
+    "basis": "official",
+    "source": "https://x.com/PokemonTCG/status/1879574273544622582/photo/1",
+    "sourceName": "The Pokémon Company (official, X)",
+    "lastPrint": "2025-03",
+    "lastPrintNote": "pokemon.com said it will continue to reprint impacted products",
+    "notes": "On January 15, 2025 the official Pokémon TCG account said it was printing more of the impacted products \"as quickly as possible and at maximum capacity.\" In March 2025 pokemon.com said it would continue to reprint them.",
+    "ref": "https://tcginvest.io/blog/pokemon-reprints-2026",
+    "refName": "TCGinvest, Sep 2026",
+    "checked": "2026-10"
+  },
+  {
+    "id": "pokemon-journey-together",
+    "game": "Pokémon",
+    "name": "Journey Together",
+    "code": "JTG",
+    "aliases": [
+      "Scarlet & Violet Journey Together"
+    ],
+    "release": "2025-03-28",
+    "status": "unknown",
+    "basis": "none",
+    "notes": "The publisher hasn't posted a reprint or an end-of-print notice for this set. Retailer and hobby reports don't count here.",
+    "ref": "https://playvault.ae/blogs/guides/pokemon-sets-going-out-of-print-2026-uae",
+    "refName": "PlayVault, Aug 2026",
+    "checked": "2026-10"
+  },
+  {
+    "id": "pokemon-destined-rivals",
+    "game": "Pokémon",
+    "name": "Destined Rivals",
+    "code": "DRI",
+    "aliases": [
+      "Scarlet & Violet Destined Rivals"
+    ],
+    "release": "2025-05-30",
+    "status": "unknown",
+    "basis": "none",
+    "notes": "The publisher hasn't posted a reprint or an end-of-print notice for this set. Retailer and hobby reports don't count here.",
+    "ref": "https://tcginvest.io/blog/pokemon-reprints-2026",
+    "refName": "TCGinvest, Sep 2026",
+    "checked": "2026-10"
+  },
+  {
+    "id": "pokemon-black-bolt",
+    "game": "Pokémon",
+    "name": "Black Bolt",
+    "code": "BLK",
+    "aliases": [
+      "Black Bolt White Flare",
+      "Scarlet & Violet Black Bolt"
+    ],
+    "release": "2025-07-18",
+    "status": "unknown",
+    "basis": "none",
+    "notes": "The publisher hasn't posted a reprint or an end-of-print notice for this set. Retailer and hobby reports don't count here.",
+    "ref": "https://playvault.ae/blogs/guides/pokemon-sets-going-out-of-print-2026-uae",
+    "refName": "PlayVault, Aug 2026",
+    "checked": "2026-10"
+  },
+  {
+    "id": "pokemon-white-flare",
+    "game": "Pokémon",
+    "name": "White Flare",
+    "code": "WHT",
+    "aliases": [
+      "Black Bolt White Flare",
+      "Scarlet & Violet White Flare"
+    ],
+    "release": "2025-07-18",
+    "status": "unknown",
+    "basis": "none",
+    "notes": "The publisher hasn't posted a reprint or an end-of-print notice for this set. Retailer and hobby reports don't count here.",
+    "ref": "https://playvault.ae/blogs/guides/pokemon-sets-going-out-of-print-2026-uae",
+    "refName": "PlayVault, Aug 2026",
+    "checked": "2026-10"
+  },
+  {
+    "id": "pokemon-mega-evolution",
+    "game": "Pokémon",
+    "name": "Mega Evolution",
+    "code": "MEG",
+    "aliases": [
+      "Mega Evolution base set"
+    ],
+    "release": "2025-09-26",
+    "status": "unknown",
+    "basis": "none",
+    "notes": "The publisher hasn't posted a reprint or an end-of-print notice for this set. Retailer and hobby reports don't count here.",
+    "ref": "https://playvault.ae/blogs/guides/pokemon-sets-going-out-of-print-2026-uae",
+    "refName": "PlayVault, Aug 2026",
+    "checked": "2026-10"
+  },
+  {
+    "id": "pokemon-phantasmal-flames",
+    "game": "Pokémon",
+    "name": "Phantasmal Flames",
+    "code": "PFL",
+    "release": "2025-11-14",
+    "status": "in_print",
+    "basis": "current",
+    "notes": "The publisher's current release, out within the last 12 months, with no end-of-print notice.",
+    "ref": "https://playvault.ae/blogs/guides/pokemon-sets-going-out-of-print-2026-uae",
+    "refName": "PlayVault, Aug 2026",
+    "checked": "2026-10"
+  },
+  {
+    "id": "pokemon-ascended-heroes",
+    "game": "Pokémon",
+    "name": "Ascended Heroes",
+    "aliases": [
+      "Mega Evolution Ascended Heroes"
+    ],
+    "release": "2026-01-30",
+    "status": "in_print",
+    "basis": "current",
+    "notes": "The publisher's current release, out within the last 12 months, with no end-of-print notice.",
+    "ref": "https://samuraiswordtokyo.com/blogs/news/pokemon-tcg-set-release-schedule-2026",
+    "refName": "Samurai Sword Tokyo, Oct 2026",
+    "checked": "2026-10"
+  },
+  {
+    "id": "pokemon-perfect-order",
+    "game": "Pokémon",
+    "name": "Perfect Order",
+    "aliases": [
+      "Mega Evolution Perfect Order"
+    ],
+    "release": "2026-03-27",
+    "status": "in_print",
+    "basis": "current",
+    "notes": "The publisher's current release, out within the last 12 months, with no end-of-print notice.",
+    "ref": "https://samuraiswordtokyo.com/blogs/news/pokemon-tcg-set-release-schedule-2026",
+    "refName": "Samurai Sword Tokyo, Oct 2026",
+    "checked": "2026-10"
+  },
+  {
+    "id": "pokemon-chaos-rising",
+    "game": "Pokémon",
+    "name": "Chaos Rising",
+    "aliases": [
+      "Mega Evolution Chaos Rising"
+    ],
+    "release": "2026-05-22",
+    "status": "in_print",
+    "basis": "current",
+    "notes": "The publisher's current release, out within the last 12 months, with no end-of-print notice.",
+    "ref": "https://samuraiswordtokyo.com/blogs/news/pokemon-tcg-set-release-schedule-2026",
+    "refName": "Samurai Sword Tokyo, Oct 2026",
+    "checked": "2026-10"
+  },
+  {
+    "id": "pokemon-pitch-black",
+    "game": "Pokémon",
+    "name": "Pitch Black",
+    "aliases": [
+      "Mega Evolution Pitch Black"
+    ],
+    "release": "2026-07-17",
+    "status": "in_print",
+    "basis": "current",
+    "notes": "The publisher's current release, out within the last 12 months, with no end-of-print notice.",
+    "ref": "https://samuraiswordtokyo.com/blogs/news/pokemon-tcg-set-release-schedule-2026",
+    "refName": "Samurai Sword Tokyo, Oct 2026",
+    "checked": "2026-10"
+  },
+  {
+    "id": "pokemon-30th-celebration",
+    "game": "Pokémon",
+    "name": "30th Celebration",
+    "aliases": [
+      "Mega Evolution 30th Celebration"
+    ],
+    "release": "2026-09-16",
+    "status": "in_print",
+    "basis": "current",
+    "notes": "The publisher's current release, out within the last 12 months, with no end-of-print notice.",
+    "ref": "https://samuraiswordtokyo.com/blogs/news/pokemon-tcg-set-release-schedule-2026",
+    "refName": "Samurai Sword Tokyo, Oct 2026",
+    "checked": "2026-10"
+  },
+  {
+    "id": "pokemon-delta-reign",
+    "game": "Pokémon",
+    "name": "Delta Reign",
+    "release": "2026-11-06",
+    "status": "in_print",
+    "basis": "current",
+    "source": "https://samuraiswordtokyo.com/blogs/news/pokemon-tcg-set-release-schedule-2026",
+    "sourceName": "Samurai Sword Tokyo, Oct 2026",
+    "notes": "Released November 6, 2026. The publisher's current release, with no end-of-print notice.",
+    "ref": "https://samuraiswordtokyo.com/blogs/news/pokemon-tcg-set-release-schedule-2026",
+    "refName": "Samurai Sword Tokyo, Oct 2026",
+    "checked": "2026-11"
+  },
+  {
+    "id": "yugioh-lob",
+    "game": "Yu-Gi-Oh!",
+    "name": "Legend of Blue Eyes White Dragon",
+    "code": "LOB",
+    "aliases": [
+      "Legend of Blue-Eyes",
+      "LOB 25th"
+    ],
+    "release": "2002-03-08",
+    "status": "unknown",
+    "basis": "none",
+    "source": "https://www.yugioh-card.com/en/products/lc_25th/",
+    "sourceName": "Konami, official product page",
+    "lastPrint": "2023-04",
+    "lastPrintNote": "Packs reprinted in Legendary Collection: 25th Anniversary Edition",
+    "notes": "Konami brought these packs back in Legendary Collection: 25th Anniversary Edition (April 2023). Konami hasn't said whether it will print them again.",
+    "ref": "https://yugipedia.com/wiki/Legend_of_Blue_Eyes_White_Dragon_(25th_Anniversary_Edition)",
+    "refName": "Yugipedia: Legend of Blue Eyes White Dragon",
+    "checked": "2026-10"
+  },
+  {
+    "id": "yugioh-mrd",
+    "game": "Yu-Gi-Oh!",
+    "name": "Metal Raiders",
+    "code": "MRD",
+    "release": "2002-06-26",
+    "status": "unknown",
+    "basis": "none",
+    "source": "https://www.yugioh-card.com/en/products/lc_25th/",
+    "sourceName": "Konami, official product page",
+    "lastPrint": "2023-04",
+    "lastPrintNote": "Packs reprinted in Legendary Collection: 25th Anniversary Edition",
+    "notes": "Konami brought these packs back in Legendary Collection: 25th Anniversary Edition (April 2023). Konami hasn't said whether it will print them again.",
+    "ref": "https://yugipedia.com/wiki/Legend_of_Blue_Eyes_White_Dragon_(25th_Anniversary_Edition)",
+    "refName": "Yugipedia: Legend of Blue Eyes White Dragon",
+    "checked": "2026-10"
+  },
+  {
+    "id": "yugioh-srl",
+    "game": "Yu-Gi-Oh!",
+    "name": "Spell Ruler",
+    "code": "SRL",
+    "aliases": [
+      "Magic Ruler"
+    ],
+    "release": "2002-09-16",
+    "status": "unknown",
+    "basis": "none",
+    "source": "https://www.yugioh-card.com/en/products/lc_25th/",
+    "sourceName": "Konami, official product page",
+    "lastPrint": "2023-04",
+    "lastPrintNote": "Packs reprinted in Legendary Collection: 25th Anniversary Edition",
+    "notes": "Konami brought these packs back in Legendary Collection: 25th Anniversary Edition (April 2023). Konami hasn't said whether it will print them again.",
+    "ref": "https://yugipedia.com/wiki/Legend_of_Blue_Eyes_White_Dragon_(25th_Anniversary_Edition)",
+    "refName": "Yugipedia: Legend of Blue Eyes White Dragon",
+    "checked": "2026-10"
+  },
+  {
+    "id": "yugioh-psv",
+    "game": "Yu-Gi-Oh!",
+    "name": "Pharaoh's Servant",
+    "code": "PSV",
+    "aliases": [
+      "Pharaohs Servant"
+    ],
+    "release": "2002-10-20",
+    "status": "unknown",
+    "basis": "none",
+    "source": "https://www.yugioh-card.com/en/products/lc_25th/",
+    "sourceName": "Konami, official product page",
+    "lastPrint": "2023-04",
+    "lastPrintNote": "Packs reprinted in Legendary Collection: 25th Anniversary Edition",
+    "notes": "Konami brought these packs back in Legendary Collection: 25th Anniversary Edition (April 2023). Konami hasn't said whether it will print them again.",
+    "ref": "https://yugipedia.com/wiki/Legend_of_Blue_Eyes_White_Dragon_(25th_Anniversary_Edition)",
+    "refName": "Yugipedia: Legend of Blue Eyes White Dragon",
+    "checked": "2026-10"
+  },
+  {
+    "id": "yugioh-lc25",
+    "game": "Yu-Gi-Oh!",
+    "name": "Legendary Collection: 25th Anniversary Edition",
+    "code": "LC25",
+    "aliases": [
+      "Legendary Collection 25th"
+    ],
+    "release": "2023-04-21",
+    "status": "unknown",
+    "basis": "none",
+    "source": "https://www.yugioh-card.com/en/products/lc_25th/",
+    "sourceName": "Konami, official product page",
+    "lastPrint": "2023-04",
+    "lastPrintNote": "Launch",
+    "notes": "Collector's set with six classic booster packs. Konami hasn't posted a reprint or end-of-print notice since launch.",
+    "ref": "https://www.yugioh-card.com/en/products/lc_25th/",
+    "refName": "Konami, official product page",
+    "checked": "2026-10"
+  }
+]

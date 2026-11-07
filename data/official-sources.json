@@ -1,0 +1,36 @@
+{
+  "_about": "Only these publisher-owned sites and accounts can back an Official status. 'prefixes' are URL starts that validate.mjs accepts as an official source. 'watch' pages are checked by watch-news.mjs for reprint and print-run news.",
+  "publishers": [
+    {
+      "game": "Pokémon",
+      "publisher": "The Pokémon Company International",
+      "prefixes": ["https://www.pokemon.com/", "https://pokemon.com/", "https://corporate.pokemon.co.jp/", "https://www.pokemon.co.jp/", "https://x.com/PokemonTCG/", "https://twitter.com/PokemonTCG/"],
+      "watch": ["https://www.pokemon.com/us/pokemon-news"]
+    },
+    {
+      "game": "Magic: The Gathering",
+      "publisher": "Wizards of the Coast",
+      "prefixes": ["https://magic.wizards.com/", "https://company.wizards.com/", "https://gatherer.wizards.com/", "https://x.com/wizards_magic/", "https://twitter.com/wizards_magic/"],
+      "watch": ["https://magic.wizards.com/en/news"]
+    },
+    {
+      "game": "Disney Lorcana",
+      "publisher": "Ravensburger",
+      "prefixes": ["https://www.disneylorcana.com/", "https://disneylorcana.com/", "https://www.ravensburger.us/", "https://www.ravensburger.com/", "https://x.com/DisneyLorcana/", "https://twitter.com/DisneyLorcana/"],
+      "watch": ["https://www.disneylorcana.com/en-US/news"]
+    },
+    {
+      "game": "One Piece Card Game",
+      "publisher": "Bandai",
+      "prefixes": ["https://en.onepiece-cardgame.com/", "https://www.onepiece-cardgame.com/", "https://x.com/ONEPIECE_tcg_EN/", "https://twitter.com/ONEPIECE_tcg_EN/"],
+      "watch": ["https://en.onepiece-cardgame.com/topics/"]
+    },
+    {
+      "game": "Yu-Gi-Oh!",
+      "publisher": "Konami",
+      "prefixes": ["https://www.yugioh-card.com/", "https://yugioh-card.com/", "https://www.konami.com/", "https://x.com/YuGiOh_TCG/", "https://twitter.com/YuGiOh_TCG/"],
+      "watch": ["https://www.yugioh-card.com/en/news/"]
+    }
+  ],
+  "newsKeywords": ["reprint", "restock", "out of print", "end of print", "discontinu", "print run", "printing more", "back in stock", "while supplies last"]
+}

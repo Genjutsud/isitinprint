@@ -1,0 +1,30 @@
+name: Report official print news
+description: A publisher posted about a reprint, restock or end of print.
+labels: [print-news]
+body:
+  - type: input
+    id: set
+    attributes:
+      label: Set
+      placeholder: Prismatic Evolutions
+    validations:
+      required: true
+  - type: dropdown
+    id: game
+    attributes:
+      label: Game
+      options: ["Pokémon", "Magic: The Gathering", "Disney Lorcana", "One Piece Card Game", "Yu-Gi-Oh!", "Other"]
+    validations:
+      required: true
+  - type: input
+    id: link
+    attributes:
+      label: Link to the publisher's own post
+      description: Retailer listings, videos and rumors can't change a status.
+      placeholder: https://www.pokemon.com/…
+    validations:
+      required: true
+  - type: textarea
+    id: said
+    attributes:
+      label: What the post says

@@ -1,0 +1,5 @@
+[
+ {"set_name":"Phantom Example Booster","set_code":"PHEX","num_of_cards":100,"tcg_date":"2026-10-01"},
+ {"set_name":"2026 Example Mega Tin","set_code":"MP26","num_of_cards":200,"tcg_date":"2026-09-01"},
+ {"set_name":"Small Example Pack","set_code":"SEP","num_of_cards":10,"tcg_date":"2026-09-01"}
+]

@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>IsItInPrint</title>
+<meta name="description" content="Search any trading card set and see whether it's still in print, based only on official publisher news.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600&family=IBM+Plex+Mono:wght@400;500&family=Pixelify+Sans:wght@400..700&display=swap">
+<link rel="stylesheet" href="styles.css">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect x='.5' y='.5' width='15' height='15' fill='none' stroke='%2312161d'/%3E%3Crect x='5' y='5' width='6' height='6' fill='%232b59ff'/%3E%3C/svg%3E">
+</head>
+<body>
+<div class="wrap">
+  <header class="mast">
+    <a class="brand" href="#top" id="top"><span class="mark" aria-hidden="true"></span><span>IsItIn<b>Print</b></span></a>
+    <div class="meta" id="mastMeta">Official print status</div>
+  </header>
+
+  <div class="ask">
+    <h1>Is it still <em>in print?</em></h1>
+    <div class="console">
+      <div class="combo">
+        <label class="search" for="q">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+          <input id="q" type="text" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="suggest"
+            placeholder="Set name or code: Base Set, Alpha, OP-05" autocomplete="off" spellcheck="false">
+          <button class="clear" id="clearQ" type="button" hidden>Clear</button>
+        </label>
+        <ul class="suggest" id="suggest" role="listbox" aria-label="Matching sets" hidden></ul>
+      </div>
+      <div class="cells" id="gameCells" role="group" aria-label="Filter by game"></div>
+      <div class="cells" id="statusCells" role="group" aria-label="Filter by status"></div>
+      <div class="cells tally" id="tally" aria-label="Totals"></div>
+    </div>
+    <p class="hint">Tap several games or statuses to combine them. Archived sets for the games you pick always show at the bottom.</p>
+    <div id="banner"></div>
+    <div id="answer"></div>
+  </div>
+
+  <section class="ledger" aria-labelledby="h-current">
+    <div class="ledger-head"><h2 id="h-current">In print <span class="count" id="n-current"></span></h2><p>Current releases, official reprints, announced sets</p></div>
+    <ul class="rows" id="current"><li class="empty">Loading sets…</li></ul>
+  </section>
+
+  <section class="ledger" aria-labelledby="h-quiet">
+    <div class="ledger-head"><h2 id="h-quiet">No official word <span class="count" id="n-quiet"></span></h2><p>Publisher hasn't posted about these</p></div>
+    <ul class="rows" id="quiet"><li class="empty">Loading sets…</li></ul>
+  </section>
+
+  <section class="ledger" aria-labelledby="h-archive">
+    <div class="ledger-head"><h2 id="h-archive">Archive <span id="archiveGame"></span> <span class="count" id="n-archive"></span></h2><p>Out of print, with last known print run</p></div>
+    <ul class="rows" id="archive"><li class="empty">Loading sets…</li></ul>
+  </section>
+
+  <section class="method" aria-labelledby="h-method">
+    <h2 id="h-method">How a status is decided</h2>
+    <dl>
+      <dt><span class="basis official">Official</span></dt><dd>The publisher posted it on its own site or official social account: a reprint, a restock, an end-of-print notice, or a reprint policy that rules the set out.</dd>
+      <dt><span class="basis current">Current release</span></dt><dd>The publisher released the set within the last 12 months and hasn't posted an end-of-print notice.</dd>
+      <dt><span class="basis historical">Historical record</span></dt><dd>The set's publisher no longer makes the game, so the set can't be printed again in that form.</dd>
+      <dt><span class="basis none">No official word</span></dt><dd>The publisher hasn't said anything. Retailer listings, rumors and influencer reports never change a status here.</dd>
+    </dl>
+    <p>Statuses change only when The Pokémon Company, Wizards of the Coast, Ravensburger, Bandai or Konami post news. "Last known print" is the most recent print run the publisher confirmed, or the year printing ended.</p>
+  </section>
+
+  <footer class="foot-site">
+    <span>IsItInPrint is open source. Data in <a href="data/sets.json">data/sets.json</a>.</span>
+    <a id="repoLink" href="https://github.com/">View on GitHub</a>
+  </footer>
+</div>
+<script src="app.js"></script>
+</body>
+</html>

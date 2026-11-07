@@ -1,0 +1,5 @@
+node_modules/
+dist/
+.changes.md
+.news.md
+.DS_Store

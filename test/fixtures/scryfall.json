@@ -1,0 +1,7 @@
+{"data":[
+ {"code":"str","name":"Star Trek","set_type":"expansion","released_at":"2026-11-11","digital":false},
+ {"code":"zzz","name":"Zendikar Example","set_type":"expansion","released_at":"2026-09-01","digital":false},
+ {"code":"tzzz","name":"Zendikar Example Tokens","set_type":"token","released_at":"2026-09-01","digital":false,"parent_set_code":"zzz"},
+ {"code":"yzz","name":"Alchemy: Example","set_type":"alchemy","released_at":"2026-09-10","digital":true},
+ {"code":"czz","name":"Example Commander","set_type":"commander","released_at":"2026-09-01","digital":false}
+]}

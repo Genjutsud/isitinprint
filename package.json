@@ -1,0 +1,17 @@
+{
+  "name": "isitinprint",
+  "version": "1.0.0",
+  "description": "Search any trading card set and see whether it's still in print, based only on official publisher news.",
+  "type": "module",
+  "private": true,
+  "license": "MIT",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "update": "node scripts/update.mjs",
+    "watch-news": "node scripts/watch-news.mjs",
+    "validate": "node scripts/validate.mjs",
+    "test": "node --test",
+    "build": "node scripts/build.mjs"
+  }
+}
