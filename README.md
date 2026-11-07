@@ -7,7 +7,7 @@ Covers Pokémon, Magic: The Gathering, Disney Lorcana, One Piece Card Game and Y
 - **Live search:** suggestions as you type, matched on set name, code or nickname (for example "PRE", "Alpha" or "OP-05").
 - **Multi-select filters:** pick any mix of games and statuses.
 - **Archive:** out-of-print sets for the games you pick, with the last known print run.
-- **Set images:** linked from Wikipedia, never copied into the repo.
+- **Set images:** linked from Wikipedia, or from the set's logo in a community set list. Nothing is copied into the repo.
 - **No server:** one static page plus a JSON file. Hosts free on GitHub Pages.
 
 ## How a status is decided
@@ -53,13 +53,23 @@ Two scheduled jobs in [`.github/workflows/update.yml`](.github/workflows/update.
 
 - **New sets** are found in free community set lists (pokemontcg.io, Scryfall, YGOPRODeck, Lorcast). They're added as Coming soon, In print (current release) or No official word, never as an official status.
 - **Date rules:** sets flip to In print on release day and move to No official word 12 months later, unless the publisher has said more.
-- **Images:** each set without one gets a Wikipedia lead image, but only when the page names the right game. Only the link is stored.
+- **Images:** each set without one gets a Wikipedia lead image, but only when the page names the right game. When Wikipedia has nothing, it uses the set's logo from pokemontcg.io or its symbol from Scryfall. Only the link is stored, and the site loads the picture straight from that host. Up to 40 sets are tried each day, and Wikipedia is asked again every six months.
 
 Nothing merges on its own. You review the PR, check new names and dates, then merge, and the site redeploys.
 
-**2. Official news watch → issue**
+**2. Official news scraper → pull request**
 
-`scripts/watch-news.mjs` reads each publisher's news page from `data/official-sources.json` and opens an issue listing new posts that mention reprints, restocks or print runs. Read the post, update the set in `data/sets.json` with the post as its `source`, and open a PR.
+`scripts/watch-news.mjs` reads each publisher's news page from `data/official-sources.json` and finds new posts that mention reprints, restocks or the end of printing. For each one it:
+
+1. checks the post is on the publisher's own site,
+2. reads the full post and works out which tracked sets it names,
+3. drafts the change: **In print** for a reprint or restock, **Out of print** for an end-of-print notice, both with the post as the official source and this month as the last known print.
+
+Drafted changes arrive as a **"Official print news: drafted changes"** pull request. Posts that don't name a set clearly enough go into an issue to read by hand. Each post is handled once, and up to 15 posts are read per run.
+
+The scraper only matches words, so it can misread a post. That's why it drafts instead of publishing: open each linked post and confirm it says what the draft says before you merge.
+
+Try it locally without changing anything: `node scripts/watch-news.mjs --dry-run`.
 
 Optional: add a `POKEMONTCG_API_KEY` repository secret (free from pokemontcg.io) for higher rate limits.
 
@@ -117,7 +127,7 @@ test/        node:test suites with API-shaped fixtures
 
 - **One Piece Card Game** has no community set-list adapter yet, so new One Piece sets are added by hand. `scripts/sources/index.mjs` is the place to add one.
 - **News pages:** some publisher news pages render with JavaScript and show no links to a simple fetch. The watcher reports those as unreadable. Swapping in an RSS feed or a different page URL in `official-sources.json` fixes it.
-- **Images:** most individual sets don't have their own Wikipedia page, so many will stay as placeholders. Set logos and box art belong to their publishers. Wikipedia often shows them under fair use, so check that linking them suits your site.
+- **Images:** most individual sets don't have their own Wikipedia page, so most images will come from the Pokémon and Magic set lists. Lorcana, One Piece and Yu-Gi-Oh! sets without a Wikipedia page stay as placeholders until an image source is added for them in `scripts/sources/index.mjs`. Set logos and box art belong to their publishers. Wikipedia often shows them under fair use, so check that linking them suits your site.
 
 ## Contributing
 

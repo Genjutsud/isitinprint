@@ -61,24 +61,42 @@ jobs:
         with:
           node-version: 22
 
-      - name: Check official news pages for print news
+      - name: Read official news and draft changes
         run: npm run watch-news
 
-      - name: Open an issue for new posts
+      - name: Check the drafted data
+        run: npm run validate
+
+      # Saved first, so the pull request below starts from a clean base.
+      - name: Remember which posts were handled
+        run: |
+          if [ -n "$(git status --porcelain data/seen-news.json)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add data/seen-news.json
+            git commit -m "Record handled news posts"
+            git push
+          fi
+
+      - name: Open a pull request with drafted changes
+        if: hashFiles('.news-drafted') != ''
+        id: newspr
+        uses: peter-evans/create-pull-request@v7
+        with:
+          branch: bot/news-update
+          delete-branch: true
+          add-paths: data/sets.json
+          commit-message: "Draft status changes from official news"
+          title: "Official print news: drafted changes"
+          body-path: .news.md
+          labels: print-news
+
+      - name: Open an issue for posts to read by hand
+        if: steps.newspr.outcome != 'success'
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
           if [ -s .news.md ]; then
             gh issue create --title "Official print news to review ($(date -u +%Y-%m-%d))" --body-file .news.md --label print-news || \
             gh issue create --title "Official print news to review ($(date -u +%Y-%m-%d))" --body-file .news.md
-          fi
-
-      - name: Remember which posts were reported
-        run: |
-          if [ -n "$(git status --porcelain data/seen-news.json)" ]; then
-            git config user.name "github-actions[bot]"
-            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add data/seen-news.json
-            git commit -m "Record reported news posts"
-            git push
           fi

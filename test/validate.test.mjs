@@ -31,3 +31,9 @@ test("duplicate ids and bad dates are caught", () => {
   assert.ok(problems.some(p => /duplicate id/.test(p)));
   assert.ok(problems.some(p => /release must be/.test(p)));
 });
+
+test("images must be linked from an allowed host, never stored", () => {
+  assert.deepEqual(validateSets([{ ...good, imageUrl: "https://upload.wikimedia.org/x.png" }], official), []);
+  const problems = validateSets([{ ...good, imageUrl: "https://example.com/x.png" }], official);
+  assert.match(problems[0], /imageUrl must link/);
+});

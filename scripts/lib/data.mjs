@@ -11,7 +11,7 @@ export const BASES = ["official", "current", "historical", "announced", "none"];
 
 // Field order used when writing sets.json, so diffs stay small and readable.
 const FIELD_ORDER = ["id", "game", "name", "code", "aliases", "release", "status", "basis", "source", "sourceName",
-  "lastPrint", "lastPrintNote", "notes", "ref", "refName", "imageUrl", "imageCredit", "wikiTitle", "checked"];
+  "lastPrint", "lastPrintNote", "notes", "ref", "refName", "imageUrl", "imageCredit", "wikiTitle", "wikiChecked", "noImage", "checked"];
 
 export async function readJSON(file) {
   return JSON.parse(await readFile(file, "utf8"));

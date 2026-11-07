@@ -1,5 +1,6 @@
 // Checks every set against the data rules. Returns a list of problems; empty means valid.
 import { STATUSES, BASES } from "./data.mjs";
+import { IMAGE_HOSTS } from "../sources/index.mjs";
 
 const DATE = /^\d{4}(-\d{2}(-\d{2})?)?$/;
 const ID = /^[a-z0-9]+(-[a-z0-9]+)*$/;
@@ -34,6 +35,8 @@ export function validateSets(sets, official) {
     for (const f of ["source", "ref", "imageUrl", "imageCredit"]) {
       if (s[f] && !/^https:\/\//.test(s[f])) bad(`${f} must be an https:// link`);
     }
+
+    if (s.imageUrl && !IMAGE_HOSTS.some(h => s.imageUrl.startsWith(h))) bad(`imageUrl must link to one of ${IMAGE_HOSTS.join(", ")} (images are linked, never stored)`);
 
     // The core rule: an Official status must point at the publisher's own site or account.
     if (s.basis === "official") {

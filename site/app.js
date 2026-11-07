@@ -1,10 +1,12 @@
 // IsItInPrint: static front end. Reads data/sets.json; no server needed.
 // Set this to your repository so the footer links to it.
-const REPO_URL = "https://github.com/Genjutsud/isitinprint";
+const REPO_URL = "https://github.com/YOUR-NAME/isitinprint";
+// Image hosts the site links to (keep in step with scripts/sources/index.mjs).
+const IMAGE_HOSTS = ["https://upload.wikimedia.org/", "https://images.pokemontcg.io/", "https://svgs.scryfall.io/"];
 
 (function(){
   const S = { sets: [], loaded: false, noDb: false, q: "", games: new Set(), statuses: new Set(),
-    picked: null, active: -1, open: false, showAll: { current: false, quiet: false, archive: false } };
+    picked: null, active: -1, open: false, showAll: { current: false } };
   const $ = id => document.getElementById(id);
   const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({ "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;" }[c]));
   const MONTHS = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
@@ -98,10 +100,15 @@ const REPO_URL = "https://github.com/Genjutsud/isitinprint";
 
   // ---------- set art ----------
   function artHTML(s){
-    // Images are linked from Wikimedia, never copied. Only upload.wikimedia.org links are shown.
-    if (/^https:\/\/upload\.wikimedia\.org\//.test(s.imageUrl || "")) {
-      const credit = /^https:\/\//.test(s.imageCredit || "") ? `<a class="credit" href="${esc(s.imageCredit)}" target="_blank" rel="noopener" title="Image from Wikipedia">W</a>` : "";
-      return `<div class="art"><img src="${esc(s.imageUrl)}" alt="${esc(s.name)} set image" loading="lazy" referrerpolicy="no-referrer" onerror="this.parentNode.classList.add('ph');this.remove()">${credit}</div>`;
+    // Images are linked straight from their source, never copied. Only these hosts are shown.
+    const url = String(s.imageUrl || "");
+    const host = IMAGE_HOSTS.find(h => url.startsWith(h));
+    if (host) {
+      const wiki = host.includes("wikimedia");
+      const credit = /^https:\/\//.test(s.imageCredit || "")
+        ? `<a class="credit" href="${esc(s.imageCredit)}" target="_blank" rel="noopener" title="${wiki ? "Image from Wikipedia" : "Image source"}">${wiki ? "W" : "src"}</a>` : "";
+      const icon = host.includes("scryfall") ? " icon" : ""; // Scryfall symbols are black line art
+      return `<div class="art${icon}"><img src="${esc(url)}" alt="${esc(s.name)} set image" loading="lazy" referrerpolicy="no-referrer" onerror="this.parentNode.classList.add('ph');this.remove()">${credit}</div>`;
     }
     return `<div class="art ph" aria-hidden="true"><span>${esc(s.code || "Image")}</span></div>`;
   }
@@ -136,15 +143,21 @@ const REPO_URL = "https://github.com/Genjutsud/isitinprint";
   // ---------- ledgers ----------
   function rowHTML(s){
     const x = st(s);
-    const showLast = s.status === "out_of_print" || (s.status === "unknown" && s.lastPrint);
-    const when = showLast ? `<span class="lbl">Last known print</span><span class="val">${esc(fmt(s.lastPrint) || "Unknown")}</span>`
-                          : `<span class="lbl">Released</span><span class="val">${esc(fmt(s.release) || "TBA")}</span>`;
+    const past = s.status === "out_of_print" || s.status === "unknown";
+    const when = past
+      ? `<span class="lbl">Last known print</span><span class="val">${esc(fmt(s.lastPrint) || "Not documented")}</span>${s.release ? `<span class="lbl rel">Released ${esc(fmt(s.release))}</span>` : ""}`
+      : `<span class="lbl">Released</span><span class="val">${esc(fmt(s.release) || "TBA")}</span>`;
+    let host = ""; try { host = s.source ? new URL(s.source).hostname.replace(/^www\./, "") : ""; } catch(_){}
+    // A source link shows only when it backs the status (or a past set's last print), not for release-date references.
+    const src = /^https:\/\//.test(s.source || "") && (past || s.basis === "official" || s.basis === "historical")
+      ? `<a class="srclink" href="${esc(s.source)}" target="_blank" rel="noopener" title="${esc(s.sourceName || host)}">Source: ${esc(s.sourceName || host)}</a>`
+      : (past ? `<span>No official post yet</span>` : "");
     return `<li class="row">
       ${artHTML(s)}
       <div class="stamp ${x.cls}" role="img" aria-label="${x.label}">${x.short}</div>
       <div class="info">
         <h3><a href="#${esc(s.id)}" data-pick="${esc(s.id)}">${esc(s.name)}</a></h3>
-        <div class="sub"><span>${esc(SHORT[s.game] || s.game)}</span>${s.code ? `<span>${esc(s.code)}</span>` : ""}${s.basis ? `<span class="basis ${esc(s.basis)}">${BASIS[s.basis]||esc(s.basis)}</span>` : ""}</div>
+        <div class="sub"><span>${esc(SHORT[s.game] || s.game)}</span>${s.code ? `<span>${esc(s.code)}</span>` : ""}${s.basis ? `<span class="basis ${esc(s.basis)}">${BASIS[s.basis]||esc(s.basis)}</span>` : ""}${src}</div>
       </div>
       <div class="when">${when}</div>
     </li>`;
@@ -157,6 +170,24 @@ const REPO_URL = "https://github.com/Genjutsud/isitinprint";
       (list.length > LIMIT ? `<li class="more"><button class="btn" type="button" data-more="${key}">${all ? "Show fewer" : `Show all ${list.length}`}</button></li>` : "")
       : `<li class="empty">${emptyMsg}</li>`;
   }
+  function renderArchive(list, emptyMsg){
+    $("n-archive").textContent = S.loaded ? String(list.length).padStart(2, "0") : "";
+    if (!list.length){ $("archive").innerHTML = `<li class="empty">${emptyMsg}</li>`; return; }
+    const byGame = {};
+    for (const s of list) (byGame[s.game] = byGame[s.game] || []).push(s);
+    const newest = (a,b) => String(b.release||"").localeCompare(String(a.release||"")) || a.name.localeCompare(b.name);
+    $("archive").innerHTML = Object.keys(byGame).sort().map(g => {
+      const rows = byGame[g].sort(newest), key = "arc:" + g, all = S.showAll[key];
+      const shown = all ? rows : rows.slice(0, LIMIT);
+      const out = rows.filter(s => s.status === "out_of_print").length;
+      const years = rows.map(s => String(s.release||"").slice(0,4)).filter(Boolean).sort();
+      const span = years.length ? (years[0] === years[years.length-1] ? years[0] : `${years[0]}–${years[years.length-1]}`) : "";
+      return `<li class="group"><span class="g">${esc(g)}</span><span class="c">${rows.length} past set${rows.length === 1 ? "" : "s"} · ${out} out of print${span ? " · " + span : ""}</span></li>` +
+        shown.map(rowHTML).join("") +
+        (rows.length > LIMIT ? `<li class="more"><button class="btn" type="button" data-more="${esc(key)}">${all ? "Show fewer" : `Show all ${rows.length} ${esc(SHORT[g] || g)} sets`}</button></li>` : "");
+    }).join("");
+  }
+
   function render(){
     const games = [...new Set(S.sets.map(s => s.game).filter(Boolean))].sort();
     const on = (set, v) => v === "all" ? set.size === 0 : set.has(v);
@@ -178,13 +209,15 @@ const REPO_URL = "https://github.com/Genjutsud/isitinprint";
     const v = S.sets.filter(s => gameOk(s) && (S.statuses.size === 0 || S.statuses.has(s.status)));
     const byRel = (a,b) => String(b.release||"").localeCompare(String(a.release||""));
     const cur = v.filter(s => s.status === "in_print" || s.status === "upcoming").sort((a,b) => (a.status==="upcoming"?0:1)-(b.status==="upcoming"?0:1) || byRel(a,b));
-    const quiet = v.filter(s => s.status === "unknown").sort(byRel);
-    const arc = S.sets.filter(s => s.status === "out_of_print" && gameOk(s)).sort((a,b) => String(b.lastPrint||"").localeCompare(String(a.lastPrint||"")) || byRel(a,b));
+    // Archive: every past set (officially out of print, or no official word since release), grouped by game.
+    // It always follows the game picks; it narrows by status only when Out of print or No official word is picked.
+    const arcStatuses = [...S.statuses].filter(x => x === "out_of_print" || x === "unknown");
+    const arc = S.sets.filter(s => gameOk(s) && (arcStatuses.length ? arcStatuses.includes(s.status) : (s.status === "out_of_print" || s.status === "unknown")));
     const emptyMsg = !S.loaded ? (S.noDb ? "Set list unavailable in this view." : "Loading sets…")
       : S.sets.length === 0 ? "No sets have been published yet." : "Nothing here with these filters.";
-    ledger("current", cur, emptyMsg); ledger("quiet", quiet, emptyMsg);
+    ledger("current", cur, emptyMsg);
     const picked = [...S.games].sort().map(g => SHORT[g] || g);
-    ledger("archive", arc, S.loaded && picked.length ? `None of the selected games has a set that's officially out of print yet.` : emptyMsg);
+    renderArchive(arc, S.loaded && S.sets.length ? "No past sets for the selected games and statuses." : emptyMsg);
     $("archiveGame").textContent = picked.length ? "· " + picked.join(", ") : "";
     $("clearQ").hidden = !S.q;
   }

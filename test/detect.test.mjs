@@ -49,3 +49,10 @@ test("old catalog sets aren't backfilled unless asked", async () => {
   assert.equal(addNewSets([], found, { now }).added.length, 0);
   assert.equal(addNewSets([], found, { now, lookbackDays: 365 * 30 }).added[0].status, "unknown");
 });
+
+test("set lists carry hotlinkable logos for the image fallback", async () => {
+  const p = parsePokemon(await fx("pokemontcg")).find(s => s.name === "Delta Reign");
+  assert.equal(p.logo, "https://images.pokemontcg.io/me5/logo.png");
+  const m = parseScryfall(await fx("scryfall")).find(s => s.code === "STR");
+  assert.equal(m.logo, "https://svgs.scryfall.io/sets/str.svg");
+});

@@ -8,26 +8,31 @@
 //   node scripts/update.mjs --since 1999-01-01 --only "Pokémon"   # one-off backfill
 import { writeFile } from "node:fs/promises";
 import path from "node:path";
-import { loadSets, saveSets, ROOT } from "./lib/data.mjs";
+import { loadSets, saveSets, ROOT, monthsAgo } from "./lib/data.mjs";
 import { applyRules } from "./lib/rules.mjs";
 import { addNewSets, LOOKBACK_DAYS } from "./lib/detect.mjs";
 import { findImage } from "./lib/images.mjs";
-import { fetchAll } from "./sources/index.mjs";
+import { findMatch } from "./lib/data.mjs";
+import { fetchAll, IMAGE_HOSTS } from "./sources/index.mjs";
 
 const args = process.argv.slice(2);
 const flag = f => args.includes(f);
 const opt = f => { const i = args.indexOf(f); return i >= 0 ? args[i + 1] : undefined; };
 
 const now = new Date();
+const month = now.toISOString().slice(0, 7);
 let sets = await loadSets();
 const lines = [];
 const warnings = [];
 
+let found = [];
 if (!flag("--no-detect")) {
   const only = opt("--only") ? [opt("--only")] : undefined;
   const since = opt("--since");
   const lookbackDays = since ? Math.ceil((now - new Date(since + "T00:00:00Z")) / 864e5) : LOOKBACK_DAYS;
-  const { found, errors } = await fetchAll({ only });
+  const res0 = await fetchAll({ only });
+  found = res0.found;
+  const errors = res0.errors;
   warnings.push(...errors.map(e => `Couldn't read a set list: ${e}`));
   const res = addNewSets(sets, found, { now, lookbackDays });
   sets = res.sets;
@@ -47,17 +52,25 @@ if (rules.changes.length) {
 }
 
 if (!flag("--no-images")) {
-  const missing = sets.filter(s => !s.imageUrl && !s.noImage);
+  // Wikipedia first. When it has nothing, use the set logo from the community set list.
   const limit = Number(opt("--image-limit") || 40); // stay well inside Wikipedia's polite-use limits
-  const found = [];
-  for (const s of missing.slice(0, limit)) {
+  const wiki = [], logos = [];
+  for (const s of sets.filter(s => !s.imageUrl && !s.noImage && !s.wikiChecked).slice(0, limit)) {
     const img = await findImage(s);
-    if (img) { Object.assign(s, img); found.push(s); }
+    if (img) { Object.assign(s, img); wiki.push(s); }
+    else s.wikiChecked = month; // don't ask Wikipedia again for a while
     await new Promise(r => setTimeout(r, 200));
   }
-  if (found.length) {
-    lines.push(`### Images found on Wikipedia (${found.length})`, "", "Linked, not copied. Check each one shows the right set.", "");
-    for (const s of found) lines.push(`- **${s.name}**: [page](${s.imageCredit}) · [image](${s.imageUrl})`);
+  for (const s of sets.filter(s => !s.imageUrl && !s.noImage)) {
+    const hit = found.find(f => f.logo && IMAGE_HOSTS.some(h => f.logo.startsWith(h)) && findMatch([s], f));
+    if (hit) { s.imageUrl = hit.logo; s.imageCredit = hit.logoPage; logos.push(s); }
+  }
+  // Ask Wikipedia again after six months, in case a page has been written since.
+  for (const s of sets) if (s.wikiChecked && s.wikiChecked < monthsAgo(now.toISOString().slice(0, 10), 6).slice(0, 7)) delete s.wikiChecked;
+  if (wiki.length || logos.length) {
+    lines.push(`### Images (${wiki.length + logos.length})`, "", "Linked, not copied. Check each one shows the right set.", "");
+    for (const s of wiki) lines.push(`- **${s.name}**: Wikipedia [page](${s.imageCredit}) · [image](${s.imageUrl})`);
+    for (const s of logos) lines.push(`- **${s.name}**: set logo from [${new URL(s.imageCredit).hostname}](${s.imageCredit}) · [image](${s.imageUrl})`);
     lines.push("");
   }
 }

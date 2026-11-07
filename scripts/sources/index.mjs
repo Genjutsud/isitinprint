@@ -1,5 +1,6 @@
 // Community set lists used only to DISCOVER new sets. They never change a set's print status.
-// Each adapter returns [{ game, name, code, release, ref, refName }].
+// Each adapter returns [{ game, name, code, release, ref, refName, logo?, logoPage? }].
+// "logo" is a hotlinkable set logo or symbol, used when Wikipedia has no image.
 import { fetchJSON, fullDate } from "../lib/data.mjs";
 
 const POKEMON_SKIP = /promo|trainer kit|mcdonald|energies|futsal|world championships|pop series|best of game/i;
@@ -11,6 +12,7 @@ export function parsePokemon(json) {
     .map(s => ({
       game: "Pokémon", name: s.name, code: s.ptcgoCode || "", release: fullDate(s.releaseDate),
       ref: `https://pokemontcg.io/`, refName: "Pokémon TCG API (community)",
+      logo: s.images?.logo || "", logoPage: "https://pokemontcg.io/",
     }));
 }
 
@@ -21,6 +23,7 @@ export function parseScryfall(json) {
     .map(s => ({
       game: "Magic: The Gathering", name: s.name, code: String(s.code || "").toUpperCase(), release: s.released_at || "",
       ref: `https://scryfall.com/sets/${s.code}`, refName: "Scryfall (community)",
+      logo: s.icon_svg_uri || "", logoPage: `https://scryfall.com/sets/${s.code}`,
     }));
 }
 
@@ -51,6 +54,9 @@ export const SOURCES = [
   { game: "Yu-Gi-Oh!", url: "https://db.ygoprodeck.com/api/v7/cardsets.php", parse: parseYugioh },
   { game: "Disney Lorcana", url: "https://api.lorcast.com/v0/sets", parse: parseLorcast },
 ];
+
+// Image hosts the site is allowed to link to. Images are never copied, only linked.
+export const IMAGE_HOSTS = ["https://upload.wikimedia.org/", "https://images.pokemontcg.io/", "https://svgs.scryfall.io/"];
 
 export async function fetchAll({ only } = {}) {
   const found = [], errors = [];
