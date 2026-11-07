@@ -1,6 +1,6 @@
 // IsItInPrint: static front end. Reads data/sets.json; no server needed.
 // Set this to your repository so the footer links to it.
-const REPO_URL = "https://github.com/YOUR-NAME/isitinprint";
+const REPO_URL = "https://github.com/Genjutsud/isitinprint";
 
 (function(){
   const S = { sets: [], loaded: false, noDb: false, q: "", games: new Set(), statuses: new Set(),
