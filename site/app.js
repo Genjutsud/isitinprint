@@ -1,6 +1,6 @@
 // IsItInPrint: static front end. Reads data/sets.json; no server needed.
 // Set this to your repository so the footer links to it.
-const REPO_URL = "https://github.com/YOUR-NAME/isitinprint";
+const REPO_URL = "https://github.com/Genjutsud/isitinprint";
 // Image hosts the site links to (keep in step with scripts/sources/index.mjs).
 const IMAGE_HOSTS = ["https://upload.wikimedia.org/", "https://images.pokemontcg.io/", "https://svgs.scryfall.io/"];
 
