@@ -18,6 +18,7 @@
     "notes": "Ravensburger announced a reprint of The First Chapter and Rise of the Floodborn for Holiday 2023. Nothing official since, either a new reprint or an end-of-print notice.",
     "ref": "https://articles.starcitygames.com/lorcana/reprint-run-for-disney-lorcana-the-first-chapter-fast-tracked-to-holiday-2023/",
     "refName": "Star City Games, Sep 2023",
+    "wikiChecked": "2026-11",
     "checked": "2026-10"
   },
   {
@@ -39,6 +40,7 @@
     "notes": "Ravensburger announced a reprint of The First Chapter and Rise of the Floodborn for Holiday 2023. Nothing official since, either a new reprint or an end-of-print notice.",
     "ref": "https://articles.starcitygames.com/lorcana/reprint-run-for-disney-lorcana-the-first-chapter-fast-tracked-to-holiday-2023/",
     "refName": "Star City Games, Sep 2023",
+    "wikiChecked": "2026-11",
     "checked": "2026-10"
   },
   {
@@ -55,6 +57,7 @@
     "notes": "The publisher hasn't posted a reprint or an end-of-print notice for this set. Retailer and hobby reports don't count here.",
     "ref": "https://www.shonentcg.com/blog/disney-lorcana-2026-release-schedule",
     "refName": "ShonenTCG, Oct 2026",
+    "wikiChecked": "2026-11",
     "checked": "2026-10"
   },
   {
@@ -62,16 +65,17 @@
     "game": "Disney Lorcana",
     "name": "Deep Trouble",
     "code": "Illumineer's Quest",
+    "aliases": [
+      "Deep Trouble – Illumineer's Quest"
+    ],
     "release": "2024-05-17",
     "status": "unknown",
     "basis": "none",
     "notes": "The publisher hasn't posted a reprint or an end-of-print notice for this set. Retailer and hobby reports don't count here.",
     "ref": "https://www.wargamer.com/disney-lorcana/sets",
     "refName": "Wargamer, Oct 2026",
-    "checked": "2026-10",
-    "aliases": [
-      "Deep Trouble – Illumineer's Quest"
-    ]
+    "wikiChecked": "2026-11",
+    "checked": "2026-10"
   },
   {
     "id": "lorcana-ursula-s-return",
@@ -88,6 +92,7 @@
     "notes": "The publisher hasn't posted a reprint or an end-of-print notice for this set. Retailer and hobby reports don't count here.",
     "ref": "https://www.shonentcg.com/blog/disney-lorcana-2026-release-schedule",
     "refName": "ShonenTCG, Oct 2026",
+    "wikiChecked": "2026-11",
     "checked": "2026-10"
   },
   {
@@ -104,6 +109,7 @@
     "notes": "The publisher hasn't posted a reprint or an end-of-print notice for this set. Retailer and hobby reports don't count here.",
     "ref": "https://www.shonentcg.com/blog/disney-lorcana-2026-release-schedule",
     "refName": "ShonenTCG, Oct 2026",
+    "wikiChecked": "2026-11",
     "checked": "2026-10"
   },
   {
@@ -120,6 +126,7 @@
     "notes": "The publisher hasn't posted a reprint or an end-of-print notice for this set. Retailer and hobby reports don't count here.",
     "ref": "https://www.shonentcg.com/blog/disney-lorcana-2026-release-schedule",
     "refName": "ShonenTCG, Oct 2026",
+    "wikiChecked": "2026-11",
     "checked": "2026-10"
   },
   {
@@ -136,6 +143,7 @@
     "notes": "The publisher hasn't posted a reprint or an end-of-print notice for this set. Retailer and hobby reports don't count here.",
     "ref": "https://www.shonentcg.com/blog/disney-lorcana-2026-release-schedule",
     "refName": "ShonenTCG, Oct 2026",
+    "wikiChecked": "2026-11",
     "checked": "2026-10"
   },
   {
@@ -143,16 +151,17 @@
     "game": "Disney Lorcana",
     "name": "Palace Heist",
     "code": "Illumineer's Quest",
+    "aliases": [
+      "Palace Heist – Illumineer's Quest"
+    ],
     "release": "2025-05-30",
     "status": "unknown",
     "basis": "none",
     "notes": "The publisher hasn't posted a reprint or an end-of-print notice for this set. Retailer and hobby reports don't count here.",
     "ref": "https://www.wargamer.com/disney-lorcana/sets",
     "refName": "Wargamer, Oct 2026",
-    "checked": "2026-10",
-    "aliases": [
-      "Palace Heist – Illumineer's Quest"
-    ]
+    "wikiChecked": "2026-11",
+    "checked": "2026-10"
   },
   {
     "id": "lorcana-reign-of-jafar",
@@ -168,6 +177,7 @@
     "notes": "The publisher hasn't posted a reprint or an end-of-print notice for this set. Retailer and hobby reports don't count here.",
     "ref": "https://www.shonentcg.com/blog/disney-lorcana-2026-release-schedule",
     "refName": "ShonenTCG, Oct 2026",
+    "wikiChecked": "2026-11",
     "checked": "2026-10"
   },
   {
@@ -184,6 +194,7 @@
     "notes": "The publisher hasn't posted a reprint or an end-of-print notice for this set. Retailer and hobby reports don't count here.",
     "ref": "https://www.wargamer.com/disney-lorcana/sets",
     "refName": "Wargamer, Oct 2026",
+    "wikiChecked": "2026-11",
     "checked": "2026-10"
   },
   {
@@ -195,12 +206,13 @@
       "Whispers in the Well"
     ],
     "release": "2025-11-07",
-    "status": "in_print",
-    "basis": "current",
-    "notes": "The publisher's current release, out within the last 12 months, with no end-of-print notice.",
+    "status": "unknown",
+    "basis": "none",
+    "notes": "The publisher hasn't posted a reprint or an end-of-print notice for this set. Retailer and hobby reports don't count here.",
     "ref": "https://www.wargamer.com/disney-lorcana/sets",
     "refName": "Wargamer, Oct 2026",
-    "checked": "2026-10"
+    "wikiChecked": "2026-11",
+    "checked": "2026-11"
   },
   {
     "id": "lorcana-winterspell",
@@ -216,6 +228,7 @@
     "notes": "The publisher's current release, out within the last 12 months, with no end-of-print notice.",
     "ref": "https://www.shonentcg.com/blog/disney-lorcana-2026-release-schedule",
     "refName": "ShonenTCG, Oct 2026",
+    "wikiChecked": "2026-11",
     "checked": "2026-10"
   },
   {
@@ -232,6 +245,7 @@
     "notes": "The publisher's current release, out within the last 12 months, with no end-of-print notice.",
     "ref": "https://www.shonentcg.com/blog/disney-lorcana-2026-release-schedule",
     "refName": "ShonenTCG, Oct 2026",
+    "wikiChecked": "2026-11",
     "checked": "2026-10"
   },
   {
@@ -248,6 +262,7 @@
     "notes": "The publisher's current release, out within the last 12 months, with no end-of-print notice.",
     "ref": "https://www.shonentcg.com/blog/disney-lorcana-2026-release-schedule",
     "refName": "ShonenTCG, Oct 2026",
+    "wikiChecked": "2026-11",
     "checked": "2026-10"
   },
   {
@@ -265,6 +280,7 @@
     "notes": "The publisher's current release, out within the last 12 months, with no end-of-print notice.",
     "ref": "https://www.wargamer.com/disney-lorcana/sets",
     "refName": "Wargamer, Oct 2026",
+    "wikiChecked": "2026-11",
     "checked": "2026-10"
   },
   {
@@ -280,6 +296,7 @@
     "notes": "Released October 23, 2026 (prerelease October 16). The publisher's current release, with no end-of-print notice.",
     "ref": "https://www.shonentcg.com/blog/disney-lorcana-2026-release-schedule",
     "refName": "ShonenTCG, Oct 2026",
+    "wikiChecked": "2026-11",
     "checked": "2026-11"
   },
   {
@@ -295,6 +312,7 @@
     "notes": "Announced for February 2027. Status changes to In print on release day.",
     "ref": "https://www.wargamer.com/disney-lorcana/sets",
     "refName": "Wargamer, Oct 2026",
+    "wikiChecked": "2026-11",
     "checked": "2026-10"
   },
   {
@@ -308,6 +326,7 @@
     "notes": "Announced for Q2 2027 with no exact date yet. Status changes to In print on release day.",
     "ref": "https://www.wargamer.com/disney-lorcana/sets",
     "refName": "Wargamer, Oct 2026",
+    "wikiChecked": "2026-11",
     "checked": "2026-10"
   },
   {
@@ -328,6 +347,9 @@
     "notes": "Contains Reserved List cards. Wizards' official reprint policy says these \"will never be printed again in a functionally identical form,\" so the set can't come back as it was.",
     "ref": "https://en.wikipedia.org/wiki/Limited_Edition_(Magic:_The_Gathering)",
     "refName": "Wikipedia: Limited Edition",
+    "imageUrl": "https://svgs.scryfall.io/sets/lea.svg?1793595600",
+    "imageCredit": "https://scryfall.com/sets/lea",
+    "wikiChecked": "2026-11",
     "checked": "2026-10"
   },
   {
@@ -348,6 +370,9 @@
     "notes": "Contains Reserved List cards. Wizards' official reprint policy says these \"will never be printed again in a functionally identical form,\" so the set can't come back as it was. Wizards of the Coast put the print run at 7.3 million cards.",
     "ref": "https://en.wikipedia.org/wiki/Limited_Edition_(Magic:_The_Gathering)",
     "refName": "Wikipedia: Limited Edition",
+    "imageUrl": "https://svgs.scryfall.io/sets/leb.svg?1793595600",
+    "imageCredit": "https://scryfall.com/sets/leb",
+    "wikiChecked": "2026-11",
     "checked": "2026-10"
   },
   {
@@ -365,6 +390,9 @@
     "notes": "Contains Reserved List cards. Wizards' official reprint policy says these \"will never be printed again in a functionally identical form,\" so the set can't come back as it was.",
     "ref": "https://en.wikipedia.org/wiki/Magic:_The_Gathering_expansion_sets,_1993%E2%80%931995",
     "refName": "Wikipedia: Magic expansion sets 1993–1995",
+    "imageUrl": "https://svgs.scryfall.io/sets/arn.svg?1793595600",
+    "imageCredit": "https://scryfall.com/sets/arn",
+    "wikiChecked": "2026-11",
     "checked": "2026-10"
   },
   {
@@ -385,6 +413,9 @@
     "notes": "Contains Reserved List cards. Wizards' official reprint policy says these \"will never be printed again in a functionally identical form,\" so the set can't come back as it was.",
     "ref": "https://en.wikipedia.org/wiki/Magic:_The_Gathering_core_sets,_1993%E2%80%932007",
     "refName": "Wikipedia: Magic core sets 1993–2007",
+    "imageUrl": "https://svgs.scryfall.io/sets/2ed.svg?1793595600",
+    "imageCredit": "https://scryfall.com/sets/2ed",
+    "wikiChecked": "2026-11",
     "checked": "2026-10"
   },
   {
@@ -402,6 +433,9 @@
     "notes": "Contains Reserved List cards. Wizards' official reprint policy says these \"will never be printed again in a functionally identical form,\" so the set can't come back as it was.",
     "ref": "https://en.wikipedia.org/wiki/Magic:_The_Gathering_expansion_sets,_1993%E2%80%931995",
     "refName": "Wikipedia: Magic expansion sets 1993–1995",
+    "imageUrl": "https://svgs.scryfall.io/sets/atq.svg?1793595600",
+    "imageCredit": "https://scryfall.com/sets/atq",
+    "wikiChecked": "2026-11",
     "checked": "2026-10"
   },
   {
@@ -422,6 +456,9 @@
     "notes": "Contains Reserved List cards. Wizards' official reprint policy says these \"will never be printed again in a functionally identical form,\" so the set can't come back as it was.",
     "ref": "https://en.wikipedia.org/wiki/Magic:_The_Gathering_core_sets,_1993%E2%80%932007",
     "refName": "Wikipedia: Magic core sets 1993–2007",
+    "imageUrl": "https://svgs.scryfall.io/sets/3ed.svg?1793595600",
+    "imageCredit": "https://scryfall.com/sets/3ed",
+    "wikiChecked": "2026-11",
     "checked": "2026-10"
   },
   {
@@ -439,6 +476,9 @@
     "notes": "Contains Reserved List cards. Wizards' official reprint policy says these \"will never be printed again in a functionally identical form,\" so the set can't come back as it was.",
     "ref": "https://en.wikipedia.org/wiki/Magic:_The_Gathering_expansion_sets,_1993%E2%80%931995",
     "refName": "Wikipedia: Magic expansion sets 1993–1995",
+    "imageUrl": "https://svgs.scryfall.io/sets/leg.svg?1793595600",
+    "imageCredit": "https://scryfall.com/sets/leg",
+    "wikiChecked": "2026-11",
     "checked": "2026-10"
   },
   {
@@ -459,6 +499,9 @@
     "notes": "Contains Reserved List cards. Wizards' official reprint policy says these \"will never be printed again in a functionally identical form,\" so the set can't come back as it was.",
     "ref": "https://en.wikipedia.org/wiki/Magic:_The_Gathering_expansion_sets,_1993%E2%80%931995",
     "refName": "Wikipedia: Magic expansion sets 1993–1995",
+    "imageUrl": "https://svgs.scryfall.io/sets/drk.svg?1793595600",
+    "imageCredit": "https://scryfall.com/sets/drk",
+    "wikiChecked": "2026-11",
     "checked": "2026-10"
   },
   {
@@ -475,6 +518,9 @@
     "notes": "The publisher hasn't posted a reprint or an end-of-print notice for this set. Retailer and hobby reports don't count here.",
     "ref": "https://www.wargamer.com/magic-the-gathering/mtg-sets-in-order",
     "refName": "Wargamer, Oct 2026",
+    "imageUrl": "https://svgs.scryfall.io/sets/one.svg?1793595600",
+    "imageCredit": "https://scryfall.com/sets/one",
+    "wikiChecked": "2026-11",
     "checked": "2026-10"
   },
   {
@@ -491,6 +537,9 @@
     "notes": "The publisher hasn't posted a reprint or an end-of-print notice for this set. Retailer and hobby reports don't count here.",
     "ref": "https://www.wargamer.com/magic-the-gathering/mtg-sets-in-order",
     "refName": "Wargamer, Oct 2026",
+    "imageUrl": "https://svgs.scryfall.io/sets/mom.svg?1793595600",
+    "imageCredit": "https://scryfall.com/sets/mom",
+    "wikiChecked": "2026-11",
     "checked": "2026-10"
   },
   {
@@ -507,6 +556,9 @@
     "notes": "The publisher hasn't posted a reprint or an end-of-print notice for this set. Retailer and hobby reports don't count here.",
     "ref": "https://www.wargamer.com/magic-the-gathering/mtg-sets-in-order",
     "refName": "Wargamer, Oct 2026",
+    "imageUrl": "https://svgs.scryfall.io/sets/ltr.svg?1793595600",
+    "imageCredit": "https://scryfall.com/sets/ltr",
+    "wikiChecked": "2026-11",
     "checked": "2026-10"
   },
   {
@@ -523,6 +575,9 @@
     "notes": "The publisher hasn't posted a reprint or an end-of-print notice for this set. Retailer and hobby reports don't count here.",
     "ref": "https://www.wargamer.com/magic-the-gathering/mtg-sets-in-order",
     "refName": "Wargamer, Oct 2026",
+    "imageUrl": "https://svgs.scryfall.io/sets/woe.svg?1793595600",
+    "imageCredit": "https://scryfall.com/sets/woe",
+    "wikiChecked": "2026-11",
     "checked": "2026-10"
   },
   {
@@ -539,6 +594,9 @@
     "notes": "The publisher hasn't posted a reprint or an end-of-print notice for this set. Retailer and hobby reports don't count here.",
     "ref": "https://www.wargamer.com/magic-the-gathering/mtg-sets-in-order",
     "refName": "Wargamer, Oct 2026",
+    "imageUrl": "https://svgs.scryfall.io/sets/lci.svg?1793595600",
+    "imageCredit": "https://scryfall.com/sets/lci",
+    "wikiChecked": "2026-11",
     "checked": "2026-10"
   },
   {
@@ -555,6 +613,9 @@
     "notes": "The publisher hasn't posted a reprint or an end-of-print notice for this set. Retailer and hobby reports don't count here.",
     "ref": "https://www.wargamer.com/magic-the-gathering/mtg-sets-in-order",
     "refName": "Wargamer, Oct 2026",
+    "imageUrl": "https://svgs.scryfall.io/sets/mkm.svg?1793595600",
+    "imageCredit": "https://scryfall.com/sets/mkm",
+    "wikiChecked": "2026-11",
     "checked": "2026-10"
   },
   {
@@ -571,6 +632,9 @@
     "notes": "The publisher hasn't posted a reprint or an end-of-print notice for this set. Retailer and hobby reports don't count here.",
     "ref": "https://www.wargamer.com/magic-the-gathering/mtg-sets-in-order",
     "refName": "Wargamer, Oct 2026",
+    "imageUrl": "https://svgs.scryfall.io/sets/otj.svg?1793595600",
+    "imageCredit": "https://scryfall.com/sets/otj",
+    "wikiChecked": "2026-11",
     "checked": "2026-10"
   },
   {
@@ -587,6 +651,9 @@
     "notes": "The publisher hasn't posted a reprint or an end-of-print notice for this set. Retailer and hobby reports don't count here.",
     "ref": "https://www.wargamer.com/magic-the-gathering/mtg-sets-in-order",
     "refName": "Wargamer, Oct 2026",
+    "imageUrl": "https://svgs.scryfall.io/sets/acr.svg?1793595600",
+    "imageCredit": "https://scryfall.com/sets/acr",
+    "wikiChecked": "2026-11",
     "checked": "2026-10"
   },
   {
@@ -603,6 +670,9 @@
     "notes": "The publisher hasn't posted a reprint or an end-of-print notice for this set. Retailer and hobby reports don't count here.",
     "ref": "https://www.wargamer.com/magic-the-gathering/mtg-sets-in-order",
     "refName": "Wargamer, Oct 2026",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/4/49/Bloomburrow_set_icon.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "imageCredit": "https://en.wikipedia.org/wiki/Bloomburrow",
+    "wikiTitle": "Bloomburrow",
     "checked": "2026-10"
   },
   {
@@ -619,6 +689,9 @@
     "notes": "The publisher hasn't posted a reprint or an end-of-print notice for this set. Retailer and hobby reports don't count here.",
     "ref": "https://www.wargamer.com/magic-the-gathering/mtg-sets-in-order",
     "refName": "Wargamer, Oct 2026",
+    "imageUrl": "https://svgs.scryfall.io/sets/dsk.svg?1793595600",
+    "imageCredit": "https://scryfall.com/sets/dsk",
+    "wikiChecked": "2026-11",
     "checked": "2026-10"
   },
   {
@@ -635,6 +708,9 @@
     "notes": "The publisher hasn't posted a reprint or an end-of-print notice for this set. Retailer and hobby reports don't count here.",
     "ref": "https://www.wargamer.com/magic-the-gathering/mtg-sets-in-order",
     "refName": "Wargamer, Oct 2026",
+    "imageUrl": "https://svgs.scryfall.io/sets/dft.svg?1793595600",
+    "imageCredit": "https://scryfall.com/sets/dft",
+    "wikiChecked": "2026-11",
     "checked": "2026-10"
   },
   {
@@ -651,6 +727,9 @@
     "notes": "The publisher hasn't posted a reprint or an end-of-print notice for this set. Retailer and hobby reports don't count here.",
     "ref": "https://www.wargamer.com/magic-the-gathering/mtg-sets-in-order",
     "refName": "Wargamer, Oct 2026",
+    "imageUrl": "https://svgs.scryfall.io/sets/tdm.svg?1793595600",
+    "imageCredit": "https://scryfall.com/sets/tdm",
+    "wikiChecked": "2026-11",
     "checked": "2026-10"
   },
   {
@@ -667,6 +746,9 @@
     "notes": "The publisher hasn't posted a reprint or an end-of-print notice for this set. Retailer and hobby reports don't count here.",
     "ref": "https://www.wargamer.com/magic-the-gathering/mtg-sets-in-order",
     "refName": "Wargamer, Oct 2026",
+    "imageUrl": "https://svgs.scryfall.io/sets/fin.svg?1793595600",
+    "imageCredit": "https://scryfall.com/sets/fin",
+    "wikiChecked": "2026-11",
     "checked": "2026-10"
   },
   {
@@ -683,6 +765,8 @@
     "notes": "The publisher hasn't posted a reprint or an end-of-print notice for this set. Retailer and hobby reports don't count here.",
     "ref": "https://www.wargamer.com/magic-the-gathering/mtg-sets-in-order",
     "refName": "Wargamer, Oct 2026",
+    "imageUrl": "https://svgs.scryfall.io/sets/eoe.svg?1793595600",
+    "imageCredit": "https://scryfall.com/sets/eoe",
     "checked": "2026-10"
   },
   {
@@ -699,6 +783,8 @@
     "notes": "The publisher hasn't posted a reprint or an end-of-print notice for this set. Retailer and hobby reports don't count here.",
     "ref": "https://www.wargamer.com/magic-the-gathering/mtg-sets-in-order",
     "refName": "Wargamer, Oct 2026",
+    "imageUrl": "https://svgs.scryfall.io/sets/spm.svg?1793595600",
+    "imageCredit": "https://scryfall.com/sets/spm",
     "checked": "2026-10"
   },
   {
@@ -715,6 +801,8 @@
     "notes": "The publisher's current release, out within the last 12 months, with no end-of-print notice.",
     "ref": "https://www.wargamer.com/magic-the-gathering/mtg-sets-in-order",
     "refName": "Wargamer, Oct 2026",
+    "imageUrl": "https://svgs.scryfall.io/sets/tla.svg?1793595600",
+    "imageCredit": "https://scryfall.com/sets/tla",
     "checked": "2026-10"
   },
   {
@@ -731,6 +819,8 @@
     "notes": "The publisher's current release, out within the last 12 months, with no end-of-print notice.",
     "ref": "https://www.wargamer.com/magic-the-gathering/mtg-sets-in-order",
     "refName": "Wargamer, Oct 2026",
+    "imageUrl": "https://svgs.scryfall.io/sets/ecl.svg?1793595600",
+    "imageCredit": "https://scryfall.com/sets/ecl",
     "checked": "2026-10"
   },
   {
@@ -747,6 +837,8 @@
     "notes": "The publisher's current release, out within the last 12 months, with no end-of-print notice.",
     "ref": "https://www.wargamer.com/magic-the-gathering/mtg-sets-in-order",
     "refName": "Wargamer, Oct 2026",
+    "imageUrl": "https://svgs.scryfall.io/sets/tmt.svg?1793595600",
+    "imageCredit": "https://scryfall.com/sets/tmt",
     "checked": "2026-10"
   },
   {
@@ -762,6 +854,8 @@
     "notes": "The publisher's current release, out within the last 12 months, with no end-of-print notice.",
     "ref": "https://www.wargamer.com/magic-the-gathering/mtg-sets-in-order",
     "refName": "Wargamer, Oct 2026",
+    "imageUrl": "https://svgs.scryfall.io/sets/sos.svg?1793595600",
+    "imageCredit": "https://scryfall.com/sets/sos",
     "checked": "2026-10"
   },
   {
@@ -777,6 +871,8 @@
     "notes": "The publisher's current release, out within the last 12 months, with no end-of-print notice.",
     "ref": "https://www.wargamer.com/magic-the-gathering/mtg-sets-in-order",
     "refName": "Wargamer, Oct 2026",
+    "imageUrl": "https://svgs.scryfall.io/sets/msh.svg?1793595600",
+    "imageCredit": "https://scryfall.com/sets/msh",
     "checked": "2026-10"
   },
   {
@@ -792,6 +888,8 @@
     "notes": "The publisher's current release, out within the last 12 months, with no end-of-print notice.",
     "ref": "https://www.wargamer.com/magic-the-gathering/mtg-sets-in-order",
     "refName": "Wargamer, Oct 2026",
+    "imageUrl": "https://svgs.scryfall.io/sets/hob.svg?1793595600",
+    "imageCredit": "https://scryfall.com/sets/hob",
     "checked": "2026-10"
   },
   {
@@ -807,6 +905,8 @@
     "notes": "The publisher's current release, out within the last 12 months, with no end-of-print notice.",
     "ref": "https://www.wargamer.com/magic-the-gathering/mtg-sets-in-order",
     "refName": "Wargamer, Oct 2026",
+    "imageUrl": "https://svgs.scryfall.io/sets/fra.svg?1793595600",
+    "imageCredit": "https://scryfall.com/sets/fra",
     "checked": "2026-10"
   },
   {
@@ -821,7 +921,37 @@
     "notes": "Universes Beyond set scheduled for November 2026. Status changes to In print on release day.",
     "ref": "https://www.wargamer.com/magic-the-gathering/mtg-sets-in-order",
     "refName": "Wargamer, Oct 2026",
+    "imageUrl": "https://svgs.scryfall.io/sets/trk.svg?1793595600",
+    "imageCredit": "https://scryfall.com/sets/trk",
     "checked": "2026-10"
+  },
+  {
+    "id": "mtg-nau",
+    "game": "Magic: The Gathering",
+    "name": "Nauctis: The Sunken Realm",
+    "code": "NAU",
+    "release": "2027-02-05",
+    "status": "upcoming",
+    "basis": "announced",
+    "notes": "Scheduled release. Status changes to In print on release day.",
+    "ref": "https://scryfall.com/sets/nau",
+    "refName": "Scryfall (community)",
+    "checked": "2026-11"
+  },
+  {
+    "id": "mtg-mdd",
+    "game": "Magic: The Gathering",
+    "name": "Marvel: Darkhold Destiny",
+    "code": "MDD",
+    "release": "2027-04-09",
+    "status": "upcoming",
+    "basis": "announced",
+    "notes": "Scheduled release. Status changes to In print on release day.",
+    "ref": "https://scryfall.com/sets/mdd",
+    "refName": "Scryfall (community)",
+    "imageUrl": "https://svgs.scryfall.io/sets/mdd.svg?1793595600",
+    "imageCredit": "https://scryfall.com/sets/mdd",
+    "checked": "2026-11"
   },
   {
     "id": "onepiece-op-01",
@@ -1103,12 +1233,12 @@
       "One Piece OP-13"
     ],
     "release": "2025-11-07",
-    "status": "in_print",
-    "basis": "current",
-    "notes": "The publisher's current release, out within the last 12 months, with no end-of-print notice.",
+    "status": "unknown",
+    "basis": "none",
+    "notes": "The publisher hasn't posted a reprint or an end-of-print notice for this set. Retailer and hobby reports don't count here.",
     "ref": "https://opboxindex.com/articles/one-piece-set-list-release-dates.html",
     "refName": "OP Box Index, Oct 2026",
-    "checked": "2026-10"
+    "checked": "2026-11"
   },
   {
     "id": "onepiece-op-14",
@@ -1272,6 +1402,8 @@
     "notes": "Printed by Wizards of the Coast, whose run as the English publisher ended in 2003 when The Pokémon Company took over. It has never been reprinted as a set.",
     "ref": "https://en.wikipedia.org/wiki/List_of_Pok%C3%A9mon_Trading_Card_Game_sets",
     "refName": "Wikipedia: List of Pokémon TCG sets",
+    "imageUrl": "https://images.pokemontcg.io/base1/logo.png",
+    "imageCredit": "https://pokemontcg.io/",
     "checked": "2026-10"
   },
   {
@@ -1292,6 +1424,8 @@
     "notes": "Printed by Wizards of the Coast, whose run as the English publisher ended in 2003 when The Pokémon Company took over. It has never been reprinted as a set.",
     "ref": "https://en.wikipedia.org/wiki/List_of_Pok%C3%A9mon_Trading_Card_Game_sets",
     "refName": "Wikipedia: List of Pokémon TCG sets",
+    "imageUrl": "https://images.pokemontcg.io/base2/logo.png",
+    "imageCredit": "https://pokemontcg.io/",
     "checked": "2026-10"
   },
   {
@@ -1312,6 +1446,8 @@
     "notes": "Printed by Wizards of the Coast, whose run as the English publisher ended in 2003 when The Pokémon Company took over. It has never been reprinted as a set.",
     "ref": "https://en.wikipedia.org/wiki/List_of_Pok%C3%A9mon_Trading_Card_Game_sets",
     "refName": "Wikipedia: List of Pokémon TCG sets",
+    "imageUrl": "https://images.pokemontcg.io/base3/logo.png",
+    "imageCredit": "https://pokemontcg.io/",
     "checked": "2026-10"
   },
   {
@@ -1332,6 +1468,8 @@
     "notes": "Printed by Wizards of the Coast, whose run as the English publisher ended in 2003 when The Pokémon Company took over. It has never been reprinted as a set.",
     "ref": "https://en.wikipedia.org/wiki/List_of_Pok%C3%A9mon_Trading_Card_Game_sets",
     "refName": "Wikipedia: List of Pokémon TCG sets",
+    "imageUrl": "https://images.pokemontcg.io/base4/logo.png",
+    "imageCredit": "https://pokemontcg.io/",
     "checked": "2026-10"
   },
   {
@@ -1352,6 +1490,8 @@
     "notes": "Printed by Wizards of the Coast, whose run as the English publisher ended in 2003 when The Pokémon Company took over. It has never been reprinted as a set.",
     "ref": "https://en.wikipedia.org/wiki/List_of_Pok%C3%A9mon_Trading_Card_Game_sets",
     "refName": "Wikipedia: List of Pokémon TCG sets",
+    "imageUrl": "https://images.pokemontcg.io/base5/logo.png",
+    "imageCredit": "https://pokemontcg.io/",
     "checked": "2026-10"
   },
   {
@@ -1372,6 +1512,8 @@
     "notes": "Printed by Wizards of the Coast, whose run as the English publisher ended in 2003 when The Pokémon Company took over. It has never been reprinted as a set.",
     "ref": "https://en.wikipedia.org/wiki/List_of_Pok%C3%A9mon_Trading_Card_Game_sets",
     "refName": "Wikipedia: List of Pokémon TCG sets",
+    "imageUrl": "https://images.pokemontcg.io/gym1/logo.png",
+    "imageCredit": "https://pokemontcg.io/",
     "checked": "2026-10"
   },
   {
@@ -1392,6 +1534,8 @@
     "notes": "Printed by Wizards of the Coast, whose run as the English publisher ended in 2003 when The Pokémon Company took over. It has never been reprinted as a set.",
     "ref": "https://en.wikipedia.org/wiki/List_of_Pok%C3%A9mon_Trading_Card_Game_sets",
     "refName": "Wikipedia: List of Pokémon TCG sets",
+    "imageUrl": "https://images.pokemontcg.io/gym2/logo.png",
+    "imageCredit": "https://pokemontcg.io/",
     "checked": "2026-10"
   },
   {
@@ -1412,6 +1556,8 @@
     "notes": "Printed by Wizards of the Coast, whose run as the English publisher ended in 2003 when The Pokémon Company took over. It has never been reprinted as a set.",
     "ref": "https://en.wikipedia.org/wiki/List_of_Pok%C3%A9mon_Trading_Card_Game_sets",
     "refName": "Wikipedia: List of Pokémon TCG sets",
+    "imageUrl": "https://images.pokemontcg.io/neo1/logo.png",
+    "imageCredit": "https://pokemontcg.io/",
     "checked": "2026-10"
   },
   {
@@ -1432,6 +1578,8 @@
     "notes": "Printed by Wizards of the Coast, whose run as the English publisher ended in 2003 when The Pokémon Company took over. It has never been reprinted as a set.",
     "ref": "https://en.wikipedia.org/wiki/List_of_Pok%C3%A9mon_Trading_Card_Game_sets",
     "refName": "Wikipedia: List of Pokémon TCG sets",
+    "imageUrl": "https://images.pokemontcg.io/neo2/logo.png",
+    "imageCredit": "https://pokemontcg.io/",
     "checked": "2026-10"
   },
   {
@@ -1452,6 +1600,8 @@
     "notes": "Printed by Wizards of the Coast, whose run as the English publisher ended in 2003 when The Pokémon Company took over. It has never been reprinted as a set.",
     "ref": "https://en.wikipedia.org/wiki/List_of_Pok%C3%A9mon_Trading_Card_Game_sets",
     "refName": "Wikipedia: List of Pokémon TCG sets",
+    "imageUrl": "https://images.pokemontcg.io/neo3/logo.png",
+    "imageCredit": "https://pokemontcg.io/",
     "checked": "2026-10"
   },
   {
@@ -1472,6 +1622,8 @@
     "notes": "Printed by Wizards of the Coast, whose run as the English publisher ended in 2003 when The Pokémon Company took over. It has never been reprinted as a set.",
     "ref": "https://en.wikipedia.org/wiki/List_of_Pok%C3%A9mon_Trading_Card_Game_sets",
     "refName": "Wikipedia: List of Pokémon TCG sets",
+    "imageUrl": "https://images.pokemontcg.io/neo4/logo.png",
+    "imageCredit": "https://pokemontcg.io/",
     "checked": "2026-10"
   },
   {
@@ -1492,6 +1644,8 @@
     "notes": "Printed by Wizards of the Coast, whose run as the English publisher ended in 2003 when The Pokémon Company took over. It has never been reprinted as a set.",
     "ref": "https://en.wikipedia.org/wiki/List_of_Pok%C3%A9mon_Trading_Card_Game_sets",
     "refName": "Wikipedia: List of Pokémon TCG sets",
+    "imageUrl": "https://images.pokemontcg.io/base6/logo.png",
+    "imageCredit": "https://pokemontcg.io/",
     "checked": "2026-10"
   },
   {
@@ -1513,6 +1667,8 @@
     "notes": "Printed by Wizards of the Coast, whose run as the English publisher ended in 2003 when The Pokémon Company took over. It has never been reprinted as a set.",
     "ref": "https://en.wikipedia.org/wiki/List_of_Pok%C3%A9mon_Trading_Card_Game_sets",
     "refName": "Wikipedia: List of Pokémon TCG sets",
+    "imageUrl": "https://images.pokemontcg.io/ecard1/logo.png",
+    "imageCredit": "https://pokemontcg.io/",
     "checked": "2026-10"
   },
   {
@@ -1533,6 +1689,8 @@
     "notes": "Printed by Wizards of the Coast, whose run as the English publisher ended in 2003 when The Pokémon Company took over. It has never been reprinted as a set.",
     "ref": "https://en.wikipedia.org/wiki/List_of_Pok%C3%A9mon_Trading_Card_Game_sets",
     "refName": "Wikipedia: List of Pokémon TCG sets",
+    "imageUrl": "https://images.pokemontcg.io/ecard2/logo.png",
+    "imageCredit": "https://pokemontcg.io/",
     "checked": "2026-10"
   },
   {
@@ -1553,6 +1711,8 @@
     "notes": "Printed by Wizards of the Coast, whose run as the English publisher ended in 2003 when The Pokémon Company took over. It has never been reprinted as a set. Skyridge was the final Wizards of the Coast set.",
     "ref": "https://en.wikipedia.org/wiki/List_of_Pok%C3%A9mon_Trading_Card_Game_sets",
     "refName": "Wikipedia: List of Pokémon TCG sets",
+    "imageUrl": "https://images.pokemontcg.io/ecard3/logo.png",
+    "imageCredit": "https://pokemontcg.io/",
     "checked": "2026-10"
   },
   {
@@ -1569,6 +1729,8 @@
     "notes": "The publisher hasn't posted a reprint or an end-of-print notice for this set. Retailer and hobby reports don't count here.",
     "ref": "https://playvault.ae/blogs/guides/pokemon-sets-going-out-of-print-2026-uae",
     "refName": "PlayVault, Aug 2026",
+    "imageUrl": "https://images.pokemontcg.io/swsh4/logo.png",
+    "imageCredit": "https://pokemontcg.io/",
     "checked": "2026-10"
   },
   {
@@ -1585,6 +1747,8 @@
     "notes": "The publisher hasn't posted a reprint or an end-of-print notice for this set. Retailer and hobby reports don't count here.",
     "ref": "https://tcginvest.io/blog/pokemon-reprints-2026",
     "refName": "TCGinvest, Sep 2026",
+    "imageUrl": "https://images.pokemontcg.io/swsh45/logo.png",
+    "imageCredit": "https://pokemontcg.io/",
     "checked": "2026-10"
   },
   {
@@ -1601,6 +1765,8 @@
     "notes": "The publisher hasn't posted a reprint or an end-of-print notice for this set. Retailer and hobby reports don't count here.",
     "ref": "https://playvault.ae/blogs/guides/pokemon-sets-going-out-of-print-2026-uae",
     "refName": "PlayVault, Aug 2026",
+    "imageUrl": "https://images.pokemontcg.io/swsh5/logo.png",
+    "imageCredit": "https://pokemontcg.io/",
     "checked": "2026-10"
   },
   {
@@ -1618,6 +1784,8 @@
     "notes": "The publisher hasn't posted a reprint or an end-of-print notice for this set. Retailer and hobby reports don't count here.",
     "ref": "https://tcginvest.io/blog/pokemon-reprints-2026",
     "refName": "TCGinvest, Sep 2026",
+    "imageUrl": "https://images.pokemontcg.io/swsh7/logo.png",
+    "imageCredit": "https://pokemontcg.io/",
     "checked": "2026-10"
   },
   {
@@ -1635,6 +1803,8 @@
     "notes": "The publisher hasn't posted a reprint or an end-of-print notice for this set. Retailer and hobby reports don't count here.",
     "ref": "https://tcginvest.io/blog/pokemon-reprints-2026",
     "refName": "TCGinvest, Sep 2026",
+    "imageUrl": "https://images.pokemontcg.io/cel25/logo.png",
+    "imageCredit": "https://pokemontcg.io/",
     "checked": "2026-10"
   },
   {
@@ -1651,6 +1821,8 @@
     "notes": "The publisher hasn't posted a reprint or an end-of-print notice for this set. Retailer and hobby reports don't count here.",
     "ref": "https://tcginvest.io/blog/pokemon-reprints-2026",
     "refName": "TCGinvest, Sep 2026",
+    "imageUrl": "https://images.pokemontcg.io/swsh9/logo.png",
+    "imageCredit": "https://pokemontcg.io/",
     "checked": "2026-10"
   },
   {
@@ -1667,6 +1839,8 @@
     "notes": "The publisher hasn't posted a reprint or an end-of-print notice for this set. Retailer and hobby reports don't count here.",
     "ref": "https://tcginvest.io/blog/pokemon-reprints-2026",
     "refName": "TCGinvest, Sep 2026",
+    "imageUrl": "https://images.pokemontcg.io/swsh11/logo.png",
+    "imageCredit": "https://pokemontcg.io/",
     "checked": "2026-10"
   },
   {
@@ -1683,6 +1857,8 @@
     "notes": "The publisher hasn't posted a reprint or an end-of-print notice for this set. Retailer and hobby reports don't count here.",
     "ref": "https://tcginvest.io/blog/pokemon-reprints-2026",
     "refName": "TCGinvest, Sep 2026",
+    "imageUrl": "https://images.pokemontcg.io/swsh12/logo.png",
+    "imageCredit": "https://pokemontcg.io/",
     "checked": "2026-10"
   },
   {
@@ -1699,6 +1875,8 @@
     "notes": "The publisher hasn't posted a reprint or an end-of-print notice for this set. Retailer and hobby reports don't count here.",
     "ref": "https://tcginvest.io/blog/pokemon-reprints-2026",
     "refName": "TCGinvest, Sep 2026",
+    "imageUrl": "https://images.pokemontcg.io/swsh12pt5/logo.png",
+    "imageCredit": "https://pokemontcg.io/",
     "checked": "2026-10"
   },
   {
@@ -1716,6 +1894,8 @@
     "notes": "The publisher hasn't posted a reprint or an end-of-print notice for this set. Retailer and hobby reports don't count here.",
     "ref": "https://playvault.ae/blogs/guides/pokemon-sets-going-out-of-print-2026-uae",
     "refName": "PlayVault, Aug 2026",
+    "imageUrl": "https://images.pokemontcg.io/sv1/logo.png",
+    "imageCredit": "https://pokemontcg.io/",
     "checked": "2026-10"
   },
   {
@@ -1732,6 +1912,8 @@
     "notes": "The publisher hasn't posted a reprint or an end-of-print notice for this set. Retailer and hobby reports don't count here.",
     "ref": "https://playvault.ae/blogs/guides/pokemon-sets-going-out-of-print-2026-uae",
     "refName": "PlayVault, Aug 2026",
+    "imageUrl": "https://images.pokemontcg.io/sv2/logo.png",
+    "imageCredit": "https://pokemontcg.io/",
     "checked": "2026-10"
   },
   {
@@ -1748,6 +1930,8 @@
     "notes": "The publisher hasn't posted a reprint or an end-of-print notice for this set. Retailer and hobby reports don't count here.",
     "ref": "https://playvault.ae/blogs/guides/pokemon-sets-going-out-of-print-2026-uae",
     "refName": "PlayVault, Aug 2026",
+    "imageUrl": "https://images.pokemontcg.io/sv3/logo.png",
+    "imageCredit": "https://pokemontcg.io/",
     "checked": "2026-10"
   },
   {
@@ -1766,6 +1950,8 @@
     "notes": "The publisher hasn't posted a reprint or an end-of-print notice for this set. Retailer and hobby reports don't count here.",
     "ref": "https://tcginvest.io/blog/pokemon-reprints-2026",
     "refName": "TCGinvest, Sep 2026",
+    "imageUrl": "https://images.pokemontcg.io/sv3pt5/logo.png",
+    "imageCredit": "https://pokemontcg.io/",
     "checked": "2026-10"
   },
   {
@@ -1782,6 +1968,8 @@
     "notes": "The publisher hasn't posted a reprint or an end-of-print notice for this set. Retailer and hobby reports don't count here.",
     "ref": "https://playvault.ae/blogs/guides/pokemon-sets-going-out-of-print-2026-uae",
     "refName": "PlayVault, Aug 2026",
+    "imageUrl": "https://images.pokemontcg.io/sv4/logo.png",
+    "imageCredit": "https://pokemontcg.io/",
     "checked": "2026-10"
   },
   {
@@ -1799,6 +1987,8 @@
     "notes": "The publisher hasn't posted a reprint or an end-of-print notice for this set. Retailer and hobby reports don't count here.",
     "ref": "https://playvault.ae/blogs/guides/pokemon-sets-going-out-of-print-2026-uae",
     "refName": "PlayVault, Aug 2026",
+    "imageUrl": "https://images.pokemontcg.io/sv4pt5/logo.png",
+    "imageCredit": "https://pokemontcg.io/",
     "checked": "2026-10"
   },
   {
@@ -1815,6 +2005,8 @@
     "notes": "The publisher hasn't posted a reprint or an end-of-print notice for this set. Retailer and hobby reports don't count here.",
     "ref": "https://playvault.ae/blogs/guides/pokemon-sets-going-out-of-print-2026-uae",
     "refName": "PlayVault, Aug 2026",
+    "imageUrl": "https://images.pokemontcg.io/sv5/logo.png",
+    "imageCredit": "https://pokemontcg.io/",
     "checked": "2026-10"
   },
   {
@@ -1831,6 +2023,8 @@
     "notes": "The publisher hasn't posted a reprint or an end-of-print notice for this set. Retailer and hobby reports don't count here.",
     "ref": "https://playvault.ae/blogs/guides/pokemon-sets-going-out-of-print-2026-uae",
     "refName": "PlayVault, Aug 2026",
+    "imageUrl": "https://images.pokemontcg.io/sv6/logo.png",
+    "imageCredit": "https://pokemontcg.io/",
     "checked": "2026-10"
   },
   {
@@ -1847,6 +2041,8 @@
     "notes": "The publisher hasn't posted a reprint or an end-of-print notice for this set. Retailer and hobby reports don't count here.",
     "ref": "https://playvault.ae/blogs/guides/pokemon-sets-going-out-of-print-2026-uae",
     "refName": "PlayVault, Aug 2026",
+    "imageUrl": "https://images.pokemontcg.io/sv6pt5/logo.png",
+    "imageCredit": "https://pokemontcg.io/",
     "checked": "2026-10"
   },
   {
@@ -1863,6 +2059,8 @@
     "notes": "The publisher hasn't posted a reprint or an end-of-print notice for this set. Retailer and hobby reports don't count here.",
     "ref": "https://playvault.ae/blogs/guides/pokemon-sets-going-out-of-print-2026-uae",
     "refName": "PlayVault, Aug 2026",
+    "imageUrl": "https://images.pokemontcg.io/sv7/logo.png",
+    "imageCredit": "https://pokemontcg.io/",
     "checked": "2026-10"
   },
   {
@@ -1879,6 +2077,8 @@
     "notes": "The publisher hasn't posted a reprint or an end-of-print notice for this set. Retailer and hobby reports don't count here.",
     "ref": "https://playvault.ae/blogs/guides/pokemon-sets-going-out-of-print-2026-uae",
     "refName": "PlayVault, Aug 2026",
+    "imageUrl": "https://images.pokemontcg.io/sv8/logo.png",
+    "imageCredit": "https://pokemontcg.io/",
     "checked": "2026-10"
   },
   {
@@ -1901,6 +2101,8 @@
     "notes": "On January 15, 2025 the official Pokémon TCG account said it was printing more of the impacted products \"as quickly as possible and at maximum capacity.\" In March 2025 pokemon.com said it would continue to reprint them.",
     "ref": "https://tcginvest.io/blog/pokemon-reprints-2026",
     "refName": "TCGinvest, Sep 2026",
+    "imageUrl": "https://images.pokemontcg.io/sv8pt5/logo.png",
+    "imageCredit": "https://pokemontcg.io/",
     "checked": "2026-10"
   },
   {
@@ -1917,6 +2119,8 @@
     "notes": "The publisher hasn't posted a reprint or an end-of-print notice for this set. Retailer and hobby reports don't count here.",
     "ref": "https://playvault.ae/blogs/guides/pokemon-sets-going-out-of-print-2026-uae",
     "refName": "PlayVault, Aug 2026",
+    "imageUrl": "https://images.pokemontcg.io/sv9/logo.png",
+    "imageCredit": "https://pokemontcg.io/",
     "checked": "2026-10"
   },
   {
@@ -1933,6 +2137,8 @@
     "notes": "The publisher hasn't posted a reprint or an end-of-print notice for this set. Retailer and hobby reports don't count here.",
     "ref": "https://tcginvest.io/blog/pokemon-reprints-2026",
     "refName": "TCGinvest, Sep 2026",
+    "imageUrl": "https://images.pokemontcg.io/sv10/logo.png",
+    "imageCredit": "https://pokemontcg.io/",
     "checked": "2026-10"
   },
   {
@@ -1950,6 +2156,8 @@
     "notes": "The publisher hasn't posted a reprint or an end-of-print notice for this set. Retailer and hobby reports don't count here.",
     "ref": "https://playvault.ae/blogs/guides/pokemon-sets-going-out-of-print-2026-uae",
     "refName": "PlayVault, Aug 2026",
+    "imageUrl": "https://images.pokemontcg.io/zsv10pt5/logo.png",
+    "imageCredit": "https://pokemontcg.io/",
     "checked": "2026-10"
   },
   {
@@ -1967,6 +2175,8 @@
     "notes": "The publisher hasn't posted a reprint or an end-of-print notice for this set. Retailer and hobby reports don't count here.",
     "ref": "https://playvault.ae/blogs/guides/pokemon-sets-going-out-of-print-2026-uae",
     "refName": "PlayVault, Aug 2026",
+    "imageUrl": "https://images.pokemontcg.io/rsv10pt5/logo.png",
+    "imageCredit": "https://pokemontcg.io/",
     "checked": "2026-10"
   },
   {
@@ -1983,6 +2193,8 @@
     "notes": "The publisher hasn't posted a reprint or an end-of-print notice for this set. Retailer and hobby reports don't count here.",
     "ref": "https://playvault.ae/blogs/guides/pokemon-sets-going-out-of-print-2026-uae",
     "refName": "PlayVault, Aug 2026",
+    "imageUrl": "https://images.pokemontcg.io/me1/logo.png",
+    "imageCredit": "https://pokemontcg.io/",
     "checked": "2026-10"
   },
   {
@@ -1996,6 +2208,8 @@
     "notes": "The publisher's current release, out within the last 12 months, with no end-of-print notice.",
     "ref": "https://playvault.ae/blogs/guides/pokemon-sets-going-out-of-print-2026-uae",
     "refName": "PlayVault, Aug 2026",
+    "imageUrl": "https://images.pokemontcg.io/me2/logo.png",
+    "imageCredit": "https://pokemontcg.io/",
     "checked": "2026-10"
   },
   {
@@ -2184,5 +2398,70 @@
     "ref": "https://www.yugioh-card.com/en/products/lc_25th/",
     "refName": "Konami, official product page",
     "checked": "2026-10"
+  },
+  {
+    "id": "yugioh-blgg",
+    "game": "Yu-Gi-Oh!",
+    "name": "Battles of Legend: Glorious Gallery",
+    "code": "BLGG",
+    "release": "2026-06-04",
+    "status": "in_print",
+    "basis": "current",
+    "notes": "The publisher's current release, out within the last 12 months, with no end-of-print notice.",
+    "ref": "https://ygoprodeck.com/",
+    "refName": "YGOPRODeck (community)",
+    "checked": "2026-11"
+  },
+  {
+    "id": "yugioh-cori",
+    "game": "Yu-Gi-Oh!",
+    "name": "Chaos Origins",
+    "code": "CORI",
+    "release": "2026-07-02",
+    "status": "in_print",
+    "basis": "current",
+    "notes": "The publisher's current release, out within the last 12 months, with no end-of-print notice.",
+    "ref": "https://ygoprodeck.com/",
+    "refName": "YGOPRODeck (community)",
+    "checked": "2026-11"
+  },
+  {
+    "id": "yugioh-mamo",
+    "game": "Yu-Gi-Oh!",
+    "name": "Magnificent Monsters",
+    "code": "MAMO",
+    "release": "2026-09-04",
+    "status": "in_print",
+    "basis": "current",
+    "notes": "The publisher's current release, out within the last 12 months, with no end-of-print notice.",
+    "ref": "https://ygoprodeck.com/",
+    "refName": "YGOPRODeck (community)",
+    "checked": "2026-11"
+  },
+  {
+    "id": "yugioh-betb",
+    "game": "Yu-Gi-Oh!",
+    "name": "Beyond the Brave",
+    "code": "BETB",
+    "release": "2026-10-08",
+    "status": "in_print",
+    "basis": "current",
+    "notes": "The publisher's current release, out within the last 12 months, with no end-of-print notice.",
+    "ref": "https://ygoprodeck.com/",
+    "refName": "YGOPRODeck (community)",
+    "checked": "2026-11"
+  },
+  {
+    "id": "yugioh-mams",
+    "game": "Yu-Gi-Oh!",
+    "name": "Magnificent Maestros",
+    "code": "MAMS",
+    "release": "2026-11-12",
+    "status": "upcoming",
+    "basis": "announced",
+    "notes": "Scheduled release. Status changes to In print on release day.",
+    "ref": "https://ygoprodeck.com/",
+    "refName": "YGOPRODeck (community)",
+    "checked": "2026-11"
   }
 ]
