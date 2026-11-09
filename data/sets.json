@@ -68,7 +68,10 @@
     "notes": "The publisher hasn't posted a reprint or an end-of-print notice for this set. Retailer and hobby reports don't count here.",
     "ref": "https://www.wargamer.com/disney-lorcana/sets",
     "refName": "Wargamer, Oct 2026",
-    "checked": "2026-10"
+    "checked": "2026-10",
+    "aliases": [
+      "Deep Trouble – Illumineer's Quest"
+    ]
   },
   {
     "id": "lorcana-ursula-s-return",
@@ -146,7 +149,10 @@
     "notes": "The publisher hasn't posted a reprint or an end-of-print notice for this set. Retailer and hobby reports don't count here.",
     "ref": "https://www.wargamer.com/disney-lorcana/sets",
     "refName": "Wargamer, Oct 2026",
-    "checked": "2026-10"
+    "checked": "2026-10",
+    "aliases": [
+      "Palace Heist – Illumineer's Quest"
+    ]
   },
   {
     "id": "lorcana-reign-of-jafar",
@@ -250,7 +256,8 @@
     "name": "The Great Hunny Rescue",
     "code": "Illumineer's Quest",
     "aliases": [
-      "Great Hunny Rescue"
+      "Great Hunny Rescue",
+      "Hunny Rescue – Illumineer's Quest"
     ],
     "release": "2026-10-03",
     "status": "in_print",

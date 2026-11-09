@@ -56,3 +56,14 @@ test("set lists carry hotlinkable logos for the image fallback", async () => {
   const m = parseScryfall(await fx("scryfall")).find(s => s.code === "STR");
   assert.equal(m.logo, "https://svgs.scryfall.io/sets/str.svg");
 });
+
+test("Lorcana promo and format sets are skipped, Illumineer's Quest boxes kept", async () => {
+  const sets = parseLorcast(await fx("lorcast"));
+  assert.deepEqual(sets.map(s => s.code), ["Set 15", "Set Q3"]);
+});
+
+test("an Illumineer's Quest box matches its existing entry by Lorcast's name", async () => {
+  const existing = [{ id: "lorcana-the-great-hunny-rescue", game: "Disney Lorcana", name: "The Great Hunny Rescue", aliases: ["Hunny Rescue – Illumineer's Quest"], release: "2026-10-03", status: "in_print", basis: "current" }];
+  const found = parseLorcast(await fx("lorcast")).filter(s => s.code === "Set Q3");
+  assert.equal(addNewSets(existing, found, { now }).added.length, 0);
+});

@@ -62,7 +62,8 @@ if (!flag("--no-images")) {
     await new Promise(r => setTimeout(r, 200));
   }
   for (const s of sets.filter(s => !s.imageUrl && !s.noImage)) {
-    const hit = found.find(f => f.logo && IMAGE_HOSTS.some(h => f.logo.startsWith(h)) && findMatch([s], f));
+    // Scryfall serves a generic "default" symbol before a set's real one exists; skip it.
+    const hit = found.find(f => f.logo && !/\/default\.svg/.test(f.logo) && IMAGE_HOSTS.some(h => f.logo.startsWith(h)) && findMatch([s], f));
     if (hit) { s.imageUrl = hit.logo; s.imageCredit = hit.logoPage; logos.push(s); }
   }
   // Ask Wikipedia again after six months, in case a page has been written since.

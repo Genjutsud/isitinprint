@@ -3,7 +3,8 @@
 // "logo" is a hotlinkable set logo or symbol, used when Wikipedia has no image.
 import { fetchJSON, fullDate } from "../lib/data.mjs";
 
-const POKEMON_SKIP = /promo|trainer kit|mcdonald|energies|futsal|world championships|pop series|best of game/i;
+const POKEMON_SKIP = /promo|trainer kit|mcdonald|energies|futsal|world championships|pop series|best of game|classic collection|trainer gallery|galarian gallery|shiny vault/i;
+const MTG_SKIP = /mystery booster|jumpstart|alchemy|commander|playtest|the list/i;
 const YUGIOH_SKIP = /tin|promo|deck|sneak peek|tournament|prize|starter|bundle|collector box|mat|sleeve|special edition|blister/i;
 
 export function parsePokemon(json) {
@@ -19,7 +20,7 @@ export function parsePokemon(json) {
 export function parseScryfall(json) {
   const keep = new Set(["core", "expansion", "draft_innovation"]);
   return (json.data || [])
-    .filter(s => keep.has(s.set_type) && !s.digital && !s.parent_set_code)
+    .filter(s => keep.has(s.set_type) && !s.digital && !s.parent_set_code && !MTG_SKIP.test(s.name))
     .map(s => ({
       game: "Magic: The Gathering", name: s.name, code: String(s.code || "").toUpperCase(), release: s.released_at || "",
       ref: `https://scryfall.com/sets/${s.code}`, refName: "Scryfall (community)",
@@ -37,7 +38,10 @@ export function parseYugioh(json) {
 }
 
 export function parseLorcast(json) {
+  // Main sets have number codes ("14"); Illumineer's Quest boxes use "Q1", "Q2"…
+  // Promo, format and collection codes ("P4", "PD1", "CC1", "Coconut") are skipped.
   return (json.results || [])
+    .filter(s => /^(\d+|Q\d+)$/i.test(String(s.code || "")))
     .map(s => ({
       game: "Disney Lorcana", name: s.name, code: s.code ? `Set ${s.code}` : "", release: (s.released_at || "").slice(0, 10),
       ref: `https://lorcast.com/`, refName: "Lorcast (community)",
