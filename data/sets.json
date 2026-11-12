@@ -914,16 +914,16 @@
     "game": "Magic: The Gathering",
     "name": "Star Trek",
     "release": "2026-11-11",
-    "status": "upcoming",
-    "basis": "announced",
+    "status": "in_print",
+    "basis": "current",
     "source": "https://www.wargamer.com/magic-the-gathering/mtg-sets-in-order",
     "sourceName": "Wargamer, Oct 2026",
-    "notes": "Universes Beyond set scheduled for November 2026. Status changes to In print on release day.",
+    "notes": "Released 2026-11-11. The publisher's current release, with no end-of-print notice.",
     "ref": "https://www.wargamer.com/magic-the-gathering/mtg-sets-in-order",
     "refName": "Wargamer, Oct 2026",
     "imageUrl": "https://svgs.scryfall.io/sets/trk.svg?1793595600",
     "imageCredit": "https://scryfall.com/sets/trk",
-    "checked": "2026-10"
+    "checked": "2026-11"
   },
   {
     "id": "mtg-nau",
@@ -936,6 +936,7 @@
     "notes": "Scheduled release. Status changes to In print on release day.",
     "ref": "https://scryfall.com/sets/nau",
     "refName": "Scryfall (community)",
+    "wikiChecked": "2026-11",
     "checked": "2026-11"
   },
   {
@@ -968,6 +969,9 @@
     "notes": "The publisher hasn't posted a reprint or an end-of-print notice for this set. Retailer and hobby reports don't count here.",
     "ref": "https://www.misprint.com/posts/one-piece-tcg-release-calendar",
     "refName": "Misprint, Jul 2026",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/9/90/One_Piece%2C_Volume_61_Cover_%28Japanese%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "imageCredit": "https://en.wikipedia.org/wiki/One_Piece",
+    "wikiTitle": "One Piece",
     "checked": "2026-10"
   },
   {
@@ -985,6 +989,7 @@
     "notes": "The publisher hasn't posted a reprint or an end-of-print notice for this set. Retailer and hobby reports don't count here.",
     "ref": "https://opboxindex.com/articles/one-piece-set-list-release-dates.html",
     "refName": "OP Box Index, Oct 2026",
+    "wikiChecked": "2026-11",
     "checked": "2026-10"
   },
   {
@@ -1002,6 +1007,7 @@
     "notes": "The publisher hasn't posted a reprint or an end-of-print notice for this set. Retailer and hobby reports don't count here.",
     "ref": "https://opboxindex.com/articles/one-piece-set-list-release-dates.html",
     "refName": "OP Box Index, Oct 2026",
+    "wikiChecked": "2026-11",
     "checked": "2026-10"
   },
   {
@@ -1019,6 +1025,7 @@
     "notes": "The publisher hasn't posted a reprint or an end-of-print notice for this set. Retailer and hobby reports don't count here.",
     "ref": "https://opboxindex.com/articles/one-piece-set-list-release-dates.html",
     "refName": "OP Box Index, Oct 2026",
+    "wikiChecked": "2026-11",
     "checked": "2026-10"
   },
   {
@@ -1036,6 +1043,7 @@
     "notes": "The publisher hasn't posted a reprint or an end-of-print notice for this set. Retailer and hobby reports don't count here.",
     "ref": "https://opboxindex.com/articles/one-piece-set-list-release-dates.html",
     "refName": "OP Box Index, Oct 2026",
+    "wikiChecked": "2026-11",
     "checked": "2026-10"
   },
   {
@@ -1053,6 +1061,7 @@
     "notes": "The publisher hasn't posted a reprint or an end-of-print notice for this set. Retailer and hobby reports don't count here.",
     "ref": "https://opboxindex.com/articles/one-piece-set-list-release-dates.html",
     "refName": "OP Box Index, Oct 2026",
+    "wikiChecked": "2026-11",
     "checked": "2026-10"
   },
   {
@@ -1069,6 +1078,7 @@
     "notes": "The publisher hasn't posted a reprint or an end-of-print notice for this set. Retailer and hobby reports don't count here.",
     "ref": "https://opboxindex.com/articles/one-piece-set-list-release-dates.html",
     "refName": "OP Box Index, Oct 2026",
+    "wikiChecked": "2026-11",
     "checked": "2026-10"
   },
   {
@@ -1086,6 +1096,7 @@
     "notes": "The publisher hasn't posted a reprint or an end-of-print notice for this set. Retailer and hobby reports don't count here.",
     "ref": "https://opboxindex.com/articles/one-piece-set-list-release-dates.html",
     "refName": "OP Box Index, Oct 2026",
+    "wikiChecked": "2026-11",
     "checked": "2026-10"
   },
   {
@@ -1103,6 +1114,7 @@
     "notes": "The publisher hasn't posted a reprint or an end-of-print notice for this set. Retailer and hobby reports don't count here.",
     "ref": "https://opboxindex.com/articles/one-piece-set-list-release-dates.html",
     "refName": "OP Box Index, Oct 2026",
+    "wikiChecked": "2026-11",
     "checked": "2026-10"
   },
   {
@@ -1120,6 +1132,7 @@
     "notes": "The publisher hasn't posted a reprint or an end-of-print notice for this set. Retailer and hobby reports don't count here.",
     "ref": "https://opboxindex.com/articles/one-piece-set-list-release-dates.html",
     "refName": "OP Box Index, Oct 2026",
+    "wikiChecked": "2026-11",
     "checked": "2026-10"
   },
   {
@@ -1137,6 +1150,7 @@
     "notes": "The publisher hasn't posted a reprint or an end-of-print notice for this set. Retailer and hobby reports don't count here.",
     "ref": "https://opboxindex.com/articles/one-piece-set-list-release-dates.html",
     "refName": "OP Box Index, Oct 2026",
+    "wikiChecked": "2026-11",
     "checked": "2026-10"
   },
   {
@@ -1154,6 +1168,7 @@
     "notes": "The publisher hasn't posted a reprint or an end-of-print notice for this set. Retailer and hobby reports don't count here.",
     "ref": "https://opboxindex.com/articles/one-piece-set-list-release-dates.html",
     "refName": "OP Box Index, Oct 2026",
+    "wikiChecked": "2026-11",
     "checked": "2026-10"
   },
   {
@@ -1170,6 +1185,7 @@
     "notes": "The publisher hasn't posted a reprint or an end-of-print notice for this set. Retailer and hobby reports don't count here.",
     "ref": "https://opboxindex.com/articles/one-piece-set-list-release-dates.html",
     "refName": "OP Box Index, Oct 2026",
+    "wikiChecked": "2026-11",
     "checked": "2026-10"
   },
   {
@@ -1187,6 +1203,7 @@
     "notes": "The publisher hasn't posted a reprint or an end-of-print notice for this set. Retailer and hobby reports don't count here.",
     "ref": "https://opboxindex.com/articles/one-piece-set-list-release-dates.html",
     "refName": "OP Box Index, Oct 2026",
+    "wikiChecked": "2026-11",
     "checked": "2026-10"
   },
   {
@@ -1204,6 +1221,7 @@
     "notes": "The publisher hasn't posted a reprint or an end-of-print notice for this set. Retailer and hobby reports don't count here.",
     "ref": "https://opboxindex.com/articles/one-piece-set-list-release-dates.html",
     "refName": "OP Box Index, Oct 2026",
+    "wikiChecked": "2026-11",
     "checked": "2026-10"
   },
   {
@@ -1221,6 +1239,7 @@
     "notes": "The publisher hasn't posted a reprint or an end-of-print notice for this set. Retailer and hobby reports don't count here.",
     "ref": "https://opboxindex.com/articles/one-piece-set-list-release-dates.html",
     "refName": "OP Box Index, Oct 2026",
+    "wikiChecked": "2026-11",
     "checked": "2026-10"
   },
   {
@@ -1238,6 +1257,7 @@
     "notes": "The publisher hasn't posted a reprint or an end-of-print notice for this set. Retailer and hobby reports don't count here.",
     "ref": "https://opboxindex.com/articles/one-piece-set-list-release-dates.html",
     "refName": "OP Box Index, Oct 2026",
+    "wikiChecked": "2026-11",
     "checked": "2026-11"
   },
   {
@@ -1255,6 +1275,7 @@
     "notes": "The publisher's current release, out within the last 12 months, with no end-of-print notice.",
     "ref": "https://opboxindex.com/articles/one-piece-set-list-release-dates.html",
     "refName": "OP Box Index, Oct 2026",
+    "wikiChecked": "2026-11",
     "checked": "2026-10"
   },
   {
@@ -1272,6 +1293,7 @@
     "notes": "The publisher's current release, out within the last 12 months, with no end-of-print notice.",
     "ref": "https://opboxindex.com/articles/one-piece-set-list-release-dates.html",
     "refName": "OP Box Index, Oct 2026",
+    "wikiChecked": "2026-11",
     "checked": "2026-10"
   },
   {
@@ -1289,6 +1311,7 @@
     "notes": "The publisher's current release, out within the last 12 months, with no end-of-print notice.",
     "ref": "https://opboxindex.com/articles/one-piece-set-list-release-dates.html",
     "refName": "OP Box Index, Oct 2026",
+    "wikiChecked": "2026-11",
     "checked": "2026-10"
   },
   {
@@ -1306,6 +1329,7 @@
     "notes": "The publisher's current release, out within the last 12 months, with no end-of-print notice.",
     "ref": "https://opboxindex.com/articles/one-piece-set-list-release-dates.html",
     "refName": "OP Box Index, Oct 2026",
+    "wikiChecked": "2026-11",
     "checked": "2026-10"
   },
   {
@@ -1323,6 +1347,7 @@
     "notes": "The publisher's current release, out within the last 12 months, with no end-of-print notice.",
     "ref": "https://opboxindex.com/articles/one-piece-set-list-release-dates.html",
     "refName": "OP Box Index, Oct 2026",
+    "wikiChecked": "2026-11",
     "checked": "2026-10"
   },
   {
@@ -1342,6 +1367,7 @@
     "notes": "Released October 30, 2026. The publisher's current release, with no end-of-print notice.",
     "ref": "https://opboxindex.com/articles/one-piece-set-list-release-dates.html",
     "refName": "OP Box Index, Oct 2026",
+    "wikiChecked": "2026-11",
     "checked": "2026-11"
   },
   {
@@ -1360,6 +1386,7 @@
     "notes": "Scheduled English release. Status changes to In print on release day.",
     "ref": "https://opboxindex.com/articles/one-piece-set-list-release-dates.html",
     "refName": "OP Box Index, Oct 2026",
+    "wikiChecked": "2026-11",
     "checked": "2026-10"
   },
   {
@@ -1378,6 +1405,7 @@
     "notes": "Bandai announced a special reprint \"due to overwhelming fan support,\" available while supplies last, alongside Premium Card Collection Live Action Edition vol.2.",
     "ref": "https://x.com/ONEPIECE_tcg_EN/status/2054743502320230438",
     "refName": "One Piece Card Game (official, X)",
+    "wikiChecked": "2026-11",
     "checked": "2026-10"
   },
   {
@@ -2225,6 +2253,7 @@
     "notes": "The publisher's current release, out within the last 12 months, with no end-of-print notice.",
     "ref": "https://samuraiswordtokyo.com/blogs/news/pokemon-tcg-set-release-schedule-2026",
     "refName": "Samurai Sword Tokyo, Oct 2026",
+    "wikiChecked": "2026-11",
     "checked": "2026-10"
   },
   {
@@ -2240,6 +2269,7 @@
     "notes": "The publisher's current release, out within the last 12 months, with no end-of-print notice.",
     "ref": "https://samuraiswordtokyo.com/blogs/news/pokemon-tcg-set-release-schedule-2026",
     "refName": "Samurai Sword Tokyo, Oct 2026",
+    "wikiChecked": "2026-11",
     "checked": "2026-10"
   },
   {
@@ -2255,6 +2285,7 @@
     "notes": "The publisher's current release, out within the last 12 months, with no end-of-print notice.",
     "ref": "https://samuraiswordtokyo.com/blogs/news/pokemon-tcg-set-release-schedule-2026",
     "refName": "Samurai Sword Tokyo, Oct 2026",
+    "wikiChecked": "2026-11",
     "checked": "2026-10"
   },
   {
@@ -2270,6 +2301,7 @@
     "notes": "The publisher's current release, out within the last 12 months, with no end-of-print notice.",
     "ref": "https://samuraiswordtokyo.com/blogs/news/pokemon-tcg-set-release-schedule-2026",
     "refName": "Samurai Sword Tokyo, Oct 2026",
+    "wikiChecked": "2026-11",
     "checked": "2026-10"
   },
   {
@@ -2285,6 +2317,7 @@
     "notes": "The publisher's current release, out within the last 12 months, with no end-of-print notice.",
     "ref": "https://samuraiswordtokyo.com/blogs/news/pokemon-tcg-set-release-schedule-2026",
     "refName": "Samurai Sword Tokyo, Oct 2026",
+    "wikiChecked": "2026-11",
     "checked": "2026-10"
   },
   {
@@ -2299,6 +2332,7 @@
     "notes": "Released November 6, 2026. The publisher's current release, with no end-of-print notice.",
     "ref": "https://samuraiswordtokyo.com/blogs/news/pokemon-tcg-set-release-schedule-2026",
     "refName": "Samurai Sword Tokyo, Oct 2026",
+    "wikiChecked": "2026-11",
     "checked": "2026-11"
   },
   {
@@ -2320,6 +2354,7 @@
     "notes": "Konami brought these packs back in Legendary Collection: 25th Anniversary Edition (April 2023). Konami hasn't said whether it will print them again.",
     "ref": "https://yugipedia.com/wiki/Legend_of_Blue_Eyes_White_Dragon_(25th_Anniversary_Edition)",
     "refName": "Yugipedia: Legend of Blue Eyes White Dragon",
+    "wikiChecked": "2026-11",
     "checked": "2026-10"
   },
   {
@@ -2337,6 +2372,7 @@
     "notes": "Konami brought these packs back in Legendary Collection: 25th Anniversary Edition (April 2023). Konami hasn't said whether it will print them again.",
     "ref": "https://yugipedia.com/wiki/Legend_of_Blue_Eyes_White_Dragon_(25th_Anniversary_Edition)",
     "refName": "Yugipedia: Legend of Blue Eyes White Dragon",
+    "wikiChecked": "2026-11",
     "checked": "2026-10"
   },
   {
@@ -2357,6 +2393,7 @@
     "notes": "Konami brought these packs back in Legendary Collection: 25th Anniversary Edition (April 2023). Konami hasn't said whether it will print them again.",
     "ref": "https://yugipedia.com/wiki/Legend_of_Blue_Eyes_White_Dragon_(25th_Anniversary_Edition)",
     "refName": "Yugipedia: Legend of Blue Eyes White Dragon",
+    "wikiChecked": "2026-11",
     "checked": "2026-10"
   },
   {
@@ -2377,6 +2414,7 @@
     "notes": "Konami brought these packs back in Legendary Collection: 25th Anniversary Edition (April 2023). Konami hasn't said whether it will print them again.",
     "ref": "https://yugipedia.com/wiki/Legend_of_Blue_Eyes_White_Dragon_(25th_Anniversary_Edition)",
     "refName": "Yugipedia: Legend of Blue Eyes White Dragon",
+    "wikiChecked": "2026-11",
     "checked": "2026-10"
   },
   {
@@ -2397,6 +2435,7 @@
     "notes": "Collector's set with six classic booster packs. Konami hasn't posted a reprint or end-of-print notice since launch.",
     "ref": "https://www.yugioh-card.com/en/products/lc_25th/",
     "refName": "Konami, official product page",
+    "wikiChecked": "2026-11",
     "checked": "2026-10"
   },
   {
@@ -2410,6 +2449,7 @@
     "notes": "The publisher's current release, out within the last 12 months, with no end-of-print notice.",
     "ref": "https://ygoprodeck.com/",
     "refName": "YGOPRODeck (community)",
+    "wikiChecked": "2026-11",
     "checked": "2026-11"
   },
   {
@@ -2423,6 +2463,7 @@
     "notes": "The publisher's current release, out within the last 12 months, with no end-of-print notice.",
     "ref": "https://ygoprodeck.com/",
     "refName": "YGOPRODeck (community)",
+    "wikiChecked": "2026-11",
     "checked": "2026-11"
   },
   {
@@ -2436,6 +2477,7 @@
     "notes": "The publisher's current release, out within the last 12 months, with no end-of-print notice.",
     "ref": "https://ygoprodeck.com/",
     "refName": "YGOPRODeck (community)",
+    "wikiChecked": "2026-11",
     "checked": "2026-11"
   },
   {
@@ -2457,9 +2499,9 @@
     "name": "Magnificent Maestros",
     "code": "MAMS",
     "release": "2026-11-12",
-    "status": "upcoming",
-    "basis": "announced",
-    "notes": "Scheduled release. Status changes to In print on release day.",
+    "status": "in_print",
+    "basis": "current",
+    "notes": "Released 2026-11-12. The publisher's current release, with no end-of-print notice.",
     "ref": "https://ygoprodeck.com/",
     "refName": "YGOPRODeck (community)",
     "checked": "2026-11"
