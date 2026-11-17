@@ -5,6 +5,7 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
+  workflow_call:   # lets the card update publish after it saves new prices
 
 permissions:
   contents: read
@@ -23,6 +24,8 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main   # always publish the latest main, including prices the card update just saved
       - uses: actions/setup-node@v4
         with:
           node-version: 22

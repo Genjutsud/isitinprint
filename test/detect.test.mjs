@@ -67,3 +67,13 @@ test("an Illumineer's Quest box matches its existing entry by Lorcast's name", a
   const found = parseLorcast(await fx("lorcast")).filter(s => s.code === "Set Q3");
   assert.equal(addNewSets(existing, found, { now }).added.length, 0);
 });
+
+import { parseOnePiece } from "../scripts/sources/index.mjs";
+
+test("One Piece set list keeps boosters only and formats codes like OP-01", async () => {
+  const sets = parseOnePiece(await fx("onepiece-groups"));
+  assert.deepEqual(sets.map(s => s.code), ["OP-01", "OP-19"]);
+  const existing = [{ id: "onepiece-op-01", game: "One Piece Card Game", name: "Romance Dawn", code: "OP-01", status: "unknown", basis: "none" }];
+  const { added } = addNewSets(existing, sets, { now });
+  assert.deepEqual(added.map(s => [s.code, s.status]), [["OP-19", "upcoming"]]);
+});

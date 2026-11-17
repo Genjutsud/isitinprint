@@ -19,11 +19,18 @@ export function candidateTitles(set) {
   return [...new Set(t)];
 }
 
-// A page counts only if Wikipedia's own description or opening text names the game.
+// A page counts only if:
+//  - it's about this set: its title contains the set's name (so a redirect to a broad page,
+//    like "Romance Dawn" landing on the "One Piece" manga article, is rejected), and
+//  - Wikipedia's own description or opening text names the game and talks about cards or sets.
+const CARD_WORDS = ["card", "expansion", "booster", "set"];
 export function pageMatches(summary, set) {
   if (!summary || summary.type === "disambiguation") return false;
+  const title = norm(summary.title);
+  const names = [set.name, ...(set.aliases || [])].map(norm).filter(Boolean);
+  if (!names.some(n => title.includes(n))) return false;
   const text = norm(`${summary.description || ""} ${summary.extract || ""}`);
-  return (GAME_WORDS[set.game] || []).some(w => text.includes(w));
+  return (GAME_WORDS[set.game] || []).some(w => text.includes(w)) && CARD_WORDS.some(w => ` ${text} `.includes(` ${w}`));
 }
 
 export function imageFromSummary(summary) {

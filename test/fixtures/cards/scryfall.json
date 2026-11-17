@@ -1,0 +1,5 @@
+{"data":[
+ {"collector_number":"1","name":"Agate Assault","rarity":"common","prices":{"usd":"0.05","usd_foil":"0.12"},"image_uris":{"small":"https://cards.scryfall.io/small/front/a.jpg"},"purchase_uris":{"tcgplayer":"https://partner.tcgplayer.com/c/1"}},
+ {"collector_number":"2","name":"Fire // Ice","rarity":"uncommon","prices":{"usd":null},"card_faces":[{"image_uris":{"small":"https://cards.scryfall.io/small/front/b.jpg"}}]},
+ {"collector_number":"3","name":"Digital Only","rarity":"rare","digital":true,"prices":{"usd":"9.99"}}
+],"has_more":false}

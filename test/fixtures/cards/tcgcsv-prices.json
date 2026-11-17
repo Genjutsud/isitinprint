@@ -1,0 +1,6 @@
+{"success":true,"results":[
+ {"productId":1001,"subTypeName":"Normal","marketPrice":4.25,"midPrice":5.0},
+ {"productId":1002,"subTypeName":"Normal","marketPrice":null,"midPrice":12.5},
+ {"productId":1002,"subTypeName":"Foil","marketPrice":30.1},
+ {"productId":1999,"subTypeName":"Normal","marketPrice":520.0}
+]}

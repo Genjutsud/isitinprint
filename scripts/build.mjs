@@ -9,4 +9,6 @@ await rm(dist, { recursive: true, force: true });
 await mkdir(path.join(dist, "data"), { recursive: true });
 await cp(path.join(ROOT, "site"), dist, { recursive: true });
 await cp(path.join(ROOT, "data", "sets.json"), path.join(dist, "data", "sets.json"));
+// Card lists are optional: the site shows "No card list yet" until the first card update runs.
+await cp(path.join(ROOT, "data", "cards"), path.join(dist, "data", "cards"), { recursive: true }).catch(() => {});
 console.log("Built dist/");

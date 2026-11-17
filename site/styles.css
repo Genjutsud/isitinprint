@@ -185,3 +185,41 @@ section.ledger{margin-top:48px}
 .foot-site{margin-top:56px;border-top:1px solid var(--ink);padding-top:14px;display:flex;flex-wrap:wrap;gap:8px 20px;justify-content:space-between;font-family:var(--f-mono);font-size:11.5px;color:var(--muted)}
 .foot-site a{color:var(--muted)}
 .art .credit{position:absolute;right:0;bottom:0;background:var(--surface);font-family:var(--f-mono);font-size:9px;padding:1px 4px;color:var(--muted);text-decoration:none;border-top:1px solid var(--line);border-left:1px solid var(--line)}
+
+/* card list inside the answer card */
+.cardlist{border-top:1px solid var(--ink);padding:16px 20px 18px}
+.cl-head{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:10px 16px}
+.cl-head h3{margin:0;font-weight:500;font-size:16px;display:flex;align-items:baseline;gap:8px}
+.cl-head .count{font-family:var(--f-mono);font-weight:400;font-size:12px;color:var(--muted)}
+.cl-tools{display:flex;flex-wrap:wrap;gap:0;border:1px solid var(--line)}
+.cl-tools input{border:0;border-right:1px solid var(--line);background:var(--surface);padding:7px 10px;font-size:14px;min-width:0;width:180px;outline:none}
+.cl-tools .cell{border-left:1px solid var(--line);padding:7px 10px}
+.cl-tools .cell:first-of-type{border-left:0}
+.cl-top{margin:12px 0 0;font-size:13.5px;color:var(--muted)}
+.cl-top strong{color:var(--ink);font-weight:500}
+.cl-rows{list-style:none;margin:12px 0 0;padding:0;border-top:1px solid var(--line)}
+.cl-row{display:grid;grid-template-columns:34px 76px minmax(0,1fr) 92px auto;gap:12px;align-items:center;padding:8px 0;border-bottom:1px solid var(--line)}
+.cl-img{display:block;width:34px;height:47px;border:1px solid var(--line);overflow:hidden;background:var(--surface)}
+.cl-img img{width:100%;height:100%;object-fit:cover;display:block}
+.cl-img.ph{background-image:linear-gradient(to top right,transparent calc(50% - .5px),var(--line) 50%,transparent calc(50% + .5px)),linear-gradient(to bottom right,transparent calc(50% - .5px),var(--line) 50%,transparent calc(50% + .5px))}
+.cl-n{font-family:var(--f-mono);font-size:12px;color:var(--muted);overflow-wrap:anywhere}
+.cl-name{font-weight:500;font-size:14.5px;min-width:0;overflow-wrap:anywhere;display:flex;flex-direction:column}
+.cl-r{display:block;font-family:var(--f-mono);font-weight:400;font-size:10.5px;color:var(--muted);letter-spacing:.03em}
+.cl-price{font-family:var(--f-mono);font-size:14px;text-align:right;font-variant-numeric:tabular-nums}
+.cl-links{display:flex;flex-direction:column;gap:4px;align-items:flex-end;font-family:var(--f-mono);font-size:11.5px}
+.cl-grp{display:flex;flex-wrap:wrap;gap:4px 10px;align-items:baseline;justify-content:flex-end}
+.cl-grp .cl-lbl{min-width:52px;text-align:center}
+.cl-links a{color:var(--accent);text-decoration:none;white-space:nowrap}
+.cl-links a:hover{text-decoration:underline}
+.cl-lbl{color:var(--muted);font-size:10px;text-transform:uppercase;letter-spacing:.07em;border:1px solid var(--line);padding:0 4px}
+.cl-more{margin-top:12px}
+.cl-note{margin:12px 0 0;font-size:12.5px;color:var(--muted);max-width:72ch}
+@media (max-width:720px){
+  .cl-row{grid-template-columns:34px minmax(0,1fr) auto;grid-template-areas:"img name price" "img num price" "links links links"}
+  .cl-img{grid-area:img} .cl-name{grid-area:name} .cl-n{grid-area:num} .cl-price{grid-area:price}
+  .cl-links{grid-area:links;align-items:flex-start}
+  .cl-grp{justify-content:flex-start}
+  .cl-tools{width:100%}
+  .cl-tools input{flex:1;width:auto}
+  .cardlist{padding:14px 16px 16px}
+}

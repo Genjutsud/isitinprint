@@ -1,0 +1,5 @@
+{"data":[
+ {"number":"4","name":"Charizard","rarity":"Rare Holo","images":{"small":"https://images.pokemontcg.io/base1/4.png"},"tcgplayer":{"url":"https://prices.pokemontcg.io/tcgplayer/base1-4","prices":{"holofoil":{"market":350.5},"reverseHolofoil":{"market":12}}}},
+ {"number":"10","name":"Mewtwo","rarity":"Rare Holo","images":{"small":"https://example.com/not-allowed.png"},"tcgplayer":{"prices":{"normal":{"mid":2}}}},
+ {"number":"2","name":"Blastoise","rarity":"Rare Holo"}
+],"page":1,"pageSize":250,"totalCount":3}

@@ -136,9 +136,98 @@ const IMAGE_HOSTS = ["https://upload.wikimedia.org/", "https://images.pokemontcg
         ${artHTML(s)}
       </div>
       <div class="facts">${facts.map(([l,v]) => `<div class="fact"><span class="lbl">${l}</span><span class="val">${v}</span></div>`).join("")}</div>
+      <div id="cardsBox"></div>
       <div class="foot">${s.notes ? `<div class="why">${esc(s.notes)}</div>` : ""}<div class="src">${src}</div><div class="bar"><button class="close" type="button" id="closeAnswer">Close</button></div></div>
     </article>`;
+    loadCards(s);
   }
+
+  // ---------- card lists ----------
+  // Each set's cards live in data/cards/<set id>.json, refreshed weekly by a workflow.
+  // Prices are raw market estimates; the links send people to check raw and graded values.
+  const CARD_IMAGE_HOSTS = ["https://images.pokemontcg.io/", "https://cards.scryfall.io/"];
+  const CARD_LIMIT = 30;
+  const cardCache = {};
+  const C = { setId: null, q: "", sort: "number", all: false };
+  const money = v => typeof v === "number" ? "$" + v.toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 }) : "";
+  function valuationLinks(game, setName, c){
+    const short = { "Pokémon":"Pokemon", "Magic: The Gathering":"MTG", "Disney Lorcana":"Lorcana", "One Piece Card Game":"One Piece", "Yu-Gi-Oh!":"Yugioh" }[game] || game;
+    const q = [short, c.name, c.n, setName].filter(Boolean).join(" "), enc = encodeURIComponent;
+    return {
+      tcgplayer: /^https:\/\//.test(c.tp || "") ? c.tp : `https://www.tcgplayer.com/search/all/product?q=${enc(c.name + " " + setName)}`,
+      ebayRaw: `https://www.ebay.com/sch/i.html?_nkw=${enc(q)}&LH_Sold=1&LH_Complete=1`,
+      ebayGraded: `https://www.ebay.com/sch/i.html?_nkw=${enc(q + " PSA 10")}&LH_Sold=1&LH_Complete=1`,
+      pricecharting: `https://www.pricecharting.com/search-products?q=${enc(q)}&type=prices`,
+    };
+  }
+  function bigImage(u){ return u.replace("/small/", "/normal/").replace(/(images\.pokemontcg\.io\/[^/]+\/[^/.]+)\.png$/, "$1_hires.png"); }
+  async function loadCards(s){
+    const box = $("cardsBox"); if (!box) return;
+    if (C.setId !== s.id) { C.setId = s.id; C.q = ""; C.sort = "number"; C.all = false; }
+    if (s.status === "upcoming") { box.innerHTML = ""; return; }
+    if (!(s.id in cardCache)) {
+      box.innerHTML = `<section class="cardlist"><p class="cl-note">Loading cards…</p></section>`;
+      try { const r = await fetch(`data/cards/${encodeURIComponent(s.id)}.json`, { cache: "no-cache" }); cardCache[s.id] = r.ok ? await r.json() : null; }
+      catch(_) { cardCache[s.id] = null; }
+      if (S.picked !== s.id) return; // the reader moved on
+    }
+    renderCards(s);
+  }
+  function renderCards(s){
+    const box = $("cardsBox"), data = cardCache[s.id];
+    if (!box) return;
+    if (!data || !Array.isArray(data.cards) || !data.cards.length) {
+      box.innerHTML = `<section class="cardlist"><div class="cl-head"><h3>Cards in this set</h3></div><p class="cl-note">No card list yet. It's added on the next weekly card update, once the set appears in the card sources.</p></section>`;
+      return;
+    }
+    const needle = norm(C.q);
+    let list = data.cards.filter(c => !needle || norm(`${c.name} ${c.n} ${c.r || ""}`).includes(needle));
+    if (C.sort === "price") list = [...list].sort((a,b) => (b.p || 0) - (a.p || 0));
+    const shown = C.all ? list : list.slice(0, CARD_LIMIT);
+    const priced = data.cards.filter(c => c.p), top = priced.reduce((m, c) => c.p > (m ? m.p : 0) ? c : m, null);
+    const rows = shown.map(c => {
+      const L = valuationLinks(s.game, s.name, c);
+      const img = CARD_IMAGE_HOSTS.some(h => (c.img || "").startsWith(h))
+        ? `<a class="cl-img" href="${esc(bigImage(c.img))}" target="_blank" rel="noopener" title="View card"><img src="${esc(c.img)}" alt="" loading="lazy" referrerpolicy="no-referrer"></a>`
+        : `<span class="cl-img ph" aria-hidden="true"></span>`;
+      return `<li class="cl-row">
+        ${img}
+        <span class="cl-n">${esc(c.n || "—")}</span>
+        <span class="cl-name">${esc(c.name)}${c.r ? `<span class="cl-r">${esc(c.r)}</span>` : ""}</span>
+        <span class="cl-price">${c.p ? money(c.p) : `<span class="cl-r">No price</span>`}${c.pf ? `<span class="cl-r">Foil ${money(c.pf)}</span>` : ""}</span>
+        <span class="cl-links"><span class="cl-grp"><span class="cl-lbl">Raw</span><a href="${esc(L.tcgplayer)}" target="_blank" rel="noopener">TCGplayer</a><a href="${esc(L.ebayRaw)}" target="_blank" rel="noopener">eBay sold</a></span>
+          <span class="cl-grp"><span class="cl-lbl">Graded</span><a href="${esc(L.pricecharting)}" target="_blank" rel="noopener">PriceCharting</a><a href="${esc(L.ebayGraded)}" target="_blank" rel="noopener">PSA 10 sold</a></span></span>
+      </li>`;
+    }).join("");
+    const focused = document.activeElement && document.activeElement.id === "cardQ";
+    box.innerHTML = `<section class="cardlist">
+      <div class="cl-head">
+        <h3>Cards in this set <span class="count">${data.cards.length}</span></h3>
+        <div class="cl-tools">
+          <input id="cardQ" type="text" placeholder="Find a card" value="${esc(C.q)}" autocomplete="off" aria-label="Find a card in this set">
+          <button class="cell" type="button" data-csort="number" aria-pressed="${C.sort === "number"}">By number</button>
+          <button class="cell" type="button" data-csort="price" aria-pressed="${C.sort === "price"}">By price</button>
+        </div>
+      </div>
+      ${top ? `<p class="cl-top">Most valuable raw card: <strong>${esc(top.name)}</strong> ${esc(top.n ? "#" + top.n : "")} at ${money(top.p)}</p>` : ""}
+      <ul class="cl-rows">${rows || `<li class="empty">No card matches “${esc(C.q)}”.</li>`}</ul>
+      ${list.length > CARD_LIMIT ? `<button class="btn cl-more" type="button" data-cmore="1">${C.all ? "Show fewer" : `Show all ${list.length} cards`}</button>` : ""}
+      <p class="cl-note">Prices are raw (ungraded) estimates: ${esc(data.priceNote || "market price")}, updated ${esc(fmt(data.updated, true))}. Use the Graded links for PSA and other slabbed values. Prices change daily; check before you buy or sell.</p>
+    </section>`;
+    if (focused) { const i = $("cardQ"); i.focus(); i.setSelectionRange(i.value.length, i.value.length); }
+  }
+  document.addEventListener("input", e => { if (e.target.id === "cardQ") { C.q = e.target.value; C.all = false; const s = S.sets.find(x => x.id === S.picked); if (s) renderCards(s); } });
+  document.addEventListener("click", e => {
+    const b = e.target.closest("[data-csort],[data-cmore]"); if (!b) return;
+    if (b.dataset.csort) C.sort = b.dataset.csort; else C.all = !C.all;
+    const s = S.sets.find(x => x.id === S.picked); if (s) renderCards(s);
+  });
+
+  // A link to another set on the same page (#set-id) opens that set.
+  window.addEventListener("hashchange", () => {
+    const h = (location.hash || "").slice(1), s = h && S.sets.find(x => x.id === h);
+    if (s && S.picked !== h) pick(s);
+  });
 
   // ---------- ledgers ----------
   function rowHTML(s){

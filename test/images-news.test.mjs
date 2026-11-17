@@ -80,3 +80,13 @@ test("a post is not drafted twice", () => {
 test("article text drops scripts and navigation", () => {
   assert.equal(htmlToText("<nav>Menu reprint</nav><script>x()</script><p>Hello&nbsp;there</p>"), "Hello there");
 });
+
+test("a redirect to a broad page about the franchise is rejected", () => {
+  const onePiece = { title: "One Piece", type: "standard", description: "Japanese manga series", extract: "One Piece is a Japanese manga series…" };
+  assert.equal(pageMatches(onePiece, { name: "Romance Dawn", game: "One Piece Card Game" }), false);
+});
+
+test("a page about the set itself is accepted", () => {
+  const blb = { title: "Bloomburrow", type: "standard", description: "Magic: The Gathering expansion set", extract: "Bloomburrow is an expansion set for Magic: The Gathering." };
+  assert.equal(pageMatches(blb, { name: "Bloomburrow", game: "Magic: The Gathering" }), true);
+});

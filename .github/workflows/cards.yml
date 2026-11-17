@@ -1,0 +1,49 @@
+name: Card lists and prices
+
+# Refreshes every set's card list and raw market prices once a week, and saves them
+# straight to main. Prices aren't print statuses, so they don't need review; the site
+# redeploys afterwards on its own.
+on:
+  schedule:
+    - cron: "41 13 * * 1"   # Mondays at 13:41 UTC (5:41 am Pacific in winter)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: card-update
+  cancel-in-progress: false
+
+jobs:
+  cards:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Fetch card lists and prices
+        env:
+          POKEMONTCG_API_KEY: ${{ secrets.POKEMONTCG_API_KEY }}   # optional, raises the rate limit
+        run: npm run cards
+
+      - name: Save to main
+        id: save
+        run: |
+          if [ -n "$(git status --porcelain data/cards)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add data/cards
+            git commit -m "Card lists and prices: $(date -u +%Y-%m-%d)"
+            git push
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+  # Pushes made by a workflow don't start other workflows, so publish from here.
+  publish:
+    needs: cards
+    uses: ./.github/workflows/pages.yml
