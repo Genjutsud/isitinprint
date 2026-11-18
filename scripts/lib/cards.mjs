@@ -10,7 +10,10 @@
 // Prices are market estimates for raw (ungraded) cards. They don't need an official source:
 // the official-only rule covers print status, not prices.
 
-export const CARD_IMAGE_HOSTS = ["https://images.pokemontcg.io/", "https://cards.scryfall.io/"];
+// Card pictures are linked from these hosts, never copied. TCGplayer's image server covers every
+// game, including the ones whose own sources don't offer pictures (YGOPRODeck asks sites not to
+// hotlink its images; Lorcast and TCGCSV don't serve them for linking).
+export const CARD_IMAGE_HOSTS = ["https://images.pokemontcg.io/", "https://cards.scryfall.io/", "https://tcgplayer-cdn.tcgplayer.com/"];
 
 const num = v => {
   const n = typeof v === "number" ? v : parseFloat(String(v ?? "").replace(/[^0-9.]/g, ""));
@@ -130,6 +133,32 @@ export function parseTcgcsvCards(productsJson, pricesJson) {
         n: ext(pr, "Number"), name: pr.name, r: ext(pr, "Rarity"),
         p: num(main?.marketPrice ?? main?.midPrice), pf: num(foil?.marketPrice),
         tp: /^https:\/\/www\.tcgplayer\.com\//.test(pr.url || "") ? pr.url : undefined,
+        img: okImg(pr.imageUrl),
       });
     });
+}
+
+// "042/204", "42" and "#42" are the same card number; "LOB-EN001" stays as it is.
+export function numberKey(n) {
+  const s = String(n ?? "").trim().replace(/^#/, "");
+  if (/^\d+(\/\d+)?$/.test(s)) return String(parseInt(s, 10));
+  return s.split("/")[0].toUpperCase();
+}
+
+// Adds TCGplayer pictures (and product links) to cards whose own source has none, matching by
+// card number. A card keeps anything it already has.
+export function addTcgplayerImages(cards, tcgCards) {
+  const byNum = {};
+  for (const t of tcgCards) {
+    const k = numberKey(t.n);
+    if (k && !byNum[k] && (t.img || t.tp)) byNum[k] = t;
+  }
+  let added = 0;
+  const out = cards.map(c => {
+    const t = byNum[numberKey(c.n)];
+    if (!t || c.img) return c;
+    added++;
+    return { ...c, img: t.img, tp: c.tp || t.tp };
+  });
+  return { cards: out, added };
 }

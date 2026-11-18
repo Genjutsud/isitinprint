@@ -15,7 +15,7 @@ import { mkdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { loadSets, fetchJSON, findMatch, ROOT, today } from "./lib/data.mjs";
 import { parsePokemonCards, parseScryfallCards, parseYugiohCards, parseLorcastCards, sortCards,
-  TCGPLAYER_CATEGORY, parseTcgcsvGroups, parseTcgcsvCards } from "./lib/cards.mjs";
+  TCGPLAYER_CATEGORY, parseTcgcsvGroups, parseTcgcsvCards, addTcgplayerImages } from "./lib/cards.mjs";
 import { parsePokemon, parseScryfall, parseLorcast } from "./sources/index.mjs";
 
 const args = process.argv.slice(2);
@@ -89,20 +89,24 @@ const done = [], skipped = [], failed = [];
 
 // TCGplayer data through TCGCSV: groups are fetched once per game, then products and prices per set.
 const tcgGroups = {};
-async function tcgplayerCards(set) {
+async function tcgplayerBase(set) {
   const cat = TCGPLAYER_CATEGORY[set.game];
   if (!cat) return null;
   if (!tcgGroups[set.game]) tcgGroups[set.game] = parseTcgcsvGroups(await fetchJSON(`https://tcgcsv.com/tcgplayer/${cat}/groups`), set.game);
   const match = tcgGroups[set.game].find(f => findMatch([set], f));
-  if (!match) return null;
-  const base = `https://tcgcsv.com/tcgplayer/${cat}/${match.apiId}`;
+  return match ? `https://tcgcsv.com/tcgplayer/${cat}/${match.apiId}` : null;
+}
+
+async function tcgplayerCards(set) {
+  const base = await tcgplayerBase(set);
+  if (!base) return null;
   const products = await fetchJSON(`${base}/products`);
   await wait(150);
   const prices = await fetchJSON(`${base}/prices`);
   return { cards: parseTcgcsvCards(products, prices), source: "TCGplayer (via TCGCSV)", sourceUrl: "https://tcgcsv.com/", priceNote: "TCGplayer market price, via TCGCSV" };
 }
 
-const usedBackup = [];
+const usedBackup = [], withImages = [];
 for (const set of sets) {
   try {
     let res = null, firstErr = null;
@@ -116,6 +120,18 @@ for (const set of sets) {
     }
     if ((!res || !res.cards.length) && firstErr) throw firstErr;
     if (!res || !res.cards.length) { skipped.push(set.name); continue; }
+    // Most cards without a picture? Borrow TCGplayer's, matched by card number.
+    if (res.cards.filter(c => !c.img).length > res.cards.length / 2) {
+      try {
+        const base = await tcgplayerBase(set);
+        if (base) {
+          await wait(150);
+          const tcg = parseTcgcsvCards(await fetchJSON(`${base}/products`), { results: [] });
+          const merged = addTcgplayerImages(res.cards, tcg);
+          if (merged.added) { res = { ...res, cards: merged.cards }; withImages.push(`${set.name} (${merged.added})`); }
+        }
+      } catch (err) { /* pictures are optional; keep the list without them */ }
+    }
     const cards = sortCards(res.cards);
     const file = { setId: set.id, game: set.game, name: set.name, source: res.source, sourceUrl: res.sourceUrl, priceNote: res.priceNote, updated, cards };
     await writeFile(path.join(DIR, `${set.id}.json`), JSON.stringify(file) + "\n");
@@ -131,6 +147,7 @@ for (const set of sets) {
 const sorted = Object.fromEntries(Object.entries(index).sort(([a], [b]) => a.localeCompare(b)));
 await writeFile(path.join(DIR, "index.json"), JSON.stringify(sorted, null, 2) + "\n");
 console.log(`Card lists saved for ${done.length} sets.`);
+if (withImages.length) console.log(`Added TCGplayer pictures for ${withImages.length} sets: ${withImages.join(", ")}`);
 if (usedBackup.length) console.log(`Used TCGplayer data as the backup for ${usedBackup.length}: ${usedBackup.join(", ")}`);
 if (skipped.length) console.log(`No card list available for ${skipped.length}: ${skipped.join(", ")}`);
 if (failed.length) { console.warn(`Failed for ${failed.length}:\n  - ${failed.join("\n  - ")}`); }

@@ -1,5 +1,1 @@
-{"success":true,"results":[
- {"productId":1001,"name":"Monkey.D.Luffy (001)","url":"https://www.tcgplayer.com/product/1001/one-piece-luffy","extendedData":[{"name":"Number","value":"OP01-001"},{"name":"Rarity","value":"Leader"}]},
- {"productId":1002,"name":"Roronoa Zoro","url":"https://www.tcgplayer.com/product/1002/one-piece-zoro","extendedData":[{"name":"Number","value":"OP01-025"},{"name":"Rarity","value":"Super Rare"}]},
- {"productId":1999,"name":"Romance Dawn Booster Box","url":"https://www.tcgplayer.com/product/1999/box","extendedData":[]}
-]}
+{"success": true, "results": [{"productId": 1001, "name": "Monkey.D.Luffy (001)", "url": "https://www.tcgplayer.com/product/1001/one-piece-luffy", "extendedData": [{"name": "Number", "value": "OP01-001"}, {"name": "Rarity", "value": "Leader"}], "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/1001_200w.jpg"}, {"productId": 1002, "name": "Roronoa Zoro", "url": "https://www.tcgplayer.com/product/1002/one-piece-zoro", "extendedData": [{"name": "Number", "value": "OP01-025"}, {"name": "Rarity", "value": "Super Rare"}], "imageUrl": "https://example.com/not-allowed.jpg"}, {"productId": 1999, "name": "Romance Dawn Booster Box", "url": "https://www.tcgplayer.com/product/1999/box", "extendedData": []}]}

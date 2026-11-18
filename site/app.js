@@ -145,8 +145,8 @@ const IMAGE_HOSTS = ["https://upload.wikimedia.org/", "https://images.pokemontcg
   // ---------- card lists ----------
   // Each set's cards live in data/cards/<set id>.json, refreshed weekly by a workflow.
   // Prices are raw market estimates; the links send people to check raw and graded values.
-  const CARD_IMAGE_HOSTS = ["https://images.pokemontcg.io/", "https://cards.scryfall.io/"];
-  const CARD_LIMIT = 30;
+  // Card pictures load straight from these hosts; nothing is stored with the site.
+  const CARD_IMAGE_HOSTS = ["https://images.pokemontcg.io/", "https://cards.scryfall.io/", "https://tcgplayer-cdn.tcgplayer.com/"];
   const cardCache = {};
   const C = { setId: null, q: "", sort: "number", all: false };
   const money = v => typeof v === "number" ? "$" + v.toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 }) : "";
@@ -160,10 +160,10 @@ const IMAGE_HOSTS = ["https://upload.wikimedia.org/", "https://images.pokemontcg
       pricecharting: `https://www.pricecharting.com/search-products?q=${enc(q)}&type=prices`,
     };
   }
-  function bigImage(u){ return u.replace("/small/", "/normal/").replace(/(images\.pokemontcg\.io\/[^/]+\/[^/.]+)\.png$/, "$1_hires.png"); }
+  function bigImage(u){ return u.replace("/small/", "/normal/").replace(/(images\.pokemontcg\.io\/[^/]+\/[^/.]+)\.png$/, "$1_hires.png").replace(/_200w(\.\w+)$/, "_in_1000x1000$1"); }
   async function loadCards(s){
     const box = $("cardsBox"); if (!box) return;
-    if (C.setId !== s.id) { C.setId = s.id; C.q = ""; C.sort = "number"; C.all = false; }
+    if (C.setId !== s.id) { C.setId = s.id; C.q = ""; C.sort = "number"; }
     if (s.status === "upcoming") { box.innerHTML = ""; return; }
     if (!(s.id in cardCache)) {
       box.innerHTML = `<section class="cardlist"><p class="cl-note">Loading cards…</p></section>`;
@@ -183,12 +183,12 @@ const IMAGE_HOSTS = ["https://upload.wikimedia.org/", "https://images.pokemontcg
     const needle = norm(C.q);
     let list = data.cards.filter(c => !needle || norm(`${c.name} ${c.n} ${c.r || ""}`).includes(needle));
     if (C.sort === "price") list = [...list].sort((a,b) => (b.p || 0) - (a.p || 0));
-    const shown = C.all ? list : list.slice(0, CARD_LIMIT);
+    const shown = list; // every card, inside a scroll box
     const priced = data.cards.filter(c => c.p), top = priced.reduce((m, c) => c.p > (m ? m.p : 0) ? c : m, null);
     const rows = shown.map(c => {
       const L = valuationLinks(s.game, s.name, c);
       const img = CARD_IMAGE_HOSTS.some(h => (c.img || "").startsWith(h))
-        ? `<a class="cl-img" href="${esc(bigImage(c.img))}" target="_blank" rel="noopener" title="View card"><img src="${esc(c.img)}" alt="" loading="lazy" referrerpolicy="no-referrer"></a>`
+        ? `<a class="cl-img" href="${esc(bigImage(c.img))}" target="_blank" rel="noopener" title="View card"><img src="${esc(c.img)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.parentNode.classList.add('ph');this.remove()"></a>`
         : `<span class="cl-img ph" aria-hidden="true"></span>`;
       return `<li class="cl-row">
         ${img}
@@ -210,16 +210,19 @@ const IMAGE_HOSTS = ["https://upload.wikimedia.org/", "https://images.pokemontcg
         </div>
       </div>
       ${top ? `<p class="cl-top">Most valuable raw card: <strong>${esc(top.name)}</strong> ${esc(top.n ? "#" + top.n : "")} at ${money(top.p)}</p>` : ""}
-      <ul class="cl-rows">${rows || `<li class="empty">No card matches “${esc(C.q)}”.</li>`}</ul>
-      ${list.length > CARD_LIMIT ? `<button class="btn cl-more" type="button" data-cmore="1">${C.all ? "Show fewer" : `Show all ${list.length} cards`}</button>` : ""}
+      <div class="cl-scroll" tabindex="0" role="region" aria-label="Cards in ${esc(s.name)}">
+        <div class="cl-colhead" aria-hidden="true"><span></span><span>No.</span><span>Card</span><span>Raw price</span><span>Check value</span></div>
+        <ul class="cl-rows">${rows || `<li class="empty">No card matches “${esc(C.q)}”.</li>`}</ul>
+      </div>
+      <p class="cl-count">${list.length === data.cards.length ? `${list.length} cards` : `${list.length} of ${data.cards.length} cards`}${list.length > 8 ? " · scroll for more" : ""}</p>
       <p class="cl-note">Prices are raw (ungraded) estimates: ${esc(data.priceNote || "market price")}, updated ${esc(fmt(data.updated, true))}. Use the Graded links for PSA and other slabbed values. Prices change daily; check before you buy or sell.</p>
     </section>`;
     if (focused) { const i = $("cardQ"); i.focus(); i.setSelectionRange(i.value.length, i.value.length); }
   }
-  document.addEventListener("input", e => { if (e.target.id === "cardQ") { C.q = e.target.value; C.all = false; const s = S.sets.find(x => x.id === S.picked); if (s) renderCards(s); } });
+  document.addEventListener("input", e => { if (e.target.id === "cardQ") { C.q = e.target.value; const s = S.sets.find(x => x.id === S.picked); if (s) renderCards(s); } });
   document.addEventListener("click", e => {
-    const b = e.target.closest("[data-csort],[data-cmore]"); if (!b) return;
-    if (b.dataset.csort) C.sort = b.dataset.csort; else C.all = !C.all;
+    const b = e.target.closest("[data-csort]"); if (!b) return;
+    C.sort = b.dataset.csort;
     const s = S.sets.find(x => x.id === S.picked); if (s) renderCards(s);
   });
 

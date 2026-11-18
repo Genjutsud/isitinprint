@@ -82,12 +82,14 @@ Optional: add a `POKEMONTCG_API_KEY` repository secret (free from pokemontcg.io)
 |---|---|---|---|
 | Pokémon | pokemontcg.io | TCGplayer market | yes |
 | Magic | Scryfall | TCGplayer market, plus foil | yes |
-| Yu-Gi-Oh! | YGOPRODeck | TCGplayer price for that printing | no (YGOPRODeck asks sites not to hotlink) |
-| Lorcana | Lorcast | TCGplayer, plus foil | no |
-| One Piece | TCGplayer (via TCGCSV) | TCGplayer market, plus foil | no |
-| Any game, as backup | TCGplayer (via TCGCSV) | used when the usual source fails or has no prices | no |
+| Yu-Gi-Oh! | YGOPRODeck | TCGplayer price for that printing | from TCGplayer (YGOPRODeck asks sites not to hotlink its own) |
+| Lorcana | Lorcast | TCGplayer, plus foil | from TCGplayer |
+| One Piece | TCGplayer (via TCGCSV) | TCGplayer market, plus foil | from TCGplayer |
+| Any game, as backup | TCGplayer (via TCGCSV) | used when the usual source fails or has no prices | from TCGplayer |
 
 **About TCGplayer data:** TCGplayer's own API no longer accepts new developers. [TCGCSV](https://tcgcsv.com/) is a free community mirror of TCGplayer's catalog and prices, refreshed daily. It fills in One Piece, and steps in for any set whose usual source is down or has no prices. To use it for every set, run `npm run cards -- --source tcgplayer`. Card links go to the TCGplayer product page where the data provides one, and to a TCGplayer search otherwise.
+
+Card pictures load straight from those sites, so nothing is stored in the repo. When a set's usual source has no pictures, the update borrows TCGplayer's, matched by card number. On the site, each set's cards sit in a scroll box with a search, sorting by number or price, and the column labels pinned at the top.
 
 Prices aren't print statuses, so they skip review and the site republishes right after. Every card gets links to check its value:
 
@@ -152,7 +154,7 @@ test/        node:test suites with API-shaped fixtures
 - **News pages:** some publisher news pages render with JavaScript and show no links to a simple fetch. The watcher reports those as unreadable. Swapping in an RSS feed or a different page URL in `official-sources.json` fixes it.
 - **Images:** most individual sets don't have their own Wikipedia page, so most images will come from the Pokémon and Magic set lists. Lorcana, One Piece and Yu-Gi-Oh! sets without a Wikipedia page stay as placeholders until an image source is added for them in `scripts/sources/index.mjs`. Set logos and box art belong to their publishers. Wikipedia often shows them under fair use, so check that linking them suits your site.
 
-- **Card lists:** Yu-Gi-Oh!, Lorcana and One Piece card lists show no card pictures, since those sources ask sites not to link their images or don't offer them. Prices are estimates from one marketplace and can lag sudden moves; the links let people check current sold prices.
+- **Card lists:** card pictures are linked from pokemontcg.io, Scryfall and TCGplayer's image server, never stored. A set whose cards TCGplayer numbers differently from its usual source can end up with some cards missing a picture. Prices are estimates from one marketplace and can lag sudden moves; the links let people check current sold prices.
 
 ## Contributing
 

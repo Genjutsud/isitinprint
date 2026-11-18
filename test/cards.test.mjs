@@ -78,3 +78,33 @@ test("TCGplayer cards skip sealed products and read market, mid and foil prices"
 test("every tracked game has a TCGplayer category", () => {
   for (const g of ["Pokémon", "Magic: The Gathering", "Yu-Gi-Oh!", "Disney Lorcana", "One Piece Card Game"]) assert.ok(TCGPLAYER_CATEGORY[g]);
 });
+
+import { addTcgplayerImages, numberKey } from "../scripts/lib/cards.mjs";
+
+test("TCGplayer product pictures are kept only from TCGplayer's image server", async () => {
+  const cards = parseTcgcsvCards(await fx("tcgcsv-products"), await fx("tcgcsv-prices"));
+  assert.equal(cards[0].img, "https://tcgplayer-cdn.tcgplayer.com/product/1001_200w.jpg");
+  assert.equal(cards[1].img, undefined);
+});
+
+test("card numbers match across sources", () => {
+  assert.equal(numberKey("042/204"), "42");
+  assert.equal(numberKey("42"), "42");
+  assert.equal(numberKey("LOB-EN001"), "LOB-EN001");
+  assert.equal(numberKey("lob-en001"), "LOB-EN001");
+});
+
+test("pictures are borrowed from TCGplayer by card number, without overwriting", () => {
+  const ours = [{ n: "LOB-EN001", name: "Blue-Eyes White Dragon", p: 95 }, { n: "LOB-EN002", name: "Hitotsu-Me Giant", img: "https://cards.scryfall.io/x.jpg" }, { n: "LOB-EN099", name: "No match" }];
+  const tcg = [
+    { n: "LOB-EN001", name: "Blue-Eyes White Dragon", img: "https://tcgplayer-cdn.tcgplayer.com/product/1_200w.jpg", tp: "https://www.tcgplayer.com/product/1" },
+    { n: "LOB-EN002", name: "Hitotsu-Me Giant", img: "https://tcgplayer-cdn.tcgplayer.com/product/2_200w.jpg" },
+  ];
+  const { cards, added } = addTcgplayerImages(ours, tcg);
+  assert.equal(added, 1);
+  assert.equal(cards[0].img, "https://tcgplayer-cdn.tcgplayer.com/product/1_200w.jpg");
+  assert.equal(cards[0].tp, "https://www.tcgplayer.com/product/1");
+  assert.equal(cards[0].p, 95);
+  assert.equal(cards[1].img, "https://cards.scryfall.io/x.jpg");
+  assert.equal(cards[2].img, undefined);
+});
